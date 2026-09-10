@@ -1,0 +1,89 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+
+{{ if eq .Page.Params.outdated true  }}
+    <div class="ui warning message">
+        <h2 class="header">Warning! - Outdated content</h2>
+        <p>You are watching a talk for a previous year!<br>
+        Please find the most current talks under: <a href="/talks/{{ now.Year }}" style="font-weight: bold; text-decoration: underline;">Current talks</a></p>
+    </div>
+{{ end }}
+
+
+<section class="speaker-single section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-2 col-md-5 mb-5 mb-md-0">
+        <div class="content-img text-lg-right">
+        {{ with .Params.speaker_image }}
+          <img src="{{ . | absURL }}" alt="" class="img-fluid" loading="lazy">
+        {{ end }}
+        {{ with .Params.speaker_2_image }}
+          <img src="{{ . | absURL }}" alt="" class="img-fluid" loading="lazy" style="margin-top: 10px;">
+        {{ end }}
+        {{ with .Params.speaker_3_image }}
+          <img src="{{ . | absURL }}" alt="" class="img-fluid" loading="lazy" style="margin-top: 10px;">
+        {{ end }}
+        </div>
+      </div>
+      <div class="col-lg-10 col-md-7">
+        <div class="speaker-single-wrap">
+            <h2>Talk Infos</h2>
+            <div><span class="text-color">Speaker:</span>  <a href="{{ absURL .Params.speaker_link }}">{{.Params.speaker_name  }}</a></div>
+            <div><span class="text-color">Company affiliation:</span> {{ .Params.speaker_company }}</div>
+            {{ if .Params.speaker_2_name }}
+            <br>
+            <div><span class="text-color">Speaker #2:</span>  <a href="{{ absURL .Params.speaker_2_link }}">{{.Params.speaker_2_name  }}</a></div>
+            <div><span class="text-color">Company affiliation:</span> {{ .Params.speaker_2_company }}</div>
+            {{ end }}
+            {{ if .Params.speaker_3_name }}
+           <br>
+            <div><span class="text-color">Speaker #3:</span>  <a href="{{ absURL .Params.speaker_3_link }}">{{.Params.speaker_3_name  }}</a></div>
+            <div><span class="text-color">Company affiliation:</span> {{ .Params.speaker_3_company }}</div>
+            {{ end }}
+            <hr>
+            <h3>Time & Room</h3>
+            <div><span class="text-color">Starting Time:</span> {{ .Params.talk_date  }}</div>
+            <div><span class="text-color">Duration:</span>  {{ .Params.duration }}</div>
+            <div><span class="text-color">Room:</span>  {{ .Params.talk_room }}</div>
+            {{ with .Params.Slide_Link}}<div><span class="text-color">Slides:</span>  <a href="{{ . }}">Download ⬇️</a></div>{{ end }}
+
+            <hr>
+            <h3>Talk Details</h2>
+            <div class="content">{{ .Content }}</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!--
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="mb-5">
+          <h2>{{ i18n "professional_skills" }}</h2>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Params.skill }}
+      <div class="col-lg-4 col-md-6 mb-5">
+        <div class="skill-item">
+          <i class="{{ .icon }}"></i>
+          <h4 class="mb-3">{{ .title | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+-->
+
+{{ end }}

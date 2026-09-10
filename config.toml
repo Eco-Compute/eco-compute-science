@@ -1,0 +1,248 @@
+######################## default configuration ####################
+baseURL = "https://www.eco-compute.io/"
+title = "ecoCompute Conference 2025"
+theme = "vixcon-hugo"
+# post pagination
+pagination.pagerSize = "4"
+# post excerpt
+summaryLength = "10"
+# disqus short name
+#disqusShortname = "vixcon" # get your shortname form here : https://disqus.com
+# disable language
+disableLanguages = [] # desable language from here
+
+# output
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML"]
+taxonomy = ["HTML"]
+term = ["HTML"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/css/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themefisher-font/themefisher-font.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/js/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/syotimer/syotimer.min.js"
+#[[params.plugins.js]]
+#link = "plugins/search/fuse.min.js"
+#[[params.plugins.js]]
+#link = "plugins/search/mark.js"
+#[[params.plugins.js]]
+#link = "plugins/search/search.js"
+
+############################## navigation ###############################
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  URL = "/about"
+  weight = 2
+
+  [[menu.main]]
+  name = "Schedule"
+  URL = "/schedule/2025"
+  weight = 3
+
+  [[menu.main]]
+  name = "Speakers"
+  URL = "/#section-speakers"
+  weight = 4
+
+  [[menu.main]]
+  name = "Venue"
+  URL = "/#venue"
+  weight = 5
+
+  [[menu.main]]
+  name = "More"
+  hasChildren = true
+  weight = 6
+
+
+    [[menu.main]]
+    name = "Become a sponsor"
+    URL = "/sponsoring"
+    parent = "More"
+    weight = -1
+
+
+    [[menu.main]]
+    name = "Workshops"
+    URL = "/workshops/2025/"
+    parent = "More"
+    weight = 1
+
+    [[menu.main]]
+    parent = "More"
+    name = "Conference Dinner"
+    URL = "/conference-dinner"
+    weight = 2
+
+
+    [[menu.main]]
+    name = "Community"
+    URL = "/community-track"
+    parent = "More"
+    weight = 3
+
+    [[menu.main]]
+    name = "Press"
+    parent = "More"
+    URL = "/press"
+    weight = 4
+
+    [[menu.main]]
+    parent = "More"
+    name = "Grants / Reduced Tickets"
+    URL = "/grants"
+    weight = 5
+
+    [[menu.main]]
+    parent = "More"
+    name = "Volunteer"
+    URL = "/helpers"
+    weight = 6
+
+    [[menu.main]]
+    parent = "More"
+    name = "Accomodation / Hotels"
+    URL = "/conference-accomodation"
+    weight = 7
+
+    [[menu.main]]
+    parent = "More"
+    name = "Sustainability"
+    URL = "/sustainability"
+    weight = 8
+
+    [[menu.main]]
+    parent = "More"
+    name = "Previous years"
+    URL = "/previous-years"
+    weight = 9
+
+    [[menu.main]]
+    parent = "More"
+    name = "Code of Conduct"
+    URL = "/code-of-conduct"
+    weight = 10
+
+    [[menu.main]]
+    parent = "More"
+    name = "FAQ"
+    URL = "/faq"
+    weight = 11
+
+    [[menu.main]]
+    parent = "More"
+    name = "Contact"
+    URL = "/contact"
+    weight = 12
+
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo-2.webp"
+home = "Home"
+# Meta data
+description = "ecoCompute - The biggest engineering conference on sustainability in hardware & software"
+author = "Green Coding Solutions GmbH"
+# email address
+email = "info@eco-compute.io"
+# contact form action
+contact_form_action = "#" # contact form works with https://formspree.io
+# Google Analitycs
+google_analitycs_id = "" # your id
+# search for blog page
+search = true
+
+# Preloader
+[params.preloader]
+enable = true
+preloader = "" # use jpg, png, svg or gif format.
+
+# Navigation button
+[params.navigation_button]
+enable = false
+label = "Get your ticket"
+link = "/#pricing"
+
+
+# Subscription
+[params.subscription]
+enable = false
+# mailchimp subsciption
+mailchimp_form_action = "" # replace this url with yours
+mailchimp_form_name = "" # replace this code with yours
+
+# google map
+[params.map]
+enable = false
+#gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+#map_latitude = "51.5223477"
+#map_longitude = "-0.1622023"
+#map_marker = "images/marker.webp"
+
+
+############################# social icon ############################
+#[[params.social]]
+#icon = "tf-ion-social-facebook"
+#link = "#"
+
+#[[params.social]]
+#icon = "tf-ion-social-twitter"
+#link = "#"
+
+[[params.social]]
+icon = "tf-ion-social-linkedin"
+link = "https://www.linkedin.com/showcase/eco-compute-io/"
+
+#[[params.social]]
+#icon = "tf-ion-social-pinterest"
+#link = "#"
+
+#[[params.social]]
+#icon = "tf-ion-social-rss"
+#link = "#"
+
+
+################################### English language #####################################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+
+[Languages.en.params]
+home = "Home"
+# footer content
+footer_content = "Let's create digital sustainable solutions<br>-<br><a href='/impressum'>Impressum</a> <a href='/datenschutz'>Datenschutz</a>"
+
+# copyright
+copyright = "Copyright &copy; 2024 Green Coding Solutions"
+
+
+################################### French language #####################################
+#[Languages.fr]
+#languageName = "Fr"
+#languageCode = "fr-fr"
+#contentDir = "content/french"
+#weight = 2
+#home = "Accueil"
+## footer content
+#footer_content = "We are a creative-led experiential Event Production Agency that helps brands connect, engage and evolve."
+# copyright
+#copyright = "Copyright &copy; 2020 a hugo theme by [themefisher](https://themefisher.com)"

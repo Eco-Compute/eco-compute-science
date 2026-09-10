@@ -1,0 +1,52 @@
+################################# Faq ####################################
+faq:
+  title_outline : "Faq"
+  title : "Frequently Asked Question"
+  content : "Please find attached a list of questions we get asked a lot or things we think that should be clarified"
+  faq_item:
+    - title : "Can I sponsor ecoCompute?"
+      content : "Yes, we have limited sponsorship opportunities for the conference. Please see [Sponsoring](/sponsoring)"
+
+    - title : "How can I apply to speak at ecoCompute?"
+      content : "Please see our call for [speakers page](/call-for-speakers/)"
+
+    - title : "Are refunds available for valid reason?"
+      content : "Please contact us under info@eco-compute.io to discuss details"
+
+    - title : "How to buy tickets?"
+      content : "You can get a ticket [here](/#pricing)"
+
+    - title : "What language is the conference in?"
+      content : "The conference will be held in German and English. The language in the title will determine the language of the presentation"
+
+    - title : "What is your cancellation policy?"
+      content : "You can cancel your ticket 14 days after purchase and no later than 14 days before the conference."
+
+    - title : "I can no longer attend.  Can I transfer my registration to a colleague?"
+      content : "Tickets may be transferred to another attendee free of charge up to 7 days before the start of the conference."
+
+    - title : "Do you offer any group discounts?"
+      content : "Companies can inquire for a discount if they want to buy tickets for multiple employees. We do not offer group discounts for multiple individuals though."
+
+    - title : "Do we offer any reduced prices or grants?"
+      content : "Yes, we have a <u>[reduced price and grant program](/grants)</u> with limited availability"
+
+    - title : "I need help registering, who can I talk to?"
+      content : "info@eco-compute.io"
+
+    - title : "Will the conference venue be accessible?"
+      content : "Yes"
+
+    - title : "Will there be childcare?"
+      content : "No, but feel free to bring your children"
+
+    - title : "Are animals allowed?"
+      content : "No, except if there is a medical need and you have an official certificate to state this."
+
+  ################ support #################
+  support:
+    enable: true
+    title : "Need Any further Support?"
+    button:
+      label : "Contact us"
+      link : "contact"

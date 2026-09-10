@@ -1,0 +1,62 @@
+{{ define "main" }}
+
+    {{ if .Page.Params.show_cfs }}
+        {{ partial "cfs.html" . }}
+    {{ end }}
+
+    {{ $data := index .Site.Data .Site.Language.Lang }}
+
+    {{ if eq .Page.Params.outdated true  }}
+        <div class="ui warning message">
+            <h2 class="header">Warning! - Outdated content</h2>
+            <p>You are watching the speakers for a previous year!<br>
+            Please find the most current schedule under: <a href="/schedule/{{ now.Year }}" style="font-weight: bold; text-decoration: underline;">Current schedule</a></p>
+        </div>
+    {{ end }}
+
+    {{ $speaker_year := .Page.Params.speaker_year }}
+    {{ $path_prefix := printf "speaker/%s" $speaker_year }}
+
+    {{ .Content }}
+
+    <br><br>
+    <section id="section-speakers" class="section-speaker">
+      <div class="container">
+        {{ with $data.homepage.speaker }}
+        <div class="row section-heading">
+          <div class="col-lg-">
+            <div class="heading">
+              <span class="stroke-text">{{ .title_outline }}</span>
+              <div class="pl-90">
+                <h2>ecoCompute Speakers {{ $speaker_year }}</h2>
+                <p>{{ .content | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        <div class="row">
+          {{ range (sort (where .Site.RegularPages "Type" "speaker") "Title") }}
+            {{ if (strings.HasPrefix .File.Path $path_prefix) }}
+              <div class="col-lg-4 col-sm-6">
+                <div class="speaker-block mb-5">
+                  <div class="img-block">
+                    <img src="{{ replaceRE "(?i)\\.webp$" "-900.webp" .Params.Image | relURL }}" srcset="{{ replaceRE "(?i)\\.webp$" "-900.webp" .Params.Image | relURL }} 2x, {{ replaceRE "(?i)\\.webp$" "-450.webp" .Params.Image | relURL }} 1x" alt="{{ .Title }}" class="img-fluid" loading="lazy">
+                    <ul class="list-inline speaker-social">
+                      {{ range .Params.Social }}
+                      <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                  <div class="speaker-info">
+                    <h4 class="mb-0 mt-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
+                    <p>{{ .Params.Designation }} | {{ .Params.Company }}</p>
+                  </div>
+                </div>
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </section>
+{{ end }}

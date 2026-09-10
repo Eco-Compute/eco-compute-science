@@ -1,0 +1,91 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+
+<footer class="footer section">
+    <div class="container">
+
+        <!-- Row for Two Columns -->
+        <div class="row justify-content-center">
+            <!-- Left Column -->
+            <div class="col-lg-12 text-center">
+                <h2 class="text-white mb-3">{{ .Site.Title | markdownify }}</h2>
+                   {{ with $data.homepage.partners }}
+                        {{ range .partner_group }}
+                        <div class="row mb-5">
+                          <div class="col-lg-12">
+                            <h4 class="mb-4 text-white letter-spacing text-sm">{{ .title | markdownify }}</h4>
+                          </div>
+                          <div class="col-lg-12">
+                            {{ range $i, $partner :=.partner }}
+                            <div class="client-item" {{ with .background }}style="background: {{.}}" {{end}}>
+                              {{ if and (ne .link "") (ne .link "#") }}
+                              <a href="{{ .link }}"><img src="{{ .logo | relURL }}" {{ with .logo_2x }} srcset="{{ $partner.logo | relURL }} 1x, {{ . | relURL }} 2x" {{ end }} alt="{{ .name }}" class="img-fluid" loading="lazy"></a>
+                              {{ else }}
+                              <img src="{{ .logo | relURL }}" {{ with .logo_2x }} srcset="{{ $partner.logo | relURL }} 1x, {{ . | relURL }} 2x" {{ end }} alt="{{ .name }}" class="img-fluid" loading="lazy">
+                              {{ end }}
+                            </div>
+                            {{ end }}
+                          </div>
+                          <div class="partner-info-text">{{ .infotext }}</div>
+                        </div>
+                        {{ end }}
+                    {{ end }}
+                <p class="text-white-50">{{ .Site.Params.footer_content | markdownify }}</p>
+
+
+                <!-- Subscription Form -->
+                {{ if .Site.Params.subscription.enable }}
+                {{ with .Site.Params.subscription }}
+                <form action="{{ .mailchimp_form_action }}" method="post" name="mc-embedded-subscribe-form" target="_blank" class="sub-form mt-4 mb-3">
+                    <input type="text" class="form-control" placeholder="Put your email address" id="newsletter" name="newsletter">
+                    <button type="submit" name="subscribe" class="btn btn-secondary btn-rounded mt-3">{{ i18n "subscribe" }}</button>
+                </form>
+                <p class="mt-3 text-white-50">{{ i18n "not_spam" }}</p>
+                {{ end }}
+                {{ end }}
+                <!-- Social Icons -->
+                <ul class="list-inline footer-socails">
+                    {{ range .Site.Params.social }}
+                    <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
+                    {{ end }}
+                </ul>
+                <div id="wcb" class="wcb-d carbonbadge" style="margin: 4em auto;">
+                    <div id="wcb_p">
+                        <span id="wcb_g">0.18g of CO<sub>2</sub>/view</span>
+                        <a id="wcb_a" target="_blank" rel="noopener" href="https://websitecarbon.com">Website Carbon</a>
+                    </div>
+                    <span id="wcb_2">&nbsp;Cleaner than 82% of pages tested</span>
+                </div>
+
+            </div>
+
+            <!-- Right Column -->
+        </div>
+
+        <!-- Row for Copyright -->
+        <div class="row">
+            <div class="col-lg-12 text-center mt-5">
+                <p class="copy border-top pt-4 text-white-50 mb-0">{{ .Site.Params.copyright | markdownify }}</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- search index -->
+{{ if .Site.Params.search }}
+<script>
+  var indexURL = {{"index.json" | absURL}}
+</script>
+{{ end }}
+
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+<script data-domain="www.eco-compute.io" data-api="https://see.eco-compute.io/jovvvvvse" src="https://see.eco-compute.io/worker/script.outbound-links.js" defer></script>

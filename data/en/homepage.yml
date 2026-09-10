@@ -1,0 +1,386 @@
+############################# banner ################################
+banner:
+  enable : true
+  sold_out: true
+  title : "<span class='bold'>eco</span><span class='slim'>Compute</span> conference"
+  date_time : "13 & 14 November 2025"
+  location : "[📍bUm - Berlin, Germany](/#venue)"
+
+############################# tagline ################################
+tagline:
+  enable : true
+  subtitle : ""
+  title : "The biggest engineering conference on **sustainability** in **hardware** & **software**"
+  button:
+    enable : true
+    label : "Find out more"
+    link : "about"
+
+
+########################## timer #################################
+timer:
+  enable : true
+  title : "**Count the days** <br> until conference start"
+  # set timer
+  year: "2025"
+  month: "11"
+  day: "13"
+  hour: "09"
+
+########################## timer #################################
+newsletter:
+  enable : true
+  title : "**Stay updated with our newsletter!**"
+  sub_title: ""
+  button: "Subscribe now!"
+
+############################## Event ##############################
+event:
+  enable : true
+  title_outline : "ECOCOMPUTE"
+  title : "Let's make digital sustainable"
+  image_back : "images/about/h1-gallery-img-7.webp"
+  image_front : "images/about/main-home-img-1.webp"
+  content : "ecoCompute brings together software developers, hardware designer and data center professionals in order to create a sustainable digital future.
+    <br><br>
+    We want to bring all three worlds together to reduce implementation hurdles to get sustainability for digital infrastructures into action.
+    <br><br>
+    We aim to bring together experts, and innovators to discuss and showcase sustainable practices across these technical domains."
+  button:
+    enable : true
+    label : "Discover More"
+    link : "about"
+
+######################### Call to action #########################
+cta:
+  enable : true
+  subtitle : ""
+  title : "Meet top **experts** <br> & industry heads in a unique **2-days** experience."
+  image : "images/banner/rev-slider-09.webp"
+  button:
+    enable : false
+    label : "Get your ticket"
+    link : "/#pricing"
+
+############################# Feature ###########################
+feature:
+  enable: true
+  title: "Why join?"
+  subtitle: "There are loads of reasons to come!"
+  feature_item:
+
+    - name : "Sharing"
+      icon : "tf-ion-android-share"
+      bg_color: "coal"
+      content : |
+        ecoCompute provides a platform for sharing the latest research, innovations, and practices in green technology.
+        <br><br>
+        This includes new findings in energy-efficient computing, sustainable hardware design, and eco-friendly software development.
+
+    # feature item loop
+    - name : "Learning"
+      icon : "tf-ion-android-compass"
+      bg_color: "karmin"
+      content : |
+        With industry leaders and experts present, attendees can gain insights into the current state and future trends of green technology.
+        <br><br>
+        These insights can be invaluable for understanding market needs, regulatory environments, and emerging opportunities in the field.
+
+    - name : "Sustainable Future"
+      icon : "tf-ion-android-globe"
+      bg_color: "turquoise"
+      content : |
+        The UN SDGs define sustainability as the goal to not compromise the opportunities of upcoming generations
+        <br><br>
+        We as technologists that create hardware and software want to create a conference with the aim to present solutions to achieve this goal.
+
+testimonials:
+  enable: true
+  title: ""
+  subtitle: "What people are saying about us"
+  testimonials:
+
+    - name : "Christian Binder"
+      image : "/images/teams/christian-binder-small.webp"
+      designation: "2024 Speaker & Attendee"
+      review: "The ecoCompute marks the spearhead of sustainable patterns and delivers inspiration to enable the most sustainable solutions."
+
+
+    - name : "David Kopp"
+      image : "/images/teams/david-kopp-small.webp"
+      designation: "Envite Consulting"
+      review: "ecoCompute is the best conference for learning best practices for greening IT and networking with like-minded people."
+
+
+    - name : "Max Schulze"
+      image : "/images/teams/max-schulze-small.webp"
+      designation: "SDIA"
+      review: |
+        What an amazing audience! During my talk about values and how to bring them into software, we had some great laugh’s together, everyone was engaged and we could debate some interesting questions on cloud, sustainability and software engineering.
+        Arne and his team did an amazing job at selecting a venue that facilitates conversations and curated an amazing community of attendees that were all open to learn, expand their horizon and engage in critical thinking–much needed in the emerging field of sustainable software.
+
+      style: "dark"
+
+    - name : "Anonymous"
+      designation: "2024 Attendee"
+      review: "The concept with food choice, badges that grow plants, the organisers gained trust I think - Separates this from more green-washing events."
+      style: "dark"
+
+
+
+    - name : "Eric Jochum"
+      image : "/images/teams/ghazal-aakel-and-eric-jochum-small.webp"
+      designation: "Metafinanz"
+      review: |
+        The Eco-Compute was one of our most impressive events in 2024.
+        We had a lot of connections to other GreenIT-Enthusiasts and had the option to listen to exciting talks and it was a perfect place for GreenIT networking.
+
+
+
+
+####################### Schedule #############################
+schedule:
+  enable : true
+  # schedule data comes from "schedule.yml" file
+
+####################### pricing #############################
+pricing:
+  enable : false
+  # pricing data comes from "pricing.yml" file
+
+########################## speaker ##########################
+cfs:
+  enable: false
+  title_outline: "Speakers"
+  title: "Call for Speakers - Open until 30.09.2025"
+  title_sub: "Share your insights to help shape a greener future."
+  content: ""
+  call_to_action: "Apply now!"
+  link: "https://cfp.eco-compute.io/ecocompute-2025/cfp"
+  # speaker content comes from "content/speaker" folder
+
+
+########################## speaker ##########################
+speaker:
+  enable : true
+  title_outline : "Speakers" # do not use dates here, as it will also be rendered on outdated subpages like /speakers/2024/
+
+  # speaker content comes from "content/speaker" folder
+
+######################### organizers ##########################
+
+partners:
+  enable :  true
+  partner_group:
+    ############################ sponsor group loop
+    - title : "Organizers & Organizing Partners"
+      partner:
+        - name: "Green Coding Solutions GmbH Logo"
+          logo : "images/clients/gcb.webp"
+          link : "https://www.green-coding.io"
+          background: "#2b3e50"
+
+        - name: "Gesellschaft für Information Logo"
+          logo : "images/clients/gi.webp"
+          link : "https://gi.de/"
+          background: "#fff"
+
+        - name: "HTW Berlin Logo"
+          logo : "images/clients/HTW.webp"
+          link : "https://www.htw-berlin.de/"
+          background: "#fff"
+
+        - name: "bluehands GmbH & Co.mmunication KG"
+          logo : "images/clients/bluehands.webp"
+          link : "https://www.bluehands.de/"
+          background: "#fff"
+
+
+    - title : "Content & Network Partners"
+      partner:
+
+         - name: "SDEA"
+           logo : "images/clients/sdea.webp"
+           logo_2x : "images/clients/sdea-2x.webp"
+           link : "https://sdea.ch/"
+           background: "#fff"
+
+         - name: "Bundesverband Green Software e.V."
+           logo : "images/clients/bvgs.webp"
+           logo_2x : "images/clients/bvgs-2x.webp"
+           link : "https://www.bundesverband-green-software.de/"
+           background: "#EEEEEE"
+
+    #     - logo : "images/clients/uba.webp"
+    #       link : "https://www.umweltbundesamt.de/"
+    #       background: "#5EAD35"
+
+    #     - logo : "images/clients/Green-Web-Foundation-logo.webp"
+    #       link : "https://www.thegreenwebfoundation.org/"
+    #       background: "#fff"
+
+    #     - logo : "images/clients/lfca.webp"
+    #       link : "https://www.lfca.earth/"
+    #       background: "#fff"
+
+    #     - logo : "images/clients/ieee_cc.webp"
+    #       link : "https://itcc.ieee.org"
+    #       background: "#fff"
+
+    - title : "Community Track Funders & Partners"
+      partner:
+         - name: "Umweltbundesamt"
+           logo : "images/clients/uba.webp"
+           logo_2x : "images/clients/uba-2x.webp"
+           link : "https://www.umweltbundesamt.de/"
+           background: "#fff"
+
+         - name: "Umweltbundesamt"
+           logo : "images/clients/bmukn.webp"
+           logo_2x : "images/clients/bmukn-2x.webp"
+           link : "https://www.bundesumweltministerium.de/"
+           background: "#fff"
+
+         - name: "Bits & Bäume"
+           logo : "images/clients/bits-und-baeume.webp"
+           logo_2x : "images/clients/bits-und-baeume-2x.webp"
+           link : "https://bits-und-baeume.org/"
+           background: "#fff"
+
+         - name: "Weizenbaum Institut"
+           logo : "images/clients/weizenbaum-institut.webp"
+           logo_2x : "images/clients/weizenbaum-institut-2x.webp"
+           link : "https://www.weizenbaum-institut.de/"
+           background: "#fff"
+
+         - name: "Germanwatch"
+           logo : "images/clients/germanwatch.webp"
+           logo_2x : "images/clients/germanwatch-2x.webp"
+           link : "https://www.germanwatch.org/de"
+           background: "#fff"
+
+         - name: "BUND Jugend"
+           logo : "images/clients/bund-jugend.webp"
+           logo_2x : "images/clients/bund-jugend-2x.webp"
+           link : "https://www.bundjugend.de/"
+           background: "#fff"
+
+
+
+      infotext: "Der Community Track wird gefördert durch das Umweltbundesamt und das Bundesministerium für Umwelt, Klimaschutz, Naturschutz und nukleare Sicherheit. Die Mittelbereitstellung erfolgt auf Beschluss des Deutschen Bundestages. Die Verantwortung für den Inhalt dieser Veröffentlichung liegt bei den Autorinnen und Autoren."
+
+######################### sponsor ############################
+sponsor:
+  enable :  true
+  title_outline : "Sponsors"
+  title : "Amazing Partners & Sponsors"
+  sponsor_group:
+    ############################ sponsor group loop
+    # - title : "Diamond Sponsors 💎"
+    #   sponsor:
+    #     # sponsor loop
+    #     - logo : "images/clients/RS.webp"
+    #       link : "https://www.rohde-schwarz.com"
+    #       background: "#fff"
+
+
+    #     - logo : "images/clients/gcb.webp"
+    #       link : "https://www.green-coding.io"
+    #       background: "#2b3e50"
+
+    - title : "Gold Sponsors 🏅"
+      css_class: "gold"
+      sponsor:
+        - name: "envite consulting GmbH"
+          logo : "images/clients/envite.webp"
+          link : "https://envite.de"
+          background: "#fff"
+
+        - name: "Yorizon GmbH & Co. KG"
+          logo : "images/clients/yorizon.webp"
+          logo_2x : "images/clients/yorizon-2x.webp"
+          link : "https://yorizon.com/"
+          background: "#fff"
+
+        - name: "Bundesverband Green Software e.V."
+          logo : "images/clients/bvgs.webp"
+          logo_2x : "images/clients/bvgs-2x.webp"
+          link : "https://www.bundesverband-green-software.de/"
+          background: "#EEEEEE"
+
+
+
+    # - title : "Gold Sponsors 🏅"
+    #   sponsor:
+    #     # sponcor loop
+    #     - logo : "images/clients/RS.webp"
+    #       link : "https://www.rohde-schwarz.com"
+
+    - title : "Silver Sponsors 🥈"
+      css_class: "silver"
+      sponsor:
+        - name: "neuland - Büro für Informatik GmbH"
+          logo : "images/clients/neuland.webp"
+          logo_2x : "images/clients/neuland-2x.webp"
+          link : "https://www.neuland-bfi.de/"
+          background: "#fff"
+        - name: "mittwald - Hosting neu gedacht"
+          logo : "images/clients/mittwald.webp"
+          logo_2x : "images/clients/mittwald-2x.webp"
+          link : "https://www.mittwald.de/"
+          background: "#fff"
+
+
+    - title : "Bronze Sponsors 🥉"
+      css_class: "bronze"
+      sponsor:
+        - name: "Peerigon"
+          logo : "images/clients/peerigon.webp"
+          link : "https://www.peerigon.com/"
+          background: "#fff"
+        - name: "QAWare"
+          logo : "images/clients/qaware.webp"
+          link : "https://www.qaware.de"
+          background: "#fff"
+        - name: "Forum CSR"
+          logo : "images/clients/forum-csr.webp"
+          logo_2x : "images/clients/forum-csr-2x.webp"
+          link : "https://www.forum-csr.net/"
+          background: "#fff"
+        - name: "Resilio"
+          logo : "images/clients/resilio.webp"
+          link : "https://www.resilio.tech/"
+          background: "#fff"
+        - name: "Rohde & Schwarz"
+          logo : "images/clients/RS.webp"
+          link : "https://www.rohde-schwarz.com"
+          background: "#fff"
+
+  # call to action in sponsor
+  sponsorship:
+    enable : true
+    title : "Become a sponsor!"
+    #button
+    label : "apply now"
+    link : "/sponsoring"
+
+################################ venue ########################
+venue:
+  enable : true
+  title : "Venue location"
+  image : "images/bg/berlin-2025-1x.webp"
+  image_2x : "images/bg/berlin-2025-2x.webp"
+  location : "[bUm - Raum für solidarisches Miteinander](https://maps.app.goo.gl/34byMDYBpnFxyuJ27)"
+  location_address : "Paul-Lincke-Ufer 21,<br>10999 Berlin, Germany"
+  maps_location_image: "images/bum-maps-image.webp"
+  maps_location_image_2x: "images//bum-maps-image@2x.webp"
+  maps_location_link: "https://maps.app.goo.gl/34byMDYBpnFxyuJ27"
+
+
+############################### Blog ######################################
+blog:
+  enable : false
+  title_outline : "News"
+  title : "Latest News"
+  content : "Accusantium provident suscipit dicta magni dolor deserunt nam obcaecati non veritatis optio."
+  # blog content comes from "content/blog" folder

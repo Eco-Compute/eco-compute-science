@@ -1,0 +1,409 @@
+
+/*
+* ----------------------------------------------------------------------------------------
+Author       : Themefisher
+Template Name: Vixcon- Event Template
+Version      : 1.0
+* ----------------------------------------------------------------------------------------
+*/
+
+/*
+* ----------------------------------------------------------------------------------------
+* 01.GLOBAL CSS STYLE
+* 02.TYPOGRAPHY CSS STYLE
+* 03.HOMEPAGE CSS STYLE
+    -LOGO CSS
+    -MENU CSS
+* 04.ABOUT CSS STYLE
+* 05.SERVICE CSS STYLE
+* 06.WORK CSS STYLE
+* 07.AVAILABLE CSS STYLE
+* 08.CONTACT CSS STYLE
+* 09.FOOTER CSS STYLE
+* ----------------------------------------------------------------------------------------
+*/
+
+@import "variables.scss";
+@import 'mixins.scss';
+@import 'media-query.scss';
+
+/*-------------------------------
+typography
+-------------------------------*/
+@import "types.scss";
+
+
+
+/*-------------------------------
+Common
+-------------------------------*/
+@import "common.scss";
+
+/*-------------------------------
+header
+-------------------------------*/
+@import "header.scss";
+
+
+
+/*-------------------------------
+banner
+-------------------------------*/
+@import "banner.scss";
+
+
+/*-------------------------------
+About
+-------------------------------*/
+@import "about.scss";
+
+ 
+
+/*-------------------------------
+inner pages
+-------------------------------*/
+@import "inner-pages.scss";
+
+
+/*-------------------------------
+Features
+-------------------------------*/
+@import "feature.scss";
+
+/*-------------------------------
+Features
+-------------------------------*/
+@import "call-to-action";
+
+/*-------------------------------
+Team
+-------------------------------*/
+@import "speaker.scss";
+
+
+/*-------------------------------
+Schedule
+-------------------------------*/
+@import "schedule.scss";
+
+
+/*-------------------------------
+Pricing
+-------------------------------*/
+@import "pricing.scss";
+
+
+/*-------------------------------
+Sponsors
+-------------------------------*/
+@import "sponsor.scss";
+
+/*-------------------------------
+Countdown
+-------------------------------*/
+@import "countdown.scss";
+
+
+/*-------------------------------
+Blog
+-------------------------------*/
+@import "blog.scss";
+
+/*-------------------------------
+footer
+-------------------------------*/
+@import "footer.scss";
+
+
+/*-------------------------------
+Responsive
+-------------------------------*/
+@import "responsive.scss";
+
+
+/* Custom Styles Green Coding*/
+
+.navbar-brand img{
+  max-height: 40px;
+}
+
+.navbar-brand{
+  color: #444;
+  font-size: 40px;
+}
+
+.navbar-brand .bold {
+    font-weight: bold;
+}
+
+.navbar-brand .slim {
+    font-weight: 100;
+}
+
+.banner-content span.bold {
+    font-weight: bold;
+    font-size: 100px;
+    color: #000;
+}
+
+.banner-content span.slim {
+    font-weight: 100;
+    font-size: 100px;
+    color: #000;
+}
+
+
+
+.feature-box, .feature-box h4 {
+  color: #fff;
+}
+
+.turquoise {
+  background-color: #17a2b8;
+}
+
+.karmin {
+  background-color: #ff4747;
+}
+
+.coal {
+  background-color: #343a40;
+}
+
+h3#track-1, h3#track-2, h3#track-1---talks-only, h3#track-2---talks--workshops {
+    color: #fff !important;
+}
+
+
+@media(max-width:991px){
+    .section-schedule .content-img {
+        display:none;
+    }
+}
+
+.primary-color {
+    color: $primary-color;
+}
+
+
+/* Alert Arne*/
+.alert {
+  position: relative;
+  top: 10;
+  left: 0;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  line-height: 1.8;
+  border-radius: 5px;
+  cursor: hand;
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.alertCheckbox {
+  display: none;
+}
+
+:checked + .alert {
+  display: none;
+}
+
+.alertText {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.clear {
+  clear: both;
+}
+
+.info {
+  background-color: #EEE;
+  border: 1px solid #DDD;
+  color: #999;
+}
+
+.success {
+  background-color: #EFE;
+  border: 1px solid #DED;
+  color: #9A9;
+}
+
+.notice {
+  background-color: #EFF;
+  border: 1px solid #DEE;
+  color: #9AA;
+}
+
+.warning {
+  background-color: #FDF7DF;
+  border: 1px solid #FEEC6F;
+  color: #C9971C;
+}
+
+.error {
+  background-color: #FEE;
+  border: 1px solid #EDD;
+  color: #A66;
+}
+
+.talk-label {
+  pointer-events: none;
+  background-color: #EFF4FF;
+  border: none;
+  color: #2557D6;
+  padding: 3px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 13px;
+  margin-left: -1px;
+  margin-bottom: 10px;
+  border-radius: 100px;
+}
+
+/* Newsletter */
+
+.newsletter-inner {
+    padding: 50px;
+    position: relative;
+
+    &:before {
+        position: absolute;
+        content: "";
+        right: -5%;
+        top: 0;
+        width: 200%;
+        height: 100%;
+        background: $white;
+        border-radius: 0px 100px 100px 0px;
+        box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.1);
+    }
+
+    .counter-stat {
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .syotimer {
+        position: relative;
+        z-index: 1;
+    }
+    @include desktop {
+        padding: 50px 20px;
+    }
+}
+
+.ui.warning.message {
+    width: 80%;
+    margin: 16px auto;
+    position: relative;
+    min-height: 1em;
+    background: #f8f8f9;
+    padding: 1em 1.5em;
+    line-height: 1.4285em;
+    transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease;
+    border-radius: .28571429rem;
+    font-size: 1em;
+    background-color: #fff8db;
+    color: #b58105;
+    box-shadow: 0 0 0 1px #b58105 inset,0 0 0 0 transparent;
+
+}
+.ui.warning.message .header {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.4285em;
+    box-sizing: inherit;
+    display: block;
+    font-weight: 700;
+    margin: -.14285714em 0 0 0;
+    margin-bottom: 0;
+    font-size: 1.14285714em;
+    color: #794b02;
+}
+
+
+.confernce-images img {
+    width: 300px;
+    margin: 5px;
+}
+
+.text-no-transform {
+    text-transform: none;
+}
+
+#sponsor-contact-box, .sponsor-contact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+/* Website carbon badge */
+#wcb.carbonbadge {
+    --b1:#0e11a8;
+    --b2:#00ffbc;
+    font-size:15px;
+    text-align:center;
+    color:var(--b1);
+    line-height:1.15;
+}
+#wcb.carbonbadge a {
+    margin-left: -5px !important;
+}
+#wcb.carbonbadge sub {
+    vertical-align:middle;
+    position:relative;
+    top:.3em;
+    font-size:.7em;
+}
+#wcb #wcb_2,#wcb #wcb_a,#wcb #wcb_g {
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    font-size:1em;
+    line-height:1.15;
+    font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+    text-decoration:none;
+    margin:.2em 0;
+}
+#wcb #wcb_a,#wcb #wcb_g{
+    padding:.3em .5em;
+    border:.13em solid var(--b2);
+}
+#wcb #wcb_g{
+    border-radius:.3em 0 0 .3em;
+    background:#fff;
+    border-right:0;
+    min-width:8.2em;
+}
+#wcb #wcb_a{
+    border-radius:0 .3em .3em 0;
+    border-left:0;
+    background:var(--b1);
+    color:#fff;
+    font-weight:700;
+    border-color:var(--b1);
+}
+#wcb.wcb-d #wcb_a{
+    color:var(--b1);
+    background:var(--b2);
+    border-color:var(--b2);
+}
+
+#wcb.wcb-d #wcb_2{
+    color:#fff;
+}
+
+.partner-info-text {
+    color: #fff;
+}
