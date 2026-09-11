@@ -149,7 +149,7 @@ review:
 
     - step : "05"
       title : "Stage two: full paper"
-      content : "Written after the event and shepherded by a committee member, who confirms that the claims do not exceed the evidence that was reviewed. The full paper receives a DOI."
+      content : "Written after the event and shepherded by a committee member, who confirms that the claims do not exceed the evidence that was reviewed. The full paper is published in [ECEASST](https://eceasst.org/index.php/eceasst/about): no fee for authors, no fee for readers."
   button:
     enable : true
     label : "Read the full process"

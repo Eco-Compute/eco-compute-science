@@ -108,8 +108,11 @@ Publication proceeds in two stages:
    member, who confirms that the claims do not exceed the evidence that was reviewed. The
    full paper receives a DOI.
 
-The journal hosting stage two is being finalised. Anna-Lena Lamprecht is responsible for the
-publication track.
+Stage two is published in [ECEASST](https://eceasst.org/index.php/eceasst/about), the
+Electronic Communications of the EASST. It is a diamond open access journal hosted by Berlin
+Universities Publishing, properly indexed, with no fee for authors or readers. ECEASST
+provides the submission and reviewing platform for the full papers through to publication.
+Anna-Lena Lamprecht is responsible for the publication track.
 
 ## Important dates
 
