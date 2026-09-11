@@ -2,126 +2,136 @@
 title: "Artifacts"
 date: 2026-09-10T09:00:00+02:00
 draft: false
-description: "What counts as an artifact at ecoCompute Science, and what it has to contain"
+description: "What counts as an artifact at ecoCompute Science, and what it must contain"
 bg_image : "images/bg/cta-bg.webp"
 ---
 
-At ecoCompute Science the artifact is the submission. The two-pager is the map to it.
+At ecoCompute Science the artifact is the submission. The two-page write-up is the guide to
+it.
 
-This page says what an artifact is, what it has to contain, and what happens when the work
-needs special hardware or produces numbers that are not bit-reproducible.
+This page sets out what constitutes an artifact, what it must contain, and how submissions
+are handled when the work requires specialised hardware or produces results that are not
+bit-reproducible.
 
-## What counts as an artifact
+## What constitutes an artifact
 
-An artifact is whatever lets a reviewer check your claim by doing, not by reading. It does
-not have to be a software tool. All of these count:
+An artifact is whatever enables a reviewer to verify a claim by execution rather than by
+reading. It need not be a software tool. All of the following qualify:
 
-- **A tool or library**, plus the benchmarks and the harness that produced your numbers.
-- **A measurement setup**: the scripts, the configuration, the workload, the collection and
-  analysis pipeline.
+- **A tool or library**, together with the benchmarks and the harness that produced the
+  reported results.
+- **A measurement setup**: the scripts, the configuration, the workload, and the collection
+  and analysis pipeline.
 - **An experiment**: the code under test, the runner, the raw results, and the analysis that
-  turns raw results into the figures in the two-pager.
+  derives the figures in the write-up from those results.
 - **A calculation**: for accounting and methodology work, the artifact is the method applied
-  to concrete sample setups, in a form that can be re-run and re-checked. A notebook or a
-  spreadsheet is a perfectly good artifact. If you propose a new way to account for
-  oversubscription or effective usage, applying it to two sample setups in public cloud
-  infrastructure is the artifact.
-- **A dataset plus the code that produced it**, where the contribution is the data.
-- **A replication package**: somebody else's artifact, your attempt to run it, and what
-  happened.
+  to concrete sample configurations, in a form that can be re-executed and verified. A
+  notebook or a spreadsheet is an entirely adequate artifact. Where a new method of
+  accounting for oversubscription or effective utilisation is proposed, applying it to two
+  sample configurations in public cloud infrastructure constitutes the artifact.
+- **A dataset together with the code that produced it**, where the data is the contribution.
+- **A replication package**: another author's artifact, the attempt to execute it, and the
+  outcome of that attempt.
 
-The common thread: a reviewer can *do something* and end up with your result, or with a
-documented reason why they did not.
+The common requirement is that a reviewer can perform an action and arrive at the reported
+result, or at a documented reason why they did not.
 
 ## What an artifact must contain
 
-### 1. Everything needed to run
+### 1. Everything required to execute it
 
-A ZIP file or a container image is fine. No hosting platform is required and no specific
-repository is required. What matters is that it is complete: no missing dependency that
-"you obviously have", no private URL, no step that only works on the author's laptop.
+An archive file or a container image is sufficient. No hosting platform and no particular
+repository is required. What matters is completeness: no undeclared dependency, no private
+URL, and no step that succeeds only on the authors' own machine.
 
 ### 2. A step-by-step guide
 
-A precise, ordered set of instructions that takes a reviewer from "I downloaded this" to
-"I have your numbers", with no gaps that require asking you a question.
+A precise, ordered set of instructions that takes a reviewer from the downloaded artifact to
+the reported results, with no gap that requires consulting the authors.
 
-The guide has to state:
+The guide must state:
 
-- The environment it expects: OS, kernel, container runtime, hardware, permissions.
+- The expected environment: operating system, kernel, container runtime, hardware, and
+  permissions.
 - Every command, in order, with the expected output of each.
-- Roughly how long each step takes, and what it costs if it costs anything.
-- Which output corresponds to which number, table or figure in the two-pager.
-- What to do when a step fails.
+- The approximate duration of each step, and its cost where a cost is incurred.
+- Which output corresponds to which value, table or figure in the write-up.
+- What to do in the event that a step fails.
 
-### 3. A claim, stated so that it can be checked
+### 3. A claim stated so that it can be verified
 
-State what a reviewer should see if your work is correct. Be explicit about what is supposed
-to hold:
+State what a reviewer should observe if the work is correct, and be explicit about which
+property is expected to hold:
 
-- an **ordering** (configuration A uses less energy than configuration B)
-- a **direction** (this change reduces energy use)
-- an **effect size** (this change reduces energy use by 15 to 20 percent)
+- an **ordering** (configuration A consumes less energy than configuration B)
+- a **direction** (this change reduces energy consumption)
+- an **effect size** (this change reduces energy consumption by 15 to 20 per cent)
 
 and within what **tolerance**.
 
-### 4. Variance, not a single mean
+### 4. Variance rather than a single mean
 
-Energy and carbon measurements are not bit-reproducible. Different silicon, different
-ambient temperature, different kernel, different noise floor. We do not pretend otherwise.
+Energy and carbon measurements are not bit-reproducible. Silicon, ambient temperature,
+kernel version and noise floor all differ between systems, and this is acknowledged rather
+than disregarded.
 
-Report the variance of your own runs rather than a single mean: how many runs, the spread,
-and how you handled outliers. A reviewer who reproduces the ordering but not the absolute
-numbers has reproduced the claim, provided the claim was stated that way in the first place.
+Report the variance across your own runs rather than a single mean: the number of runs, the
+spread, and the treatment of outliers. A reviewer who reproduces the stated ordering but not
+the absolute values has reproduced the claim, provided the claim was formulated in those
+terms.
 
-A submission whose headline number is a single run with no spread will be sent back at the
-kick-the-tires stage.
+A submission whose principal result is a single run reported without a spread will be
+returned at the kick-the-tires stage.
 
 ### 5. A licence
 
-Say what reviewers, and later readers, are allowed to do with the artifact.
+State what reviewers, and subsequently readers, are permitted to do with the artifact.
 
-## Special hardware
+## Specialised hardware
 
-Plenty of interesting work needs hardware that a reviewer does not have: a specific
-accelerator, a power measurement rig, a particular server generation, a lab setup.
+A substantial body of relevant work requires hardware that a reviewer does not have
+available: a particular accelerator, a power measurement rig, a specific server generation,
+or a laboratory setup.
 
-That is fine, but you must be able to give reviewers access to those systems for the review
-period. Remote access to your machines, a booked slot on a testbed, a hosted runner, any
-arrangement that lets a reviewer run the thing.
+This is acceptable, provided the authors are able to give reviewers access to those systems
+for the duration of the review period. Remote access to the authors' machines, a reserved
+slot on a testbed, or a hosted runner are all adequate arrangements.
 
-Tell us about the hardware requirement when you submit, not after acceptance, so that we can
-assign reviewers who can work with it.
+Hardware requirements must be declared at submission rather than after acceptance, so that
+reviewers able to work with them can be assigned.
 
-**Work that cannot be opened to reviewers in any form is out of scope.** If neither the code,
-nor the data, nor the machines can be shown to anyone, there is nothing for this venue to
-review. Industry work with confidential data is the hard case here, and it is what the
-planned [industry and impact track](/call-for-papers) is for.
+**Work that cannot be made available to reviewers in any form is out of scope.** Where
+neither the code, nor the data, nor the systems can be shown to anyone, there is nothing for
+this venue to review. Industry work involving confidential data is the difficult case, and it
+is the purpose of the planned [industry and impact track](/call-for-papers).
 
 ## The kick-the-tires phase
 
-The first days of the review period exist so that artifacts do not fail on setup problems.
-Reviewers report anything that blocks them from starting, and you get a short window to fix
-it.
+The opening days of the review period exist so that artifacts do not fail on setup problems.
+Reviewers report any issue that prevents them from starting, and authors are given a short
+window in which to correct it.
 
-This is for broken setup, not for new results. Use it to fix a missing dependency, a wrong
-path, an unclear instruction. Do not use it to add experiments.
+This phase is intended for defective setup, not for additional results. It may be used to
+correct a missing dependency, an incorrect path, or an unclear instruction. It may not be
+used to add experiments.
 
-## A short checklist
+## Checklist
 
-Before you submit, hand your artifact to a colleague who did not build it and ask them to
-follow the guide on a clean machine. Then check:
+Before submitting, authors are advised to give the artifact to a colleague who did not build
+it and ask them to follow the guide on a clean machine. Then confirm the following:
 
-- [ ] The artifact is self-contained and downloads as one file or image.
-- [ ] The guide runs top to bottom without a single question to the authors.
-- [ ] Every number in the two-pager is traceable to a specific output.
-- [ ] The claim says what is stable and within what tolerance.
-- [ ] Runs, spread and outlier handling are reported.
-- [ ] Hardware requirements are stated, and access is arranged if needed.
-- [ ] There is a licence.
+- [ ] The artifact is self-contained and downloads as a single file or image.
+- [ ] The guide can be followed from beginning to end without a single question to the
+      authors.
+- [ ] Every value in the write-up is traceable to a specific output.
+- [ ] The claim states which property is stable and within what tolerance.
+- [ ] The number of runs, the spread, and the treatment of outliers are reported.
+- [ ] Hardware requirements are stated, and access is arranged where required.
+- [ ] A licence is included.
 
-## What we do with the outcome
+## Publication of the outcome
 
-Review outcome and artifact status are published together with the paper. A reader can see
-whether the artifact was reproduced, partially reproduced, or not reproduced, and why. That
-is part of the record, not a private note between reviewers.
+The review outcome and the artifact status are published together with the paper. Readers can
+see whether an artifact was reproduced, partially reproduced, or not reproduced, and on what
+grounds. This forms part of the published record rather than a private note between
+reviewers.

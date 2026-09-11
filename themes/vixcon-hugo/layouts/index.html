@@ -59,6 +59,41 @@
 {{ end }}
 <!-- /status -->
 
+<!-- newsletter -->
+{{ with $data.homepage.newsletter }}
+{{ if .enable }}
+<section class="section section-newsletter" id="newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="newsletter-card box-shadow">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7">
+                            <h3 class="title mb-2">{{ .title | markdownify }}</h3>
+                            <div class="rich-text">{{ .content | markdownify }}</div>
+                        </div>
+                        <div class="col-lg-5">
+                            <form class="newsletter-form" action="{{ .form_action }}" method="GET" target="_blank" rel="noopener">
+                                <input type="hidden" name="u" value="{{ .mailchimp_u }}">
+                                <input type="hidden" name="id" value="{{ .mailchimp_id }}">
+                                <label class="sr-only" for="newsletter-email">{{ .placeholder }}</label>
+                                <input class="form-control" type="email" id="newsletter-email" name="EMAIL" placeholder="{{ .placeholder }}" required autocomplete="email">
+                                <button type="submit" class="btn btn-hero btn-rounded">{{ .button }}</button>
+                            </form>
+                            {{ with .note }}
+                            <div class="newsletter-note">{{ . | markdownify }}</div>
+                            {{ end }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /newsletter -->
+
 <!-- problem -->
 {{ with $data.homepage.problem }}
 {{ if .enable }}

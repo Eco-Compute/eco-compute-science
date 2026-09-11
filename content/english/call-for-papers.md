@@ -2,110 +2,116 @@
 title: "Call for Papers"
 date: 2026-09-10T09:00:00+02:00
 draft: false
-description: "Call for Papers for ecoCompute Science 2027: two pages plus a runnable artifact"
+description: "Call for Papers for ecoCompute Science 2027: two pages and a runnable artifact"
 bg_image : "images/bg/cta-bg.webp"
 ---
 
 <div class="ui warning message">
-  <h2 class="header">This Call for Papers is still open</h2>
-  <p>The scope, the submission format and the review process below are settled. The
-  submission dates, the submission system and the second track are still being finalised
-  and will be announced on this page. If you are already working on something that fits,
-  <a href="/contact" style="font-weight: bold; text-decoration: underline;">talk to us</a>
-  now rather than waiting.</p>
+  <h2 class="header">This Call for Papers is not yet complete</h2>
+  <p>The scope, the submission format and the review process set out below are settled. The
+  submission dates, the submission system and the second track are still being finalised and
+  will be announced on this page. Authors who are already working on relevant work are
+  invited to
+  <a href="/contact" style="font-weight: bold; text-decoration: underline;">contact the organisers</a>
+  rather than wait for the announcement.</p>
 </div>
 
-**ecoCompute Science 2027** invites submissions on resource aware and resource reducing
-computing. Summer 2027, online, European timezone.
+**ecoCompute Science 2027** invites submissions on resource-aware and resource-reducing
+computing. The event is held online in the European time zone in summer 2027.
 
-A submission is **two pages plus a runnable artifact**. The reviewers run the artifact.
+A submission consists of **two pages and a runnable artifact**. The reviewers execute the
+artifact.
 
-## What to submit
+## Submission requirements
 
-### The two-pager
+### The two-page write-up
 
-At most two pages. Five headings, in this order:
+At most two pages, under five headings, in the following order:
 
-| Section | What goes in it |
+| Section | Content |
 | --- | --- |
-| What I want to show | The claim. One or two sentences is enough. |
-| How I showed it | The setup, the measurement method, the hardware, the number of runs. |
-| What the results are | The numbers, with variance. State what is supposed to be stable and within what tolerance. |
-| Prior work | What exists, and what your work adds or contradicts. |
-| What I want to discuss | The questions you want three rooms full of people to chew on. |
+| The claim | What the work sets out to show. One or two sentences are sufficient. |
+| The method | The setup, the measurement method, the hardware, and the number of runs. |
+| The results | The measured values, with variance. State which property is expected to be stable and within what tolerance. |
+| Prior work | What exists already, and what this work adds to it or contradicts. |
+| Questions for discussion | The questions the authors wish to put to three discussion groups. |
 
-Good bullet points are entirely acceptable. Prose is not rewarded. The write-up is a map to
-the artifact, not the evidence itself.
+Bullet points are acceptable throughout. Presentational quality is not a criterion for
+acceptance. The write-up is a guide to the artifact, not the evidence itself.
 
 ### The artifact
 
-A complete, runnable artifact that lets a reviewer regenerate your numbers, or otherwise
-verify your claims, without contacting you. A ZIP file or a container image is fine. No
-hosting platform is required.
+A complete, runnable artifact that enables a reviewer to regenerate the reported results, or
+otherwise verify the claims, without contacting the authors. An archive file or a container
+image is sufficient. No hosting platform is required.
 
-The [Artifacts](/artifacts) page describes in detail what counts as an artifact, what the
-step-by-step guide has to contain, and how to handle special hardware and measurement
-variance. Read it before you submit.
+The [Artifacts](/artifacts) page sets out in detail what counts as an artifact, what the
+step-by-step guide must contain, and how specialised hardware and measurement variance are
+handled. Authors are asked to read it before submitting.
 
 ## Tracks
 
 ### Track 1: Artifact track
 
-The main track. Full reproducibility: a reviewer can regenerate your results from your
-artifact. Everything on this site describes this track unless stated otherwise.
+The main track, which requires full reproducibility: a reviewer is able to regenerate the
+reported results from the artifact. Unless stated otherwise, the material on this site
+describes this track.
 
 ### Track 2: Industry and impact track
 
-*Under construction. Details will follow on this page.*
+*Under development. Details will follow on this page.*
 
-Industry work often rests on data that cannot leave the organisation, and building
-representative sample data is frequently not possible either. We do not want to exclude that
-work, and we do not want to pretend it was reproduced when it was not.
+Industry work frequently rests on data that cannot leave the organisation, and constructing
+representative sample data is often not feasible either. The organisers do not wish to
+exclude such work, nor to present it as reproduced when it has not been.
 
-The shape we are working towards: a lower bar for reproducibility, a higher bar for
-applicability, plus a required **impact artifact**. That impact artifact is whatever makes
-the claimed effect checkable in principle: the calculation sheet, the measured savings, the
-methodology applied to a public setup. Papers in this track are labelled as such, and their
-artifact status is published alongside them so that nobody mistakes one track for the other.
+The intended form is a lower requirement for reproducibility, a higher requirement for
+applicability, and a mandatory **impact artifact**. The impact artifact is whatever renders
+the claimed effect verifiable in principle: the calculation sheet, the measured savings, or
+the methodology applied to a public configuration. Papers in this track are labelled as such,
+and their artifact status is published alongside them so that the two tracks are not
+conflated.
 
-If you have industry work you want to submit, please [get in touch](/contact). Concrete cases
-will shape this track more than our speculation will.
+Authors with industry work to submit are invited to [contact the organisers](/contact).
+Concrete cases will shape this track more effectively than speculation.
 
-## What we especially want
+## Submissions we particularly encourage
 
-- **Negative results.** The optimisation did not pay off. The effect disappeared once you
-  controlled for the noise. The tool did not measure what it claimed to measure.
-- **Replication studies.** "We tried to reproduce X and could not" is a first-class
+- **Negative results.** An optimisation that did not yield a benefit, an effect that
+  disappeared once noise was controlled for, or a tool that did not measure what it claimed
+  to measure.
+- **Replication studies.** An unsuccessful attempt to reproduce a published result is a full
   submission here.
-- **Methodology and accounting work.** A new way to account for oversubscription or
-  effective usage is in scope. The artifact is then the calculation applied to sample
-  setups, which a reviewer can re-run and re-check.
-- **Tools and measurement stacks**, with the evidence that they do what they say.
+- **Methodology and accounting work.** Proposals for accounting for oversubscription or
+  effective utilisation are in scope. The artifact is then the method applied to sample
+  configurations, which a reviewer can re-execute and verify.
+- **Tools and measurement stacks**, together with evidence that they perform as described.
 
 ## Review
 
-A dedicated artifact evaluation committee runs the submissions. The first days of the review
-period are a kick-the-tires phase: reviewers report anything that blocks them from starting,
-and authors get a short window to fix it. Artifacts should not fail on setup problems.
+A dedicated artifact evaluation committee executes the submissions. The opening days of the
+review period constitute a kick-the-tires phase: reviewers report any issue that prevents
+them from starting, and authors are given a short window in which to correct it. Artifacts
+should not fail on setup problems.
 
-Review outcome and artifact status are published together with the paper.
+The review outcome and the artifact status are published together with the paper.
 
-The full process is on the [Review and Publication](/review) page.
+The process is set out in full on the [Review and Publication](/review) page.
 
 ## Publication
 
-Two stages:
+Publication proceeds in two stages:
 
-1. **Stage one** is the two-pager plus artifact. It is reviewed, accepted and presented at
-   the event.
-2. **Stage two** is a full paper, written after the event, shepherded by a committee member
-   who confirms that the claims did not outgrow the evidence that was actually reviewed. The
+1. **Stage one** is the two-page write-up together with the artifact. It is reviewed,
+   accepted and presented at the event.
+2. **Stage two** is a full paper, written after the event and shepherded by a committee
+   member, who confirms that the claims do not exceed the evidence that was reviewed. The
    full paper receives a DOI.
 
-The journal that hosts stage two is being finalised. Anna-Lena Lamprecht is handling the
+The journal hosting stage two is being finalised. Anna-Lena Lamprecht is responsible for the
 publication track.
 
-## Dates
+## Important dates
 
 | | |
 | --- | --- |
@@ -116,25 +122,27 @@ publication track.
 | Event | Summer 2027, online |
 | Stage two full paper | After the event, shepherded |
 
-Dates will be published here and announced on
+Dates will be published on this page and announced on
 [LinkedIn](https://www.linkedin.com/showcase/eco-compute-io/).
 
 ## How to submit
 
-The submission system is being set up. Until it is live, mail
-[science@eco-compute.io](mailto:science@eco-compute.io) if you want to discuss a submission
-or be told when the system opens.
+The submission system is being set up. Until it is available, enquiries about a prospective
+submission, or requests to be notified when the system opens, may be sent to
+[science@eco-compute.io](mailto:science@eco-compute.io).
 
-## Questions we are still deciding
+## Questions still under discussion
 
-We would rather say this out loud than pretend the format is finished. If you have an
-opinion, [tell us](/contact).
+These questions are genuinely open and are stated here rather than presented as settled.
+Comments are welcome; please [contact the organisers](/contact).
 
-- **How do we keep artifact review affordable?** A cap on submissions, rolling reviews, one
-  reviewer producing a working recipe that the others then follow, AI assistance for the
-  first reproduction pass. Probably some combination.
-- **Single-blind or fully open?** Artifacts are very hard to anonymise well.
-- **How do we avoid no-shows in capped discussion groups?** Free registration produces high
-  no-show rates. A small fee, a three-sentence application, or a Dagstuhl-style invitation
-  model are all on the table.
-- **Who sits on the programme and artifact committees?** If you want to review, say so.
+- **How can artifact review be kept affordable?** A cap on the number of submissions, rolling
+  review, an arrangement in which one reviewer produces a working recipe that the others then
+  follow, or AI assistance for the first reproduction pass. Most likely some combination of
+  these.
+- **Single-blind or fully open review?** Artifacts are difficult to anonymise reliably.
+- **How can non-attendance in capped discussion groups be avoided?** Registration free of
+  charge produces high rates of non-attendance. A nominal fee, a short written application,
+  and an invitation model following the example of Dagstuhl are all under consideration.
+- **Who will serve on the programme and artifact committees?** Expressions of interest in
+  reviewing are welcome.

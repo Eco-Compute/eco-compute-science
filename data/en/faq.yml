@@ -2,66 +2,66 @@
 faq:
   title_outline : "Faq"
   title : "Frequently Asked Questions"
-  content : "Questions we get asked a lot about ecoCompute Science, plus a few things we think should be clarified up front."
+  content : "Questions that are asked frequently about ecoCompute Science, together with a number of points that are worth clarifying in advance."
   faq_item:
-    - title : "Is ecoCompute Science the same thing as the ecoCompute conference?"
-      content : "No. ecoCompute Science is a new, peer-reviewed, artifact-first venue that runs online. The ecoCompute conference was a large in-person engineering conference, held in Munich in 2024 and Berlin in 2025. Because of the overhead of organising an in-person event of that size, there will be no in-person ecoCompute in 2027. The old material stays online in the <u>[archive](/previous-years)</u>."
+    - title : "Is ecoCompute Science the same as the ecoCompute conference?"
+      content : "No. ecoCompute Science is a new peer-reviewed, artifact-first venue held online. The ecoCompute conference was a large in-person engineering conference, held in Munich in 2024 and in Berlin in 2025. Owing to the organisational overhead of an in-person event of that size, no in-person ecoCompute will be held in 2027. The earlier material remains available in the <u>[archive](/previous-years)</u>."
 
-    - title : "When and where is it?"
-      content : "Summer 2027, online, European timezone. There is no venue. Exact dates will be announced on this site."
+    - title : "When and where is it held?"
+      content : "Summer 2027, online, in the European time zone. There is no venue. Exact dates will be announced on this site."
 
-    - title : "What exactly do I submit?"
-      content : "Two pages plus a complete, runnable artifact. See the <u>[Call for Papers](/call-for-papers)</u> for the format and <u>[Artifacts](/artifacts)</u> for what the artifact has to contain."
+    - title : "What exactly is submitted?"
+      content : "Two pages and a complete, runnable artifact. See the <u>[Call for Papers](/call-for-papers)</u> for the format and <u>[Artifacts](/artifacts)</u> for what the artifact must contain."
 
-    - title : "Two pages? Really?"
-      content : "Really. The write-up is a map to the artifact, not the evidence itself. Good bullet points are entirely acceptable and prose is not rewarded. The full paper comes later, at stage two, after the event."
+    - title : "Is the two-page limit strict?"
+      content : "Yes. The write-up is a guide to the artifact, not the evidence itself. Bullet points are acceptable throughout and presentational quality is not a criterion for acceptance. The full paper follows later, at stage two, after the event."
 
-    - title : "Does my artifact have to be on a specific platform?"
-      content : "No. A ZIP file or a container image is fine. What is required is a precise, step-by-step guide that lets a reviewer regenerate your numbers without asking you for help."
+    - title : "Must the artifact be hosted on a particular platform?"
+      content : "No. An archive file or a container image is sufficient. What is required is a precise, step-by-step guide that enables a reviewer to regenerate the reported results without consulting the authors."
 
-    - title : "My work needs special hardware. Can I still submit?"
-      content : "Yes, provided you can give reviewers access to those systems for the review period. Tell us about the hardware requirement when you submit so that we can assign reviewers who can work with it."
+    - title : "The work requires specialised hardware. Can it still be submitted?"
+      content : "Yes, provided reviewers can be given access to those systems for the duration of the review period. Hardware requirements should be declared at submission so that reviewers able to work with them can be assigned."
 
     - title : "Energy measurements are noisy. How can they be reviewed at all?"
-      content : "By stating what is supposed to be stable and within what tolerance. An ordering, a direction or an effect size, plus the variance of your own runs rather than a single mean. A reviewer who reproduces the ordering but not the absolute numbers has reproduced the claim, as long as the claim was stated that way."
+      content : "By stating which property is expected to be stable and within what tolerance: an ordering, a direction or an effect size, together with the variance across your own runs rather than a single mean. A reviewer who reproduces the stated ordering but not the absolute values has reproduced the claim, provided the claim was formulated in those terms."
 
-    - title : "What if my artifact does not build on the reviewer's machine?"
-      content : "That is what the kick-the-tires phase is for. The first days of the review period are a setup phase: reviewers report anything that blocks them from starting and you get a short window to fix it. Artifacts should not fail on setup problems."
+    - title : "What happens if the artifact does not build on the reviewer's machine?"
+      content : "That is the purpose of the kick-the-tires phase. The opening days of the review period are reserved for setup: reviewers report any issue that prevents them from starting, and authors are given a short window in which to correct it. Artifacts should not fail on setup problems."
 
-    - title : "Do you accept negative results?"
-      content : "Yes, and we would like more of them. The optimisation that did not pay off, the effect that vanished once you controlled for the noise, the tool that did not measure what it claimed. An artifact-centred venue is the natural home for this."
+    - title : "Are negative results accepted?"
+      content : "Yes, and more of them would be welcome: the optimisation that did not yield a benefit, the effect that disappeared once noise was controlled for, the tool that did not measure what it claimed to measure. An artifact-centred venue is the appropriate home for such results."
 
-    - title : "Do you accept replication studies?"
-      content : "Yes. \"We tried to reproduce X and could not\" is a first-class submission here, not second-tier filler."
+    - title : "Are replication studies accepted?"
+      content : "Yes. An unsuccessful attempt to reproduce a published result is a full submission here, not secondary material."
 
-    - title : "I have industry data that cannot leave the company. Can I submit?"
-      content : "Possibly, through the planned industry and impact track: a lower bar for reproducibility, a higher bar for applicability, plus a required impact artifact. That track is still being shaped and concrete cases will shape it more than our speculation will, so please <u>[get in touch](/contact)</u>."
+    - title : "Can work based on industry data that cannot leave the company be submitted?"
+      content : "Possibly, through the planned industry and impact track: a lower requirement for reproducibility, a higher requirement for applicability, and a mandatory impact artifact. That track is still being developed, and concrete cases will shape it more effectively than speculation. Authors with such work are invited to <u>[contact the organisers](/contact)</u>."
 
-    - title : "Are there talks?"
-      content : "No. The event is discussion only, adapted from the session format used at ICT4S. Each accepted paper gets three sessions, the author takes part in every one, and everybody has read the two-pagers a week in advance."
+    - title : "Are there presentations?"
+      content : "No. The event consists entirely of discussion, following the session format used at ICT4S. Each accepted submission is allocated three sessions, the author participates in all three, and all participants have read the submissions one week in advance."
 
-    - title : "Do I have to read the papers before joining a session?"
-      content : "Yes. The two-pagers circulate a week ahead and having read them is a condition of taking part. Groups are capped so that everyone can actually speak, which only works if everyone arrives prepared."
+    - title : "Is reading the submissions before a session mandatory?"
+      content : "Yes. The submissions are circulated one week beforehand and having read them is a condition of participation. Groups are limited in size so that every participant is able to contribute, which requires that everyone arrives prepared."
 
-    - title : "Where does the work get published?"
-      content : "In two stages. Stage one is the two-pager plus artifact, reviewed and presented at the event. Stage two is a full paper written afterwards, shepherded by a committee member, and it receives a DOI. The journal hosting stage two is being finalised."
+    - title : "Where is the work published?"
+      content : "In two stages. Stage one is the two-page write-up together with the artifact, reviewed and presented at the event. Stage two is a full paper written afterwards and shepherded by a committee member, which receives a DOI. The journal hosting stage two is being finalised."
 
     - title : "Is review single-blind, double-blind or open?"
-      content : "Undecided. Artifacts are very hard to anonymise well, so we have to choose between accepting single-blind review or going fully open. If you have a strong view, tell us."
+      content : "Undecided. Artifacts are difficult to anonymise reliably, so a decision is required between accepting single-blind review and adopting a fully open process. Comments on this question are welcome."
 
-    - title : "What does it cost to attend?"
-      content : "Undecided. Free registration produces high no-show rates, which is fatal for small capped discussion groups. A small fee, a short application, or an invitation model are all being considered."
+    - title : "What does attendance cost?"
+      content : "Undecided. Registration free of charge produces high rates of non-attendance, which is untenable for discussion groups of limited size. A nominal fee, a short application, and an invitation model are all under consideration."
 
-    - title : "Can I review?"
-      content : "Yes, please. We are assembling a programme committee and an artifact evaluation committee. <u>[Write to us](/contact)</u> and tell us what you can run and what hardware you have access to."
+    - title : "Can I serve as a reviewer?"
+      content : "Yes. A programme committee and an artifact evaluation committee are currently being assembled. Please <u>[write to us](/contact)</u>, stating what you are able to execute and what hardware you have access to."
 
-    - title : "What language is the event in?"
+    - title : "In what language is the event held?"
       content : "English."
 
   ################ support #################
   support:
     enable: true
-    title : "Still have a question?"
+    title : "Further questions?"
     button:
       label : "Contact us"
       link : "/contact"

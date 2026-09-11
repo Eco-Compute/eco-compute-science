@@ -106,7 +106,7 @@ link = "plugins/syotimer/syotimer.min.js"
 logo = "images/logo-2.webp"
 home = "Home"
 # Meta data
-description = "ecoCompute Science is a peer-reviewed, artifact-first venue for resource-aware computing. Every submission ships a runnable artifact and the reviewers run it."
+description = "ecoCompute Science is a peer-reviewed, artifact-first venue for resource-aware computing. Every submission includes a runnable artifact, and the reviewers execute it."
 author = "Green Coding Solutions GmbH"
 # email address
 email = "science@eco-compute.io"
@@ -158,7 +158,7 @@ weight = 1
 [Languages.en.params]
 home = "Home"
 # footer content
-footer_content = "A peer-reviewed venue for resource aware computing, where the reviewers run the artifact.<br>-<br><a href='/impressum'>Impressum</a> &middot; <a href='/datenschutz'>Datenschutz</a> &middot; <a href='/code-of-conduct'>Code of Conduct</a>"
+footer_content = "A peer-reviewed venue for resource-aware computing, in which the reviewers execute the artifact.<br>-<br><a href='/impressum'>Impressum</a> &middot; <a href='/datenschutz'>Datenschutz</a> &middot; <a href='/code-of-conduct'>Code of Conduct</a>"
 
 # copyright
 copyright = "Copyright &copy; 2026 Green Coding Solutions"

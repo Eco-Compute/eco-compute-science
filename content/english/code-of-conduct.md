@@ -12,7 +12,7 @@ The CoC applies before, during and after the event. It covers the discussion ses
 
 The organisers form the Code of Conduct team and are primarily responsible for handling any incidents. The team can be reached at **science@eco-compute.io**. The individual members and their direct contact details will be published on this page before the event.
 
-We would like to thank the [DjangoCon Europe 2019 CoC](https://2022.djangocon.eu/conduct/code_of_conduct/) team for the awesome CoC (which we adapted with some minor modifications).
+We would like to thank the [DjangoCon Europe 2019 CoC](https://2022.djangocon.eu/conduct/code_of_conduct/) team for their Code of Conduct, which has been adapted here with minor modifications.
 
 ## Why do we have a Code of Conduct?
 

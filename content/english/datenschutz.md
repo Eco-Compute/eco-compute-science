@@ -108,4 +108,19 @@ bg_image : "images/bg/cta-bg.webp"
 <p>Von den Diskussions-Sessions werden Notizen erstellt. Diese Notizen werden mit Unterstützung eines Sprachmodells (LLM) erzeugt und den Autorinnen und Autoren des jeweiligen Beitrags zur Verfügung gestellt. Der eingesetzte Anbieter wird hier ergänzt, sobald er feststeht.</p>
 
 
+<h3 id="8-newsletter">8. NEWSLETTER</h3>
+<p>Auf dieser Website können Sie einen Newsletter abonnieren, über den wir ausschließlich über den Stand von ecoCompute Science informieren, insbesondere über die Eröffnung des Call for Papers und die Festlegung der Veranstaltungstermine.</p>
+<h5 id="mailchimp">MAILCHIMP</h5>
+<p>Für den Versand des Newsletters nutzen wir den Dienst Mailchimp. Anbieter ist:</p>
+<p>Intuit Inc.</p>
+<p>2700 Coast Avenue</p>
+<p>Mountain View, CA 94043</p>
+<p>USA</p>
+<p>Wenn Sie das Anmeldeformular auf dieser Website absenden, wird Ihre E-Mail-Adresse an die Anmeldeseite von Mailchimp übermittelt, auf der Sie die Anmeldung abschließen. Die Anmeldung erfolgt im Double-Opt-in-Verfahren: Sie erhalten nach der Anmeldung eine E-Mail, in der Sie Ihre Anmeldung bestätigen müssen. Erst nach dieser Bestätigung erhalten Sie den Newsletter. Dies dient dem Nachweis, dass die Anmeldung tatsächlich durch Sie erfolgt ist.</p>
+<p>Bei Mailchimp gespeichert werden Ihre E-Mail-Adresse, der Zeitpunkt der Anmeldung und der Bestätigung sowie Ihre IP-Adresse. Mailchimp kann die Daten des Newsletter-Versands zudem statistisch auswerten, insbesondere dahingehend, ob eine Nachricht geöffnet und welche Links darin aufgerufen wurden.</p>
+<p>Die Datenverarbeitung erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Sie können diese Einwilligung jederzeit widerrufen, indem Sie den Newsletter abbestellen. Dazu finden Sie in jeder Newsletter-E-Mail einen entsprechenden Link. Alternativ genügt eine Nachricht an science@eco-compute.io. Die Rechtmäßigkeit der bis zum Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.</p>
+<p>Die von Ihnen zum Zwecke des Newsletter-Bezugs hinterlegten Daten werden von uns bis zu Ihrer Abmeldung aus dem Newsletter gespeichert und nach der Abmeldung sowohl von unseren Servern als auch von den Servern von Mailchimp gelöscht. Daten, die zu anderen Zwecken bei uns gespeichert wurden, bleiben hiervon unberührt.</p>
+<p>Die Datenübermittlung in die USA erfolgt auf Grundlage der Standardvertragsklauseln der EU-Kommission. Wir haben mit dem Anbieter einen Vertrag über Auftragsverarbeitung („Data Processing Agreement“) geschlossen.</p>
+<p>Näheres entnehmen Sie den Datenschutzbestimmungen von Mailchimp unter <a href="https://www.intuit.com/privacy/statement/">https://www.intuit.com/privacy/statement/</a>.</p>
+
 <p>Tool das bei der Erstellung mitgeholfen hat: https://www.e-recht24.de</a></p>

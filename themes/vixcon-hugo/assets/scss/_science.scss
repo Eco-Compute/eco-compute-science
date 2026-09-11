@@ -5,7 +5,14 @@
 
 /* brand ------------------------------------------------------------------ */
 
+/* The wordmark stacks: "ecoCompute" on the first line, "Science" below it. */
+.navbar-brand {
+  display: inline-block;
+  line-height: 1.1;
+}
+
 .navbar-brand .science {
+  display: block;
   font-weight: 300;
   color: $primary-color;
 }
@@ -111,6 +118,63 @@
 
   &:hover {
     color: $black;
+  }
+}
+
+/* announcement list ------------------------------------------------------ */
+
+/* Deliberately self-contained: it keeps the standard .section padding (90px) so
+   it reads correctly wherever it sits in the page order, and does not depend on
+   which section happens to precede it. */
+
+/* The page's card treatment, as used by .status-card. White rather than
+   $gray-light, because the band below it is light grey and a grey card on grey
+   loses its edges. */
+.newsletter-card {
+  background: $white;
+  border-top: 4px solid $primary-color;
+  padding: 32px;
+
+  h3 {
+    text-transform: none;
+  }
+}
+
+.newsletter-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+
+  /* The field takes the space the button does not; both sit on one line in the
+     column and wrap only on the narrowest screens. */
+  .form-control {
+    height: 51px;
+    flex: 1 1 180px;
+    min-width: 0;
+    border-color: $border-color;
+  }
+
+  .btn {
+    flex: 0 0 auto;
+  }
+}
+
+.newsletter-note {
+  font-size: 13px;
+  line-height: 1.6;
+  margin-top: 14px;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+/* The card's columns stack at Bootstrap's lg breakpoint (991px), below which the
+   form needs air above the copy it no longer sits beside. */
+@include desktop {
+  .newsletter-form {
+    margin-top: 24px;
   }
 }
 
