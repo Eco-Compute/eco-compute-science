@@ -8,7 +8,7 @@ image : "images/teams/hagen-pfeifer.webp"
 company: "Rohde & Schwarz"
 designation : "Chief Software Architect"
 type : "speaker"
-outdated: false
+outdated: true
 
 # social:
 #   # social site loop

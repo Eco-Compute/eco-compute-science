@@ -8,7 +8,7 @@ image : "images/teams/sarah-indra-jungblut.webp"
 company: "RESET - Digital for Good"
 designation : "Redakteurin"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Sarah-Indra Jungblut arbeitet als freie Redakteuerin in Berlin und hat sich schon früh auf die Schnittstelle Nachhaltigkeit und Digitalisierung fokussiert. 

@@ -12,7 +12,7 @@ talk_date: "14.11.2025 11:05"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/02_Friday/02_DIM/04_Mohammadi_CO2_Challenge.pdf"
-outdated: false
+outdated: true
 ---
 
 The CO2 Challenge is a lighthouse campaign run by the CyberForum in Karlsruhe. IT and software companies from the region have committed to reducing their software's emissions by 40%.

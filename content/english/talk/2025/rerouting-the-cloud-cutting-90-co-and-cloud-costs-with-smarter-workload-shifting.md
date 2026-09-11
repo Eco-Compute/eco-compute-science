@@ -12,7 +12,7 @@ talk_date: "13.11.2025 11:50"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/02_DIM/06_Williams_CarbonRunner.pdf"
-outdated: false
+outdated: true
 ---
 
 In this session, we’ll show how CarbonRunner shifts compute workloads in real-time to regions with the lowest CO₂ intensity—cutting emissions by up to 90%, reducing cloud costs, and improving resilience without disrupting developer workflows.

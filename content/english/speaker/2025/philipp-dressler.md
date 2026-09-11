@@ -8,7 +8,7 @@ image : "images/teams/philipp-dressler.webp"
 company: "Storm Reply"
 designation : "Consultant"
 type : "speaker"
-outdated: false
+outdated: true
 
 
 ---

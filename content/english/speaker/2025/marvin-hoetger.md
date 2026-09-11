@@ -8,7 +8,7 @@ image : "images/teams/marvin-hoetger.webp"
 company: "Mittwald"
 designation : "Sustainability Manager"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 As sustainability manager, my goal is not only to practice sustainability internally, but also to firmly anchor it in our products. Hosting can have a large ecological footprint, and this is exactly where we come in. From energy-efficient measures in the data center to regional projects and our mobility concept.

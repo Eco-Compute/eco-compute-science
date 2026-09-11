@@ -8,7 +8,7 @@ image : "images/teams/edouard-guegain.webp"
 company: "Greenspector"
 designation : "Software Sustainability Researcher"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Édouard Guégain is a researcher specializing in sustainable and energy-efficient software engineering. At Greenspector, he focuses on developing methods and tools to evaluate and reduce the environmental impact of digital services. His work supports organizations in integrating energy and resource efficiency into their development processes, using practical measurement frameworks to guide more sustainable software practices.

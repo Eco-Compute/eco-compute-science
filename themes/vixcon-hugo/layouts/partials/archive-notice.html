@@ -1,0 +1,12 @@
+{{/*
+  ARCHIVE NOTICE
+  Shown on every page that belongs to a past ecoCompute conference (2024, 2025).
+  Those pages are kept for reference only; the current venue is ecoCompute Science.
+*/}}
+{{ if eq .Page.Params.outdated true }}
+    <div class="ui warning message">
+        <h2 class="header">Archived content</h2>
+        <p>This page documents a past <strong>ecoCompute conference</strong>. It is kept online for reference and is not being updated.<br>
+        The archive of all previous conferences is at <a href="/previous-years/" style="font-weight: bold; text-decoration: underline;">Previous years</a>. Our current venue is <a href="/" style="font-weight: bold; text-decoration: underline;">ecoCompute Science</a>.</p>
+    </div>
+{{ end }}

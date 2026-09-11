@@ -12,7 +12,7 @@ talk_date: "13.11.2025 10:15"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/03_Community/04_Soldo_Paint_It_Green.pdf"
-outdated: false
+outdated: true
 ---
 
 As AI systems become more powerful and widespread, so does their environmental impact, with energy consumption from model training and inference reaching unprecedented levels. At the heart of most modern AI infrastructure lies Kubernetes—the de facto standard for orchestrating workloads in cloud-native environments.

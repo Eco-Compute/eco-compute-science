@@ -11,7 +11,7 @@ talk_room: "Software & Hardware (So-Ha)"
 talk_date: "14.11.2025 12:00"
 type : "talk"
 duration: "30 Minutes"
-outdated: false
+outdated: true
 ---
 
 Die Green Software Initiative würdigt die wirkungsvollsten Aktivitäten und Maßnahmen,

@@ -16,7 +16,7 @@ talk_date: "13.11.2025 10:55"
 type : "talk"
 duration: "50 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/02_DIM/05_Smolinski_Groeger_Methods_to_determine_the_environmental_footprint_of_software.pdf"
-outdated: false
+outdated: true
 ---
 
 This dual presentation introduces life cycle assessment for software and offers a perspective on how environmental claims for digital services can be standardised. Bosch has developed a comprehensive method for determining the ecological footprint of software products, systems and services throughout their entire life cycle based on existing standards and best practices. They also have applied it to some of their products and present qualitative results. In parallel, Öko-Institut has developed a method in the research project eco:digit for assessing software in shared IT infrastructures. For example, in the cloud, in virtual machines or in software containers. For this purpose, allocation rules have been developed to distribute the total hardware requirements across individual software applications. The approaches presented are currently being incorporated into the standardisation process, which will then enable transparent and uniformly calculated environmental impact statements.

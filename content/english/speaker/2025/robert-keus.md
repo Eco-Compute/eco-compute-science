@@ -8,7 +8,7 @@ image: "images/teams/robert-keus.webp"
 company: "Green PT / Brthrs Agency"
 designation : "Founder"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Robert Keus is a Dutch entrepreneur and AI strategist with a mission to make technology more

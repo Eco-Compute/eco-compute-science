@@ -8,7 +8,7 @@ image : "images/teams/anne-mollen.webp"
 company: "University of Münster"
 designation : "Postdoc Researcher"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Dr. Anne Mollen conducts research on automation, algorithms and "Artificial Intelligence" at the Institute of Communication Studies at the University of Münster. 

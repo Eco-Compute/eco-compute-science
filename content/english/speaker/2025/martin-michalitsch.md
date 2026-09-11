@@ -8,7 +8,7 @@ image : "images/teams/martin-michalitsch.webp"
 company: "Wien IT"
 designation : "Innovation Manager"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Martin Michalitsch ist Innovationsmanager bei WienIT mit Fokus auf nachhaltige Digitalisierung.

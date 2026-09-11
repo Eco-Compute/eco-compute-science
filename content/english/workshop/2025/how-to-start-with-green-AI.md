@@ -7,7 +7,7 @@ room: "Seminar Room 2 - Downstairs"
 bg_image : "images/bg/cta-bg.webp"
 type: "workshop"
 icon: "tf-ion-help-circled"
-outdated: false
+outdated: true
 workshop_host: "Florian Bartling / Philipp Dressler"
 workshop_host_details: "speaker/2025/florian-bartling/"
 workshop_host_details_2: "speaker/2025/philipp-dressler/"

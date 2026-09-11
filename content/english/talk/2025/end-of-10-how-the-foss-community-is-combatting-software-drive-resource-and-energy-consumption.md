@@ -20,7 +20,7 @@ talk_date: "13.11.2025 14:20"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/03_Community/09_Geiss_endof10.pdf"
-outdated: false
+outdated: true
 ---
 
 The end of free support for Windows 10 was 14 October 2025. Well, sort of. Microsoft moved the date to 2026, one more year the FOSS community can introduce users to sustainable software. 14 October is also KDE's birthday, International E-Waste Day, with International Repair Day following on 18 October. The irony is deep, but what is not ironic is that millions of functioning computers will end up becoming security risks or discarded as e-waste. This means manufacturing and transporting new ones, the biggest waste of all: hardware production accounts for over 75% of a device's CO2 emissions over its lifespan.

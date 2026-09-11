@@ -8,7 +8,7 @@ image : "images/teams/thomas-fricke.webp"
 company: "Freelance"
 designation : "Cloud Security Architect"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Cloud security architect with a background as physicist.

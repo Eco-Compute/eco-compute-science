@@ -12,7 +12,7 @@ talk_date: "13.11.2025 10:55"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/03_Community/05_Oliveira.pdf"
-outdated: false
+outdated: true
 ---
 
 This session approaches open source as a socio-technical-ecological system, where sustainable digital infrastructure means addressing exploitative practices at every level. An open-source project can only be considered healthy when the people who maintain it are supported rather than exhausted, and when its design choices reduce extraction and waste instead of accelerating them. Robust and transparent infrastructures emerge when ecological limits and human well-being are treated as interconnected conditions for technology that lasts. Public investment is decisive. The Sovereign Tech Agency is a public-sector initiative that strategically funds foundational open-source digital infrastructures globally. This talk will introduce the Agency, outline the projects we invest in, and show how strengthening these core infrastructures contributes to sustainability.

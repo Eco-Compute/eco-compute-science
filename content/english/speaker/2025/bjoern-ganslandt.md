@@ -8,7 +8,7 @@ image : "images/teams/bjoern-ganslandt.webp"
 company: "-"
 designation : "Frontend Developer"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Björn Ganslandt is a freelance frontend developer based in Vienna. He likes to create websites that are fast, accessible and sustainable and works with clients in the health and sustainablility sectors.

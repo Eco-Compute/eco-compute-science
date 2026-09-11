@@ -8,7 +8,7 @@ image : "images/teams/jan-kirchner.webp"
 company: "envite consulting"
 designation : "Software Engineer"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 I am a Fullstack Software Engineer with a mission to deliver impactful products through high-quality, maintainable software. Specialized in web technologies, particularly React and Typescript, I enjoy crafting solutions that combine both technical excellence and user value. I'm passionate about sustainability, driven by the urgency of the climate crisis. As I expand my expertise in Green IT, I am exploring sustainable software practices and aim to integrate these principles into my projects.

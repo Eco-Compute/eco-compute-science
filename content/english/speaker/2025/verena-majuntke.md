@@ -8,7 +8,7 @@ image : "images/teams/verena-majuntke.webp"
 company: "HTW Berlin"
 designation : "Professor - Software Engineering"
 type : "speaker"
-outdated: false
+outdated: true
 
 # social:
 #   # social site loop

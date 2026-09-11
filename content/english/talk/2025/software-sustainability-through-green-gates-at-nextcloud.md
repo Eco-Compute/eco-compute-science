@@ -12,7 +12,7 @@ talk_date: "14.11.2025 09:55"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/02_Friday/01_SoHa/02_Karlitschek_Nextcloud.pdf"
-outdated: false
+outdated: true
 ---
 
  For Nextcloud, full transparency – both in data handling and sustainability – is a guiding principle. This year, the company became the first cloud software provider to receive the Blauer Engel certification for environmentally friendly digital infrastructure.

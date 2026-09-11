@@ -1,32 +1,83 @@
-# eco-compute.io
+# ecoCompute Science
 
-We are using the theme: Vixcon.
+Website for **ecoCompute Science**, a peer-reviewed, artifact-first venue for resource aware
+computing. Summer 2027, online.
 
-Documentation is to be found here: https://docs.gethugothemes.com/vixcon/installation/
+The site also hosts the archive of the former **ecoCompute conference** (Munich 2024, Berlin
+2025) under `/previous-years`.
 
-## Buildung
+Built with [Hugo](https://gohugo.io/) using a heavily modified version of the *Vixcon* theme
+(<https://docs.gethugothemes.com/vixcon/installation/>).
 
-Just do `hugo`
+## Building
 
-No `npm` packages or similar need to be installed
+```bash
+hugo            # build into ./public
+hugo server     # local preview on http://localhost:1313
+```
 
-## Local editing
+No `npm` packages need to be installed. Deployment happens from `main` via
+`.github/workflows/hugo.yml`.
 
-Just do `hugo server`
+## Where to edit what
 
-Different to normal *HUGO* sites most of the editing happens in the `*.yml` files. For instance the pricing details are editied in the https://github.com/Eco-Compute/eco-compute.io/blob/main/data/en/pricing.yml file and not in the https://github.com/Eco-Compute/eco-compute.io/blob/main/content/english/pricing/_index.md file.
+Most editing happens in YAML data files, not in Markdown.
 
-Also, for stuff that is displayed on the landing page, most stuff is done via https://github.com/Eco-Compute/eco-compute.io/blob/main/data/en/homepage.yml
+| What | Where |
+| --- | --- |
+| The whole landing page | `data/en/homepage.yml` |
+| FAQ entries | `data/en/faq.yml` |
+| The conference archive index | `data/en/previous_years.yml` |
+| Archived 2024/2025 schedule | `data/en/schedule.yml` |
+| Navigation, site title, contact address, analytics domain | `config.toml` |
+| About, Call for Papers, Artifacts, Review & Publication, Code of Conduct, legal | `content/english/*.md` |
 
-For all other and global config the https://github.com/Eco-Compute/eco-compute.io/blob/main/config.toml is used as usual
+The landing page template is `themes/vixcon-hugo/layouts/index.html`. It reads
+`data/en/homepage.yml` section by section, and every section has an `enable` flag.
 
-## Pictures from
+Venue specific styling lives in `themes/vixcon-hugo/assets/scss/_science.scss`, which is
+imported **last** from `style.scss` so that it wins over the generic theme rules above it.
 
-- https://www.pexels.com/photo/photo-of-people-sitting-on-chairs-3321789/
-- https://www.pexels.com/photo/women-sitting-on-chairs-inside-a-room-3719037/
+## Things that still need filling in
+
+These are deliberately marked as open on the site rather than faked:
+
+- Submission dates, and the submission system itself (`content/english/call-for-papers.md`)
+- The journal hosting stage two publication (`data/en/homepage.yml`, `status:` block)
+- The second, industry and impact track
+- Programme committee and artifact evaluation committee members
+- Named Code of Conduct contacts (`content/english/code-of-conduct.md`)
+- **A photo of Anna-Lena Lamprecht.** `static/images/teams/anna-lena-lamprecht*.webp`
+  is currently a monogram placeholder reading "photo to follow". Replace the three
+  files with a square portrait at 900x900 (`-900.webp`), 450x450 (`-450.webp`) and
+  the base `anna-lena-lamprecht.webp`, and the organisers grid picks it up with no
+  template change. The other two organisers use their photos from the 2025
+  conference.
+- Submission system, video platform and LLM provider in the privacy policy
+  (`content/english/datenschutz.md`)
+
+## The archive
+
+Everything under `/previous-years`, `/schedule/{2024,2025}`, `/speakers/*`, `/talks/*` and
+`/workshops/*` belongs to the old in-person conference. Those pages carry
+`outdated: true` in their front matter, which renders the banner in
+`themes/vixcon-hugo/layouts/partials/archive-notice.html`.
+
+Do not add new content there.
 
 ## Redirects
 
-Please note that the magic `_redirects` file must be in the file `/public` directory.
+`static/_redirects` is copied into `public/` on build and maps the old conference URLs
+(tickets, sponsoring, grants, ...) onto the archive. Note that this file is only honoured by
+Cloudflare Pages, not by GitHub Pages.
 
-One hack to achieve this is to put it in the `/static` dir, as this will be copied over on build
+## Link checking
+
+With `hugo server` running:
+
+```bash
+python3 check_404.py
+```
+
+`/speaker/<name>/` results are expected: they are handled by `static/_redirects` in
+production, which the local server does not apply.

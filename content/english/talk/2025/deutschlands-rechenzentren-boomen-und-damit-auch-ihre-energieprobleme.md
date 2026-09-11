@@ -12,7 +12,7 @@ talk_date: "14.11.2025 09:55"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/02_Friday/03_Community/02_Jungblut_DC_DE_AW_Ecocompute.pdf"
-outdated: false
+outdated: true
 ---
 
 Im allgemeinen FOMO, im KI-Wettstreit abgehängt zu werden, wird überall auf der Welt massiv Rechenleistung ausgebaut. Die Entwicklungen in den USA sind am drastischsten, aber auch in Europa treiben Unternehmen und Regierungen massiv den Ausbau neuer, großer Rechenzentren voran. Die EU verfolgt mit Milliardeninvestitionen die Vision, ein KI-Kontinent zu werden. Doch der Boom der KI-Infrastruktur in Deutschland zeigt schon jetzt die Grenzen von Energie und Infrastruktur in vielen Regionen. 

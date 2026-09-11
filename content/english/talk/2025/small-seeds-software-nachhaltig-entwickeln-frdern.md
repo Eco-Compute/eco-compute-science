@@ -11,7 +11,7 @@ talk_room: "Community Track"
 talk_date: "14.11.2025 11:35"
 type : "talk"
 duration: "25 Minutes"
-outdated: false
+outdated: true
 ---
 
 Software nachhaltig gestalten: Damit ist nicht (nur) gemeint, dass Software mit Klimazielen im Kopf gebaut werden sollte, denn auch das Ökosystem von Freier und Open-Source Software braucht unsere Hege und Pflege – aber wie?

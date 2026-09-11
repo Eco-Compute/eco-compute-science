@@ -12,7 +12,7 @@ talk_date: "13.11.2025 12:20"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/02_DIM/07_Haymoz_Matthias_Flying_Blind.pdf"
-outdated: false
+outdated: true
 ---
 
 Datacenters are the backbone of the digital world – and one of the fastest-growing energy consumers. By 2030, their electricity demand is expected to more than double, with emissions projected to reach 2.5 billion tons of CO₂.

@@ -12,7 +12,7 @@ talk_date: "13.11.2025 11:50"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/03_Community/06_Kersting_Open_Source_im_Vorteil_Blauer_Engel.pdf"
-outdated: false
+outdated: true
 ---
 
 Der Anteil der CO2-Emissionen durch IT nimmt weltweit exponentiell zu. Verantwortlich dafür ist zum Großteil Software – von uns entwickelt.

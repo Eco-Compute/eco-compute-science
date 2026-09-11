@@ -121,6 +121,7 @@ Responsive
 @import "responsive.scss";
 
 
+
 /* Custom Styles Green Coding*/
 
 .navbar-brand img{
@@ -407,3 +408,10 @@ h3#track-1, h3#track-2, h3#track-1---talks-only, h3#track-2---talks--workshops {
 .partner-info-text {
     color: #fff;
 }
+
+
+/*-------------------------------
+ecoCompute Science
+Imported last so it overrides the generic theme and custom styles above.
+-------------------------------*/
+@import "science.scss";

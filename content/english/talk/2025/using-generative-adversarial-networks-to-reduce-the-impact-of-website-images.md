@@ -12,7 +12,7 @@ talk_date: "13.11.2025 14:20"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/02_DIM/09_Winks_Generative_Networks.pdf"
-outdated: false
+outdated: true
 ---
 
 Images constitute a significant portion of data transfer between end-user devices and servers on many websites, while simultaneously driving the energy consumption of display screens - often the most power-intensive component in end-user devices.

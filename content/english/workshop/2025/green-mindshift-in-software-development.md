@@ -7,7 +7,7 @@ room: Community Track Room, Downstairs
 bg_image : "images/bg/cta-bg.webp"
 type: "workshop"
 icon: "tf-genius"
-outdated: false
+outdated: true
 workshop_host: "Prof. Dr. Verena Majuntke / Anita Schüttler"
 workshop_host_details: "speaker/2025/verena-majuntke/"
 workshop_host_details_2: "speaker/2025/anita-schuettler/"

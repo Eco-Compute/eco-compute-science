@@ -1,6 +1,10 @@
 {{ define "main" }}
 
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index hugo.Data .Site.Language.Lang }}
+
+<section class="section pb-0">
+    <div class="container"><div class="content">{{ .Content }}</div></div>
+</section>
 
 {{ with $data.previous_years }}
     {{ range .previous_years }}
@@ -24,8 +28,6 @@
     {{ end }}
 {{ end }}
 
-<section class="section confernce-images">
-    <div class="container">{{ .Content }}</div>
-</section>
+
 
 {{ end }}

@@ -8,7 +8,7 @@ image : "images/teams/amael-parreaux-ey.webp"
 company: "Resilio"
 designation : "CEO"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Amael's ambition to put numbers in action: How can we assess the environmental footprint of projects and systems to drive action?

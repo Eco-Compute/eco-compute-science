@@ -8,7 +8,7 @@ image : "images/teams/arne-tarara.webp"
 company: "Green Coding Solutions GmbH"
 designation : "CEO & Software Developer"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Arne is the CEO for the the Berlin based Green Software company Green Coding Solutions GmbH. 

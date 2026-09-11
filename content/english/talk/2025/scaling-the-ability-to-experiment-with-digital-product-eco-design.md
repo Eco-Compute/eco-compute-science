@@ -12,7 +12,7 @@ talk_date: "14.11.2025 09:55"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/02_Friday/02_DIM/02_Parreaux-Ey.pdf"
-outdated: false
+outdated: true
 ---
 
 To scale eco-design practices across large teams, we will see how a large aircraft industry leader offers a self-guided experiment framework.

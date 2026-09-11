@@ -12,7 +12,7 @@ talk_date: "13.11.2025 11:50"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/01_SoHa/06_ganslandt.pdf"
-outdated: false
+outdated: true
 ---
 
 As we strive for a more sustainable web, a lot of focus is on energy usage. This makes perfect sense in data centers, where servers run non-stop, but if we shift our focus to the end-user, embodied carbon emitted during manufacture of devices starts to make up a much larger percentage of total emissions. To address this we need to develop web-sites to work well on older devices. This is especially pressing on mobile devices, where older hardware can be very limited in processing power, memory and battery capacity.

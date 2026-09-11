@@ -7,9 +7,9 @@ room: "Community Space"
 bg_image : "images/bg/cta-bg.webp"
 type : "workshop"
 icon: "tf-tools-2"
-outdated: false
+outdated: true
 workshop_host: "Bits & Bäume"
-workshop_host_details: "speaker/2025/bits-und-baeume/"
+workshop_host_details: "https://bits-und-baeume.org/"
 workshop_host_image : "images/clients/bits-und-baeume.webp"
 
 ---
@@ -35,7 +35,7 @@ workshop_host_image : "images/clients/bits-und-baeume.webp"
 <img src="/{{< param workshop_host_image >}}" alt="{{< param workshop_host >}}" class="img-fluid rounded-circle" style="width: 100px;" loading="lazy">
 <p>
     <b class="mb-0 mt-3">{{< param workshop_host >}}</b><br>
-    <u><a href="/{{< param workshop_host_details >}}">Details about the workshop host</a></u>
+    <u><a href="{{< param workshop_host_details >}}">Details about the workshop host</a></u>
 </p>
 
 ---

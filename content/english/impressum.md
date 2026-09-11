@@ -1,12 +1,12 @@
 ---
 title: "Impressum"
-date: 2019-09-10T13:51:25+06:00
+date: 2026-09-10T09:00:00+02:00
 draft: false
 description: "Impressum"
 bg_image : "images/bg/cta-bg.webp"
 ---
 
-## Haupt-Veranstalter und inhaltlich verantwortlicher
+## Veranstalter und inhaltlich Verantwortlicher
 
 Green Coding Solutions GmbH\
 Jablonskistr. 24\

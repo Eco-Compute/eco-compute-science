@@ -8,7 +8,7 @@ image: "images/teams/paul-robben.webp"
 company: "Prototype Fund / Open Knowledge Foundation Deutschland e.V."
 designation : "Communications"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Paul arbeitet beim Prototype Fund der Open Knowledge Foundation Deutschland e.V. Er hat Mathematik studiert und ist in der Klimagerechtigkeitsbewegung aktiv. Zuvor hat Paul beim BUND e.V. gearbeitet und die Bits & Bäume Konferenz 2022 organisiert.

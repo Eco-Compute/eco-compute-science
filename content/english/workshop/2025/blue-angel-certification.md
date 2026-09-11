@@ -7,7 +7,7 @@ room: Seminar Room 1 - Downstairs
 bg_image : "images/bg/cta-bg.webp"
 type : "workshop"
 icon: "tf-ion-android-document"
-outdated: false
+outdated: true
 workshop_host: "Arne Tarara"
 workshop_host_details: "speaker/2025/arne-tarara/"
 workshop_host_image : "images/teams/arne-tarara-small.webp"

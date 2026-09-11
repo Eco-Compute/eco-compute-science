@@ -8,7 +8,7 @@ image : "images/teams/oleksiy-kozlov.webp"
 company: "Staff scientist, Sustainable Computing Advisor"
 designation : "HITS gGmbH"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Oleksiy Kozlov is a Staff Scientist at the Heidelberg Institute for Theoretical Studies (HITS) in Germany. His research focuses on high performance computing, parallel algorithms, and evolutionary bioinformatics, Since 2023, he is also serving as a Sustainable Computing Advisor at HITS.

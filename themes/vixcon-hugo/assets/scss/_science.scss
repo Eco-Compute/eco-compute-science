@@ -1,0 +1,260 @@
+/* ---------------------------------------------------------------------------
+   ecoCompute Science
+   Styles for the landing page and the venue specific components.
+   --------------------------------------------------------------------------- */
+
+/* brand ------------------------------------------------------------------ */
+
+.navbar-brand .science {
+  font-weight: 300;
+  color: $primary-color;
+}
+
+/* "ecoCompute Science" is a longer wordmark than "ecoCompute" was. The theme's
+   40px is kept wherever it fits; below the navbar's own breakpoint it has to
+   shrink or it runs off the screen. */
+@include desktop {
+  .navbar-brand {
+    font-size: 30px;
+  }
+}
+
+@include tablet-xs {
+  .navbar-brand {
+    font-size: 24px;
+  }
+}
+
+@include mobile-xs {
+  .navbar-brand {
+    font-size: 20px;
+  }
+}
+
+/* banner ----------------------------------------------------------------- */
+
+/* The theme's own .section-banner treatment is kept as it is: the photo, the
+   100px wordmark, the left aligned text column. Only the pieces the new hero
+   adds are styled here. */
+
+.section-banner .banner-content .science {
+  color: $primary-color;
+  font-weight: 100;
+}
+
+.banner-lead {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 520px;
+  margin-bottom: 0;
+
+  p {
+    margin-bottom: 0;
+  }
+
+  strong {
+    color: $primary-color;
+  }
+}
+
+.banner-buttons .btn {
+  box-shadow: none;
+}
+
+/* markdown rendered blocks ------------------------------------------------ */
+
+.rich-text {
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  strong {
+    color: $black;
+  }
+}
+
+/* status cards ----------------------------------------------------------- */
+
+.status-card {
+  background: $white;
+  border-top: 4px solid $primary-color;
+  padding: 32px;
+
+  .status-card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  h4 {
+    text-transform: none;
+  }
+}
+
+.status-pill {
+  background: $primary-color;
+  color: $white;
+  border-radius: 60px;
+  padding: 5px 16px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.status-link {
+  color: $primary-color;
+  font-weight: 600;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+/* what we want to see ---------------------------------------------------- */
+
+.wanted-item {
+  background: $gray-light;
+  border-left: 4px solid $primary-color;
+  padding: 28px 30px;
+
+  h4 {
+    text-transform: none;
+  }
+}
+
+/* event format ----------------------------------------------------------- */
+
+.format-item {
+  background: $white;
+  padding: 30px;
+  box-shadow: 0 15px 38px 0 rgba(0, 0, 0, 0.06);
+
+  i {
+    font-size: 42px;
+    color: $primary-color;
+  }
+
+  h4 {
+    text-transform: none;
+    font-size: 19px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* process ---------------------------------------------------------------- */
+
+.process-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: flex;
+    gap: 28px;
+    padding: 0 0 34px 0;
+    position: relative;
+
+    &:not(:last-child):before {
+      content: "";
+      position: absolute;
+      left: 27px;
+      top: 60px;
+      bottom: 6px;
+      width: 2px;
+      background: $border-color;
+    }
+
+    @include mobile {
+      gap: 16px;
+    }
+  }
+}
+
+.process-step {
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: $primary-color;
+  color: $white;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.process-body {
+  h4 {
+    text-transform: none;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* open questions --------------------------------------------------------- */
+
+.open-question {
+  border-bottom: 1px solid $border-color;
+  padding: 26px 0;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  h4 {
+    text-transform: none;
+    color: $primary-color;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* long form content pages ------------------------------------------------ */
+
+.content {
+  h2 {
+    margin-top: 46px;
+    margin-bottom: 18px;
+    text-transform: none;
+  }
+
+  h3 {
+    margin-top: 32px;
+    margin-bottom: 14px;
+    text-transform: none;
+    font-size: 21px;
+  }
+
+  ul,
+  ol {
+    margin-bottom: 20px;
+
+    li {
+      margin-bottom: 8px;
+    }
+  }
+
+  blockquote {
+    border-left: 4px solid $primary-color;
+    background: $gray-light;
+    padding: 20px 26px;
+    margin: 26px 0;
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

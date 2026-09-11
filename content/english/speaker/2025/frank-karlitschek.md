@@ -7,7 +7,7 @@ image : "images/teams/frank-karlitschek.webp"
 company: "Nextcloud GmbH"
 designation : "CEO"
 type : "speaker"
-outdated: false
+outdated: true
 
 
 ---

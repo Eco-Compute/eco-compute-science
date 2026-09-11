@@ -8,7 +8,7 @@ image : "images/teams/benoit-petit.webp"
 company: "Hubblo"
 designation : "Co-Founder"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 I'm on of the co-founders of Hubblo a study office specialized in environmental effects of the Tech industry.

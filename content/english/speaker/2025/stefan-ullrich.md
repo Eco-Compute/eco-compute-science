@@ -8,7 +8,7 @@ image : "images/teams/stefan-ullrich.webp"
 company: "Weizenbaum Institut"
 designation : "Associate Researcher"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Stefan Ullrich ist assoziierter Forscher am Weizenbaum-Institut für die vernetzte Gesellschaft und Mitglied des Trägerkreises der Bits & Bäume. Er beschäftigt sich seit 2009 mit Fragen rund um Informatik.

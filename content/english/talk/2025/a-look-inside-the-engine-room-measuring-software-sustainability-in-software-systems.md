@@ -12,7 +12,7 @@ talk_date: "14.11.2025 11:35"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/02_Friday/01_SoHa/05_Buss.pdf"
-outdated: false
+outdated: true
 ---
 
 How can the environmental impacts of software systems be measured? As part of a research project at adesso, a software prototype is being developed to measure environmental aspects such as Global Warming Potential (GWP), water consumption, cumulative energy demand (CED), resource depletion (ADP), toxicity (TOX), and electronic waste (WEEE). The development team provides practical insights into which approaches are already working, the challenges they face, and the next steps planned.

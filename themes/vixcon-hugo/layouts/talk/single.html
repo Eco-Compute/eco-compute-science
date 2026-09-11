@@ -1,15 +1,9 @@
 {{ define "main" }}
 
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index hugo.Data .Site.Language.Lang }}
 
 
-{{ if eq .Page.Params.outdated true  }}
-    <div class="ui warning message">
-        <h2 class="header">Warning! - Outdated content</h2>
-        <p>You are watching a talk for a previous year!<br>
-        Please find the most current talks under: <a href="/talks/{{ now.Year }}" style="font-weight: bold; text-decoration: underline;">Current talks</a></p>
-    </div>
-{{ end }}
+{{ partial "archive-notice.html" . }}
 
 
 <section class="speaker-single section">
@@ -31,7 +25,7 @@
       <div class="col-lg-10 col-md-7">
         <div class="speaker-single-wrap">
             <h2>Talk Infos</h2>
-            <div><span class="text-color">Speaker:</span>  <a href="{{ absURL .Params.speaker_link }}">{{.Params.speaker_name  }}</a></div>
+            <div><span class="text-color">Speaker:</span>  <a href="{{ if strings.HasPrefix .Params.speaker_link "http" }}{{ .Params.speaker_link }}{{ else }}{{ absURL .Params.speaker_link }}{{ end }}">{{.Params.speaker_name  }}</a></div>
             <div><span class="text-color">Company affiliation:</span> {{ .Params.speaker_company }}</div>
             {{ if .Params.speaker_2_name }}
             <br>

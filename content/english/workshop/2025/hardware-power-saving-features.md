@@ -7,7 +7,7 @@ room: "bUm Box, Upstairs"
 bg_image : "images/bg/cta-bg.webp"
 type : "workshop"
 icon: "tf-tools-2"
-outdated: false
+outdated: true
 workshop_host: "Hagen Pfeifer"
 workshop_host_details: "speaker/2025/hagen-pfeifer/"
 workshop_host_image : "images/teams/hagen-pfeifer-small.webp"

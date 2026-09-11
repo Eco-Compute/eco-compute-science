@@ -8,7 +8,7 @@ image : "images/teams/anita-schuettler.webp"
 company: "neuland - Büro für Informatik GmbH"
 designation : "Head of Sustainability"
 type : "speaker"
-outdated: false
+outdated: true
 
 ---
 

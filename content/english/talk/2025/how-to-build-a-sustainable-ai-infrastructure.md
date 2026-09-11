@@ -15,7 +15,7 @@ talk_date: "13.11.2025 13:50"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/01_SoHa/08_Keus_GreenPT.pdf"
-outdated: false
+outdated: true
 ---
 
 Artificial intelligence (AI) technologies, particularly advanced models such as generative AI, are known for their substantial energy consumption. This is primarily due to the intensive computational processes required for training and operating these models. The high demand for computational resources, including powerful processors and extensive data storage, contributes to a significant carbon footprint. As AI continues to evolve and integrate into various sectors, addressing its environmental impact has become a critical challenge. In this presentation, we will explain how we have set up an AI provider as sustainably as possible, exploring strategies to efficiency, leverage renewable energy sources, and implement responsible AI practices. By adopting these approaches, we aim to mitigate the environmental impact of AI while still harnessing its transformative potential.

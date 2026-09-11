@@ -8,7 +8,7 @@ image : "images/teams/elise-auvray.webp"
 company: "Scaleway SAS"
 designation : "Product Manager"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 I'm a Product Manager at Scaleway and lead the development of their environmental footprint calculator. This calculator provides real-world usage metrics for cloud infrastructure CO₂ emissions and water consumption. With an engineering degree and technical experience as a former developer, I bring a methodical and practical approach to creating tools that help developers and DevOps teams make informed and sustainable decisions.

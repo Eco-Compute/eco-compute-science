@@ -1,52 +1,67 @@
 ################################# Faq ####################################
 faq:
   title_outline : "Faq"
-  title : "Frequently Asked Question"
-  content : "Please find attached a list of questions we get asked a lot or things we think that should be clarified"
+  title : "Frequently Asked Questions"
+  content : "Questions we get asked a lot about ecoCompute Science, plus a few things we think should be clarified up front."
   faq_item:
-    - title : "Can I sponsor ecoCompute?"
-      content : "Yes, we have limited sponsorship opportunities for the conference. Please see [Sponsoring](/sponsoring)"
+    - title : "Is ecoCompute Science the same thing as the ecoCompute conference?"
+      content : "No. ecoCompute Science is a new, peer-reviewed, artifact-first venue that runs online. The ecoCompute conference was a large in-person engineering conference, held in Munich in 2024 and Berlin in 2025. Because of the overhead of organising an in-person event of that size, there will be no in-person ecoCompute in 2027. The old material stays online in the <u>[archive](/previous-years)</u>."
 
-    - title : "How can I apply to speak at ecoCompute?"
-      content : "Please see our call for [speakers page](/call-for-speakers/)"
+    - title : "When and where is it?"
+      content : "Summer 2027, online, European timezone. There is no venue. Exact dates will be announced on this site."
 
-    - title : "Are refunds available for valid reason?"
-      content : "Please contact us under info@eco-compute.io to discuss details"
+    - title : "What exactly do I submit?"
+      content : "Two pages plus a complete, runnable artifact. See the <u>[Call for Papers](/call-for-papers)</u> for the format and <u>[Artifacts](/artifacts)</u> for what the artifact has to contain."
 
-    - title : "How to buy tickets?"
-      content : "You can get a ticket [here](/#pricing)"
+    - title : "Two pages? Really?"
+      content : "Really. The write-up is a map to the artifact, not the evidence itself. Good bullet points are entirely acceptable and prose is not rewarded. The full paper comes later, at stage two, after the event."
 
-    - title : "What language is the conference in?"
-      content : "The conference will be held in German and English. The language in the title will determine the language of the presentation"
+    - title : "Does my artifact have to be on a specific platform?"
+      content : "No. A ZIP file or a container image is fine. What is required is a precise, step-by-step guide that lets a reviewer regenerate your numbers without asking you for help."
 
-    - title : "What is your cancellation policy?"
-      content : "You can cancel your ticket 14 days after purchase and no later than 14 days before the conference."
+    - title : "My work needs special hardware. Can I still submit?"
+      content : "Yes, provided you can give reviewers access to those systems for the review period. Tell us about the hardware requirement when you submit so that we can assign reviewers who can work with it."
 
-    - title : "I can no longer attend.  Can I transfer my registration to a colleague?"
-      content : "Tickets may be transferred to another attendee free of charge up to 7 days before the start of the conference."
+    - title : "Energy measurements are noisy. How can they be reviewed at all?"
+      content : "By stating what is supposed to be stable and within what tolerance. An ordering, a direction or an effect size, plus the variance of your own runs rather than a single mean. A reviewer who reproduces the ordering but not the absolute numbers has reproduced the claim, as long as the claim was stated that way."
 
-    - title : "Do you offer any group discounts?"
-      content : "Companies can inquire for a discount if they want to buy tickets for multiple employees. We do not offer group discounts for multiple individuals though."
+    - title : "What if my artifact does not build on the reviewer's machine?"
+      content : "That is what the kick-the-tires phase is for. The first days of the review period are a setup phase: reviewers report anything that blocks them from starting and you get a short window to fix it. Artifacts should not fail on setup problems."
 
-    - title : "Do we offer any reduced prices or grants?"
-      content : "Yes, we have a <u>[reduced price and grant program](/grants)</u> with limited availability"
+    - title : "Do you accept negative results?"
+      content : "Yes, and we would like more of them. The optimisation that did not pay off, the effect that vanished once you controlled for the noise, the tool that did not measure what it claimed. An artifact-centred venue is the natural home for this."
 
-    - title : "I need help registering, who can I talk to?"
-      content : "info@eco-compute.io"
+    - title : "Do you accept replication studies?"
+      content : "Yes. \"We tried to reproduce X and could not\" is a first-class submission here, not second-tier filler."
 
-    - title : "Will the conference venue be accessible?"
-      content : "Yes"
+    - title : "I have industry data that cannot leave the company. Can I submit?"
+      content : "Possibly, through the planned industry and impact track: a lower bar for reproducibility, a higher bar for applicability, plus a required impact artifact. That track is still being shaped and concrete cases will shape it more than our speculation will, so please <u>[get in touch](/contact)</u>."
 
-    - title : "Will there be childcare?"
-      content : "No, but feel free to bring your children"
+    - title : "Are there talks?"
+      content : "No. The event is discussion only, adapted from the session format used at ICT4S. Each accepted paper gets three sessions, the author takes part in every one, and everybody has read the two-pagers a week in advance."
 
-    - title : "Are animals allowed?"
-      content : "No, except if there is a medical need and you have an official certificate to state this."
+    - title : "Do I have to read the papers before joining a session?"
+      content : "Yes. The two-pagers circulate a week ahead and having read them is a condition of taking part. Groups are capped so that everyone can actually speak, which only works if everyone arrives prepared."
+
+    - title : "Where does the work get published?"
+      content : "In two stages. Stage one is the two-pager plus artifact, reviewed and presented at the event. Stage two is a full paper written afterwards, shepherded by a committee member, and it receives a DOI. The journal hosting stage two is being finalised."
+
+    - title : "Is review single-blind, double-blind or open?"
+      content : "Undecided. Artifacts are very hard to anonymise well, so we have to choose between accepting single-blind review or going fully open. If you have a strong view, tell us."
+
+    - title : "What does it cost to attend?"
+      content : "Undecided. Free registration produces high no-show rates, which is fatal for small capped discussion groups. A small fee, a short application, or an invitation model are all being considered."
+
+    - title : "Can I review?"
+      content : "Yes, please. We are assembling a programme committee and an artifact evaluation committee. <u>[Write to us](/contact)</u> and tell us what you can run and what hardware you have access to."
+
+    - title : "What language is the event in?"
+      content : "English."
 
   ################ support #################
   support:
     enable: true
-    title : "Need Any further Support?"
+    title : "Still have a question?"
     button:
       label : "Contact us"
-      link : "contact"
+      link : "/contact"

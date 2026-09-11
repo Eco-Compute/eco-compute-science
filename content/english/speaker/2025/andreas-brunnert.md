@@ -8,7 +8,7 @@ image : "images/teams/andreas-brunnert.webp"
 company: "RETIT GmbH"
 designation : "Prof. Computer Science / Founder | HM / RETIT GmbH"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Andreas is a professor at the University of Applied Sciences in Munich and founder of RETIT. His work focuses on the efficiency of software systems to address the increasing resource and energy demands of software and data centers.

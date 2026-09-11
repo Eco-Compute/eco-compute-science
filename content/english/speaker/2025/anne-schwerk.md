@@ -8,7 +8,7 @@ image : "images/teams/anne-schwerk.webp"
 company: "IU International University of Applied Sciences / Accenture"
 designation : "Professor for AI and Deputy Head, Department of IT and Engineering / Senior Manager for Trustworthy AI"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Anne Schwerk is Professor of Artificial Intelligence at IU International University of Applied Sciences and Deputy Department Head for IT & Engineering. In parallel, she is a Senior Manager for Trustworthy AI at Accenture, advising on AI governance, risk, and compliance (e.g., EU AI Act) and leading cross-functional initiatives on responsible AI. Her work centers on explainable and trustworthy AI, human-centered evaluation, LLMs and NLP, and data quality for high-stakes applications. 

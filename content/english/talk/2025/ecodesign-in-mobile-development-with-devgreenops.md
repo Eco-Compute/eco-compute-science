@@ -12,7 +12,7 @@ talk_date: "13.11.2025 14:50"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/02_DIM/10_GUEGAIN_ecoCompute2025.pdf"
-outdated: false
+outdated: true
 ---
 
 The environmental impact of mobile devices extends beyond their energy use: the majority of a smartphone’s impact is caused by its manufacturing. Extending the lifespan of battery-powered devices is thus one of the most impactful actions toward digital sustainability.

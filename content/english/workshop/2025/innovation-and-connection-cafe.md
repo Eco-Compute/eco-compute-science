@@ -7,7 +7,7 @@ room: "Main Room"
 bg_image : "images/bg/cta-bg.webp"
 type : "workshop"
 icon: "tf-ion-happy-outline"
-outdated: false
+outdated: true
 workshop_host: "Didi Hoffmann"
 workshop_host_details: "speaker/2025/geerd-dietger-hoffmann/"
 workshop_host_image : "images/teams/didi-hoffmann-small.webp"

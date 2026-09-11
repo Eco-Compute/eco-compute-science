@@ -8,7 +8,7 @@ image : "images/teams/moritz-boelter.webp"
 company: "Lufthansa Industry Solutions"
 designation : "IT Consultant"
 type : "speaker"
-outdated: false
+outdated: true
 
 ---
 

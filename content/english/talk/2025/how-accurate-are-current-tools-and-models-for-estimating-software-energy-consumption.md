@@ -12,7 +12,7 @@ talk_date: "14.11.2025 09:00"
 type : "talk"
 duration: "50 Minutes"
 slide_link: "/files/slides_2025/02_Friday/01_SoHa/01_BrunnerT_How_accurate_are_current_tools_and_models_for_estimating_software_energy_consumption.pdf"
-outdated: false
+outdated: true
 ---
 
 Evaluating the energy consumption of software is inherently complex, as software itself does not consume energy directly; rather, it is the hardware on which it runs that does. Over the past few years, numerous tools and models have emerged to estimate energy consumption at various levels, such as servers, processes, components, and transactions. When assessing the energy consumption of software, it is crucial to understand the accuracy of these tools and models. This session presents the findings of experimental evaluations that assess the precision of various tools and models for this purpose. We particularly focus on those that estimate energy consumption at the process, component, and transaction levels.

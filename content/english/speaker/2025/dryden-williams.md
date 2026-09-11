@@ -8,7 +8,7 @@ image : "images/teams/dryden-williams.webp"
 company: "CarbonRunner"
 designation : "Co-Founder & CEO"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 I'm the Co-Founder of CarbonRunner, a climate-tech startup focused on reducing the emissions of cloud computing by shifting workloads in real-time to lower-carbon regions. 

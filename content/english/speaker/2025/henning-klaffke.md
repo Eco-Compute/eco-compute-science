@@ -8,7 +8,7 @@ image : "images/teams/henning-klaffke.webp"
 company: "Berufliche Hochschule Hamburg"
 designation : "Professor of Applied Computer Science"
 type : "speaker"
-outdated: false
+outdated: true
 
 ---
 

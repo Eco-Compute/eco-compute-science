@@ -12,7 +12,7 @@ talk_date: "14.11.2025 11:05"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/02_Friday/03_Community/04_Walton_Who_Owns_the_Future_of_Green_AI.pdf"
-outdated: false
+outdated: true
 ---
 
 This talk reflects on the work of the Sustainable AI Futures project. Debates about AI and climate are often highly polarised. Supporters and critics alike often rely on methodologically unsound statistics, which can give a misleading impression of precision. Because this is a transdisciplinary issue of broad social concern, there is a real risk of misunderstanding the limits of the evidence, and a need for technical specialists to become educators and communicators. Recent attempts to project the net impact of AI on the climate may be natural response to such polarisation, but have been hampered by uncritical adoption of the assumptions and conceptual frameworks of US-centric big tech. AI carbon deserves to be better contextualised within total global emissions, and stronger theories of change are required.

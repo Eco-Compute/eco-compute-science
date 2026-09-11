@@ -8,7 +8,7 @@ image: "images/teams/david-mahoney.webp"
 company: "University of Edinburgh"
 designation : "PhD Candidate"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 David Mahoney is a PhD candidate at The University of Edinburgh’s Institute for Design Informatics. His principal research interest is reducing the environmental impact of the internet and improving accessibility, aligning technological potential with environmental stewardship. He is the founder of Overbrowsing, an applied research group focused on advancing sustainable web practices.

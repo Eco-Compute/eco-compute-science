@@ -1,4 +1,4 @@
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index hugo.Data .Site.Language.Lang }}
 
 
 <footer class="footer section">
@@ -10,6 +10,7 @@
             <div class="col-lg-12 text-center">
                 <h2 class="text-white mb-3">{{ .Site.Title | markdownify }}</h2>
                    {{ with $data.homepage.partners }}
+                        {{ if .enable }}
                         {{ range .partner_group }}
                         <div class="row mb-5">
                           <div class="col-lg-12">
@@ -28,6 +29,7 @@
                           </div>
                           <div class="partner-info-text">{{ .infotext }}</div>
                         </div>
+                        {{ end }}
                         {{ end }}
                     {{ end }}
                 <p class="text-white-50">{{ .Site.Params.footer_content | markdownify }}</p>
@@ -88,4 +90,6 @@
 {{ "<!-- Main Script -->" | safeHTML }}
 {{ $script := resources.Get "js/script.js" | minify}}
 <script src="{{ $script.Permalink }}"></script>
-<script data-domain="www.eco-compute.io" data-api="https://see.eco-compute.io/jovvvvvse" src="https://see.eco-compute.io/worker/script.outbound-links.js" defer></script>
+{{ with .Site.Params.plausible_domain }}
+<script data-domain="{{ . }}" data-api="https://see.eco-compute.io/jovvvvvse" src="https://see.eco-compute.io/worker/script.outbound-links.js" defer></script>
+{{ end }}

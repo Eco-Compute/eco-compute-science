@@ -6,7 +6,7 @@ description: "A workshop to understand, the impact of digital technologies on th
 bg_image : "images/bg/cta-bg.webp"
 type : "workshop"
 icon: "tf-ion-bookmark"
-outdated: false
+outdated: true
 workshop_host: "X"
 workshop_host_image : "images/teams/x.webp"
 

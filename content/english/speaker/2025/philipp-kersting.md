@@ -8,7 +8,7 @@ image : "images/teams/philipp-kersting.webp"
 company: "Oktobit"
 designation : "Consultant"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Philipp Kersting 

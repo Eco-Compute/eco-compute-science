@@ -11,7 +11,7 @@ talk_room: "Software & Hardware (So-Ha)"
 talk_date: "14.11.2025 10:25"
 type : "talk"
 duration: "25 Minutes"
-outdated: false
+outdated: true
 ---
 
 The ECO:DIGIT research project is developing comprehensive methods for measuring the ecological footprint of digital systems. As part of this work, we have created Leaf, an open-source solution that reports environmental impacts for providers and tenants in Sovereign Cloud Stack (SCS) compliant clouds.

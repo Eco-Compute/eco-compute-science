@@ -6,13 +6,13 @@ bg_image : "images/bg/cta-bg.webp"
 speaker_name: "Marco Liess"
 speaker_company: "TU Munich"
 speaker_image : "images/teams/marco-liess-small.webp"
-speaker_link: "speakers/2025/marco-liess/"
+speaker_link: "speaker/2025/marco-liess/"
 talk_room: "Software & Hardware (So-Ha)"
 talk_date: "13.11.2025 16:15"
 type : "talk"
 duration: "50 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/01_SoHa/12_Liess.pdf"
-outdated: false
+outdated: true
 ---
 
 Servers are inherently demand driven and request rates can experience long- and short-term fluctuations. Modern operating systems such as Linux perform power management in the form of Dynamic Voltage/Frequency Scaling (DVFS) based on recent thread activity, some CPUs also support autonomous DVFS control based on processor utilization.

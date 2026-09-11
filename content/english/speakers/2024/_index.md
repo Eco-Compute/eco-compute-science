@@ -5,5 +5,4 @@ draft: false
 description: "Speakers list for the ecoCompute Conference 2024 in Munich, Germany"
 speaker_year: "2024"
 outdated: true
-show_cfs: false
 ---

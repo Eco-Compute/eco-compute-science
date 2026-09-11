@@ -12,7 +12,7 @@ talk_date: "13.11.2025 17:10"
 type : "talk"
 duration: "50 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/03_Community/13_Mahoney_Place-concious-poetic-david-mahoney.pdf"
-outdated: false
+outdated: true
 ---
 
 This session proposes a place-conscious-poetic approach to web design, combining appropriate technologies, nature-responsive thinking, and architectural critique. 

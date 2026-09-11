@@ -16,7 +16,7 @@ talk_date: "13.11.2025 13:50"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/02_DIM/08_Karcher_Klaffke.pdf"
-outdated: false
+outdated: true
 ---
 
 The ecoCompute conference focuses on technical solutions for reducing the resource consumption of digital infrastructures. However, while innovative hardware efficiency features and green software concepts exist, their widespread adoption, especially in small and medium-sized enterprises (SMEs), often fails to materialise. This presentation addresses the critical gap between technological possibility and practical implementation: the lack of skills development.

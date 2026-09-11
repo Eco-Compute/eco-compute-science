@@ -12,7 +12,7 @@ talk_date: "13.11.2025 16:15"
 type : "talk"
 duration: "50 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/03_Community/12_Mollen_Beware_Gree_AI.pdf"
-outdated: false
+outdated: true
 ---
 
 The promise of “sustainable AI” (“green AI”) is increasingly espoused by researchers, governments, practitioners, and Big Tech alike. While often well-intentioned, this discourse faces a critical danger: its co-option by powerful industry actors. Discussions surrounding AI’s environmental impact are being deliberately narrowed to resource consumption and ethical considerations—framed as technical problems solvable through innovation. 

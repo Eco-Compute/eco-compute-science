@@ -8,7 +8,7 @@ image: "images/teams/rainer-karcher.webp"
 company: "Heartprint"
 designation : "Founder & Managing Director"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Rainer Karcher is the founder and managing director of Heartprint GmbH, a consulting firm specializing in twin transformation—the combination of digitalization and future viability.

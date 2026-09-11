@@ -12,7 +12,7 @@ talk_date: "14.11.2025 12:00"
 type : "talk"
 duration: "30 Minutes"
 slide_link: "/files/slides_2025/02_Friday/02_DIM/06_Adams_Carbon_TXT.pdf"
-outdated: false
+outdated: true
 ---
 
 One of the big ideas of the web is that you can link to things, so when you make claims about something, you can be one click away from being able to back it up with data.

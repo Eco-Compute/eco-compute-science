@@ -18,7 +18,7 @@ talk_date: "13.11.2025 09:00"
 slide_link: "/files/slides_2025/01_Thursday/01_SoHa/01_EcoCompute_Welcome.pdf"
 type : "talk"
 duration: "20 Minutes"
-outdated: false
+outdated: true
 talk_label: "Introduction"
 ---
 

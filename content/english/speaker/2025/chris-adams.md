@@ -8,7 +8,7 @@ image : "images/teams/chris-adams.webp"
 company: "Green Web Foundation"
 designation : "Director of Tech & Policy"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Chris Adams is the Executive Director of the Green Web Foundation, an organiser of ClimateAction.tech, a community for technology professionals taking climate action, and an editor of Branch Magazine.

@@ -12,7 +12,7 @@ talk_date: "14.11.2025 11:35"
 type : "talk"
 duration: "30 Minutes"
 slide_link: "/files/slides_2025/02_Friday/02_DIM/05_Fricke_Thomas_Datacenter_Degrowth.pdf"
-outdated: false
+outdated: true
 ---
 
 The growth of datacenters goes exponential and it consumes lots of resources.

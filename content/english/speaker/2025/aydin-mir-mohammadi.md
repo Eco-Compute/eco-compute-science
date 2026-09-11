@@ -8,7 +8,7 @@ image: "images/teams/aydin-mir-mohammadi.webp"
 company: "Bluehands"
 designation : "Founder & CEO"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 software architect & cto at bluehands, community enthusiast

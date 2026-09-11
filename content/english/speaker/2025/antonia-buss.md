@@ -8,7 +8,7 @@ image : "images/teams/antonia-buss.webp"
 company: "adesso SE"
 designation : "Software Engineer"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Antonia Buß is a developer at adesso SE with a background in business informatics and experience in the healthcare sector.

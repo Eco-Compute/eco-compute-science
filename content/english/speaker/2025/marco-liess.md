@@ -8,7 +8,7 @@ image : "images/teams/marco-liess.webp"
 company: "TU Munich"
 designation : "PhD researcher"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Marco is a PhD researcher at the Chair of Integrated Systems at Technical

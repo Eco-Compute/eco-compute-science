@@ -8,7 +8,7 @@ image : "images/teams/rich-kenny.webp"
 company: "Interact DC"
 designation : "Managing Director"
 type : "speaker"
-outdated: false
+outdated: true
 
 
 ---

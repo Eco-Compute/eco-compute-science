@@ -1,11 +1,9 @@
 ---
 title: "Contact Us"
-date: 2019-09-10T13:51:25+06:00
+date: 2026-09-10T09:00:00+02:00
 draft: false
-description: "Contact the team of the ecoCompute Conference"
+description: "Contact the organisers of ecoCompute Science"
 bg_image : "images/bg/cta-bg.webp"
 ---
 
-ecoCompute is a project of Green Coding Solutions GmbH and it's partners.
-
-Feel free to contact us via email or this form.
+Questions about a submission, an artifact that does not fit the usual shape, an offer to review, or an opinion on one of the open questions: all welcome.

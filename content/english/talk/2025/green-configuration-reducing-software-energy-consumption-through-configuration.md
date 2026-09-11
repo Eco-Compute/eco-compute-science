@@ -12,7 +12,7 @@ talk_date: "13.11.2025 17:10"
 type : "talk"
 duration: "50 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/01_SoHa/13_Weber_Green_Configuration.pdf"
-outdated: false
+outdated: true
 ---
 
 This talk presents outcomes from the Green Configuration project, focused on reducing energy consumption in configurable software. Modern systems offer rich configuration options that can serve as powerful levers for energy optimization. This approach delivers two key benefits: it enables immediate energy savings without modifying code and provides actionable insights by pinpointing energy-intensive code regions, guiding targeted optimizations for legacy systems.

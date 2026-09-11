@@ -12,7 +12,7 @@ talk_date: "13.11.2025 09:45"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/03_Community/03_Herbst_Grundlagen%20von%20IT-Nachhaltigkeit.pdf"
-outdated: false
+outdated: true
 ---
 
 Nachhaltigkeit ist nicht nur "grün" und "fancy", sondern weit mehr als nur ein Trendbegriff – sie ist eine Notwendigkeit. In dem Vortrag wird beleuchtet, wie die IT-Branche ihren Beitrag zum Schutz unseres Planeten leistet. Von Abfallreduzierung bis Zero Emissionen führen wir durch die wichtigsten Begriffe und Konzepte einer umweltfreundlichen Informationstechnologie. Wir zeigen auf verständliche Weise, warum Dein Laptop mehr ist als ein Gerät zum E-Mails checken und wie selbst die kleinste Codezeile große Wirkung entfalten kann. Unabhängig davon, ob Du tief in der Materie steckst oder gerade erst einsteigst.

@@ -12,7 +12,7 @@ talk_date: "13.11.2025 15:45"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/03_Community/11_Bothe.pdf"
-outdated: false
+outdated: true
 ---
 
 The global boom in data centers fuels fossil fuel energy production and exacerbates the climate crisis. German politicians, on the other hand, want to continue building as many data centers as possible. They either ignore the problem of limited renewable energies or sidestep it by referring to energy efficiency and waste heat utilization. When the population is asked directly, however, the result is remarkably clear: data centers are a problem and should (only) be powered by additional renewables.

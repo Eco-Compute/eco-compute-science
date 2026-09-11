@@ -1,26 +1,16 @@
 ---
 title: "Code of Conduct"
-date: 2019-09-10T13:51:25+06:00
+date: 2026-09-10T09:00:00+02:00
 draft: false
-description: "Code of Conduct for the ecoCompute Conference"
+description: "Code of Conduct for ecoCompute Science"
 bg_image : "images/bg/cta-bg.webp"
 ---
 
-Everybody who participates in ecoCompute in one way or another is required to conform to this Code of Conduct (CoC). This includes attendees, speakers, sponsors, organizers, volunteers, and event staff.
+Everybody who participates in ecoCompute Science in one way or another is required to conform to this Code of Conduct (CoC). This includes authors, session participants, reviewers, shepherds, committee members and organisers.
 
-The organizers will introduce a Code of Conduct team that will be primarily responsible for handling any incidents. The CoC applies before and throughout the event (including related activities such as social events, and social media). We have also published our response guidelines.
+The CoC applies before, during and after the event. It covers the discussion sessions, the review process and any related online space.
 
-The team can be reached on info@eco-compute.io and its members are:
-
-- Teresa Zeck
-    - Phone: +49 (0) 176 568 215 19
-    - Email: teresa.zeck@gi.de
-- Arne Tarara
-  - Phone: +49 (0) 176 568 215 19
-  - Email: arne@green-coding.io
-
-During the conference you can also find these people on site and approach them if you feel that you need assistance of any kind.
-The awareness team can be reached by phone (see above).
+The organisers form the Code of Conduct team and are primarily responsible for handling any incidents. The team can be reached at **science@eco-compute.io**. The individual members and their direct contact details will be published on this page before the event.
 
 We would like to thank the [DjangoCon Europe 2019 CoC](https://2022.djangocon.eu/conduct/code_of_conduct/) team for the awesome CoC (which we adapted with some minor modifications).
 
@@ -49,15 +39,15 @@ Behavior that contributes to a positive environment includes:
 - Gracefully accepting constructive criticism
 - Being supportive towards newcomers
 
-We are dedicated to providing a harassment-free conference experience for everyone, regardless of race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
+We are dedicated to providing a harassment-free experience for everyone, regardless of race, ethnicity, culture, national origin, colour, immigration status, social and economic class, educational level, sex, sexual orientation, gender identity and expression, age, size, family status, political belief, religion, and mental and physical ability.
 
-We do not tolerate harassment of conference participants in any form. This includes offensive comments related to the categories above, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, violent threats or language, inappropriate physical contact, and unwelcome sexual attention. Advocating for, or encouraging, any of the above behaviour is also not acceptable.
+We do not tolerate harassment of participants in any form. This includes offensive comments related to the categories above, deliberate intimidation, stalking, following, unwanted recording or screenshotting of sessions, sustained disruption of a session, violent threats or language, and unwelcome sexual attention. Advocating for, or encouraging, any of the above behaviour is also not acceptable.
 
-Sexual language and imagery are not appropriate for any venue to which the CoC applies.
+Sexual language and imagery are not appropriate in any space to which the CoC applies.
 
-Some people may not wish to be filmed or photographed - respect their wishes, take extra care when publishing pictures and provide a way to request them to be taken down.
+Some people may not wish to be recorded or to appear on camera. Respect that. Sessions are not recorded by default, and nobody is required to switch on a camera.
 
-Be careful in the words that you choose. Remember that sexist, racist, and other exclusionary jokes can be offensive and unwelcoming to those around you. Excessive swearing and offensive jokes are not appropriate for ecoCompute.
+Be careful in the words that you choose. Remember that sexist, racist, and other exclusionary jokes can be offensive and unwelcoming to those around you. Excessive swearing and offensive jokes are not appropriate at ecoCompute Science.
 
 Condescending behavior towards people of different knowledge levels, and especially beginners, is unacceptable.
 
@@ -65,12 +55,13 @@ No one owes anyone any form of interaction or explanation for why they don't wan
 
 ## Where does the Code of Conduct apply?
 
-This Code of Conduct applies to all conference related spaces. That includes, but is not limited to:
+This Code of Conduct applies to all ecoCompute Science spaces. That includes, but is not limited to:
 
-- The conference online platform
-- Any conference related social activities
-- Slack channels, tweets with the conference hashtag, and other online media
-- The Code of Conduct does not exclusively apply to events on the conference agenda. For example, if after a scheduled social event, you go to a bar with a group of fellow participants and someone harasses you there, we would still treat that as a CoC violation.
+- The online platform the sessions run on
+- The review process, in both directions: how reviewers write about authors and how authors respond to reviewers
+- Correspondence with the committees and the organisers
+- Chat channels, posts carrying the event hashtag, and other online media
+- Informal gatherings that grow out of the event, whether or not they appear on the programme
 
 ## What can happen if the CoC is violated?
 
@@ -78,22 +69,23 @@ In case of a Code of Conduct violation, some of the most common actions organise
 
 - Demanding that a participant stops their behaviour.
 - Demanding that a participant prevents further contact with certain other participants.
-- Not publishing the video of a conference talk.
-- Cancelling a conference talk.
-- Removing a participant from the conference, without refund.
+- Removing a participant from a session, or from the event, without refund.
+- Removing a reviewer from the review of a submission, or from the committee.
+- Withdrawing a submission from the programme.
+- Removing content from the published session notes.
 - The action taken is at the discretion of the Code of Conduct team. Participants are expected to comply immediately, and further action may be taken in case a participant does not comply. A record will be kept of all incidents.
 
 ## Where to report incidents
 
-If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately, either in person or by sending an email to conduct@green-coding.berlin.
+If a Code of Conduct incident happens to you, or you witness it happening to someone else, please contact the CoC team immediately by sending an email to science@eco-compute.io. During a session you can also message any organiser directly.
 
 Your report will be treated confidentially and will only be discussed within the CoC team.
 
-The team members will be introduced at the conference. You can message any of them at any time to discuss an incident or concern. You can also ask any other staff to help you find them.
+The team members are named on this page and are present in the sessions. You can message any of them at any time to discuss an incident or concern.
 
 ## Guidelines for reporting incidents
 
-Please do not feel like you may be a burden to us by reporting incidents. Even if you happen to report multiple incidents during the conference. We rather consider reports as an opportunity for us to act: by knowing about an incident, we can act on it, and often prevent it from going on or occuring again. But if we don't know, we can't take action.
+Please do not feel like you may be a burden to us by reporting incidents. Even if you happen to report multiple incidents during the event. We rather consider reports as an opportunity for us to act: by knowing about an incident, we can act on it, and often prevent it from going on or occuring again. But if we don't know, we can't take action.
 
 If you're not sure if an incident was already reported by someone else, even if many people saw it, please report it. It is frequent that several people witness an incident and no one reports it, because everyone thought other people would.
 
@@ -113,8 +105,8 @@ In your report please include, when possible:
 
 If you don't have some of this information, or not at this time, please still make the report anyways. You can contact us at any time after your report if you want to add, edit or take back any information you shared.
 
-If you feel unsafe reporting in person, you may choose someone to represent you. In this case, we'd need their contact information, but we'd ask this person to make clear that they are not reporting in their own name.
+If you feel unsafe reporting yourself, you may choose someone to represent you. In this case, we'd need their contact information, but we'd ask this person to make clear that they are not reporting in their own name.
 
 When handling a report, we follow our response guidelines.
 
-**We value your attendance, and look forward to seeing you at ecoCompute.**
+**We value your participation, and look forward to seeing you at ecoCompute Science.**

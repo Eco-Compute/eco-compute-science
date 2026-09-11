@@ -8,7 +8,7 @@ image : "images/teams/max-weber.webp"
 company: "Leipzig University"
 designation : "PhD Researcher"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Max is a PhD researcher at Leipzig University focusing on performance analysis and energy consumption optimization in configurable software systems. His work explores how software configurability can be leveraged to detect energy hot spots, guide targeted optimizations, and reduce the energy demand of complex systems.

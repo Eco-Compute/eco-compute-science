@@ -8,7 +8,7 @@ image : "images/teams/olaf-quade.webp"
 company: "Mittwald"
 designation : "Rechenzentrumsleiter"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 

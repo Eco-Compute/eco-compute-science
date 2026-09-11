@@ -12,7 +12,7 @@ talk_date: "14.11.2025 11:05"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/02_Friday/01_SoHa/04_Burggraaf_Built_to_Last.pdf"
-outdated: false
+outdated: true
 ---
 
 What if we built software to last not just for the next sprint but across changing hardware, energy constraints, and unpredictable demands? In this talk, we will explore how thoughtful coding can extend hardware lifespan, cut energy consumption, and enable systems to adapt gracefully without constant rewrites. Inspired by the enduring design of the pyramids, we will examine timeless principles like separation of concerns, graceful degradation, and green coding that make software both resilient and resource-conscious. From architectural decisions to everyday developer practices, we will dive into practical strategies for reducing thermal stress, managing network congestion, and aligning with renewable energy availability. Whether you are writing code or architecting distributed systems, you will walk away with actionable techniques to build smarter, leaner, and longer-lasting technology. Sustainability is not just a challenge for systems it is a mindset that every developer can embrace.

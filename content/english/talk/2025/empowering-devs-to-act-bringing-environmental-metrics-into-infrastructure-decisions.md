@@ -12,7 +12,7 @@ talk_date: "13.11.2025 10:15"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/02_DIM/04_AUVRAY_ELISE_Empowering_Devs.pdf"
-outdated: false
+outdated: true
 ---
 
 As sustainability becomes a strategic concern in cloud architecture, developers and DevOps teams need access to clear and actionable environmental metrics. In this talk, we will explore how Scaleway's Environmental Footprint Calculator helps engineering teams make infrastructure decisions that are not only cost-effective but also environmentally friendly, drawing on real-world usage data regarding carbon emissions, energy consumption, and water consumption. Participants will discover how to integrate environmental insights into daily DevOps workflows to reduce impact without compromising performance.

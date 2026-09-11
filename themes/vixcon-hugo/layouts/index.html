@@ -1,52 +1,126 @@
 {{ define "main" }}
 
-{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $data := index hugo.Data .Site.Language.Lang }}
 
 <!-- banner -->
-{{ if $data.homepage.banner.enable }}
 {{ with $data.homepage.banner }}
+{{ if .enable }}
 <section id="first-section" class="section-banner d-flex align-items-center">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 mr-auto">
                 <div class="banner-content">
-                    <h1 class="mt-3 mb-5">{{ .title | markdownify }}</h1>
-                    <img style="padding: 0; margin-left: 80px; margin-top: -40px;" width=300 src="/images/sold-out.webp">
+                    <h1 class="mt-3 mb-4">{{ .title | safeHTML }}</h1>
                     <h2>{{ .date_time }}</h2>
-                    <h3 class="primary-color">{{ .location | markdownify }}</h2>
-                    <br>
-                    <h4>👉 <a style="text-decoration: underline;" href="/previous-years/photos-2025/">See Photos from 2025</a></h4>
-                    <h4>👉 <a style="text-decoration: underline;" href="/schedule/2025/">Download Slides from our great talks!</a></h4>
-
+                    <h3 class="primary-color">{{ .location | markdownify }}</h3>
+                    <div class="banner-lead mt-4">{{ .lead | markdownify }}</div>
+                    <div class="banner-buttons mt-4">
+                        {{ range .buttons }}
+                        <a href="{{ .link }}" class="btn {{ .style }} btn-rounded mr-3 mb-3">{{ .label }}</a>
+                        {{ end }}
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    {{ end }}
-    {{ end }}
+    </div>
+</section>
+{{ end }}
+{{ end }}
 <!-- /banner -->
 
-<h2 class="mt-3 mb-4 text-md title stroke-text" style="margin: auto; text-align: center; padding-top: 30px;">2025 Re-Cap Video</h2>
-<div style="max-height: 400px; max-width: 1200px; margin:auto; margin-top: 20px; text-align: center;">
-    <a href="https://www.youtube.com/watch?v=qpSy628N_ew" rel="noopener"><img width="90%" height="90%" src="/images/promo-reel-2025.webp" srcset="/images/promo-reel-2025@2x.webp 2x, /images/promo-reel-2025.webp 1x" alt="ecoCompute 2025 recap reel video"></a>
-</div>
-    
-<!-- tagline -->
-{{ if $data.homepage.tagline.enable }}
-{{ with $data.homepage.tagline }}
-<br>
-<br>
-<section class="section cta-wrap" style="padding: 0; text-align: right;">
+<!-- status -->
+{{ with $data.homepage.status }}
+{{ if .enable }}
+<section class="section section-status" id="status">
+    <div class="container">
+        <div class="row section-heading">
+            <div class="col-lg-8">
+                <h2 class="text-md title">{{ .title | markdownify }}</h2>
+                <div class="rich-text">{{ .subtitle | markdownify }}</div>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .items }}
+            <div class="col-lg-6 mb-4">
+                <div class="status-card box-shadow h-100">
+                    <div class="status-card-head">
+                        <h4 class="mb-0">{{ .label }}</h4>
+                        <span class="status-pill">{{ .state }}</span>
+                    </div>
+                    <div class="rich-text mt-3">{{ .content | markdownify }}</div>
+                    {{ if and .link .link_label }}<a href="{{ .link }}" class="status-link">{{ .link_label }} &rarr;</a>{{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /status -->
+
+<!-- problem -->
+{{ with $data.homepage.problem }}
+{{ if .enable }}
+<section class="section bg-light" id="problem">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <span class="stroke-text">{{ .title_outline }}</span>
+                <div class="ml-90">
+                    <h2 class="text-lg mb-4 mt-3 title">{{ .title | markdownify }}</h2>
+                    <div class="rich-text">{{ .content | markdownify }}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /problem -->
+
+<!-- what is different -->
+{{ with $data.homepage.different }}
+{{ if .enable }}
+<section class="section" id="different">
+    <div class="container">
+        <div class="row section-heading">
+            <div class="col-lg-8">
+                <h2 class="text-md title">{{ .title | markdownify }}</h2>
+                <div class="rich-text">{{ .subtitle | markdownify }}</div>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .items }}
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="feature-box h-100 {{ .bg_color }}">
+                    <i class="{{ .icon }}"></i>
+                    <h4 class="mt-3 mb-3">{{ .name | markdownify }}</h4>
+                    <div class="divider"></div>
+                    <div class="rich-text">{{ .content | markdownify }}</div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /what is different -->
+
+<!-- measurement -->
+{{ with $data.homepage.measurement }}
+{{ if .enable }}
+<section class="section cta-wrap bg-light" id="measurement">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-12">
-                <div class="cta-content" >
-                    <span class="lead">{{ .subtitle | markdownify }}</span>
+                <div class="cta-content">
                     <h2 class="mt-3 mb-4 text-md title">{{ .title | markdownify }}</h2>
+                    <div class="rich-text">{{ .content | markdownify }}</div>
                     {{ if .button.enable }}
                     {{ with .button }}
-                    <a href="{{ .link | absLangURL }}" class="btn btn-secondary btn-rounded">{{ .label }}</a>
+                    <a href="{{ .link }}" class="btn btn-secondary btn-rounded my-4">{{ .label }}</a>
                     {{ end }}
                     {{ end }}
                 </div>
@@ -56,95 +130,186 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /tagline -->
+<!-- /measurement -->
 
-
-<!-- timer -->
-{{ if $data.homepage.timer.enable }}
-{{ with $data.homepage.timer }}
-<section class="overflow-hidden counter-wrapper pt-4 pb-5">
+<!-- especially wanted -->
+{{ with $data.homepage.wanted }}
+{{ if .enable }}
+<section class="section" id="wanted">
     <div class="container">
-        <div class="counter-inner">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="counter-stat">
-                        <h2 class="font-weight-light">{{ .title | markdownify }}</h2>
-                    </div>
+        <div class="row section-heading">
+            <div class="col-lg-12">
+                <span class="stroke-text">{{ .title_outline }}</span>
+                <div class="ml-90">
+                    <h2 class="text-lg mt-3 title">{{ .title | markdownify }}</h2>
                 </div>
-                <div id="simple-timer" class="syotimer" data-year="{{ .year }}" data-month="{{ .month }}" data-day="{{ .day }}" data-hour="{{ .hour }}"></div>
             </div>
+        </div>
+        <div class="row">
+            {{ range .items }}
+            <div class="col-lg-6 mb-4">
+                <div class="wanted-item h-100">
+                    <h4 class="mb-3">{{ .title | markdownify }}</h4>
+                    <div class="rich-text">{{ .content | markdownify }}</div>
+                </div>
+            </div>
+            {{ end }}
         </div>
     </div>
 </section>
 {{ end }}
 {{ end }}
-<!-- /timer -->
+<!-- /especially wanted -->
 
-<!-- newsletter -->
-{{ if $data.homepage.newsletter.enable }}
-{{ with $data.homepage.newsletter }}
-<section id="section-newsletter" class="overflow-hidden counter-wrapper pt-4 pb-5">
+<!-- format -->
+{{ with $data.homepage.format }}
+{{ if .enable }}
+<section class="section bg-light" id="format">
     <div class="container">
-        <div class="newsletter-inner">
-            <div class="row align-items-center">
-                <div class="col-lg-3">
-                    <div class="counter-stat">
-                        <h2 class="font-weight-light">{{ .title | markdownify }}</h2>
-                        {{ .sub_title | markdownify }}
-                    </div>
+        <div class="row section-heading">
+            <div class="col-lg-12">
+                <span class="stroke-text">{{ .title_outline }}</span>
+                <div class="ml-90">
+                    <h2 class="text-lg mt-3 title">{{ .title | markdownify }}</h2>
                 </div>
-                <div class="col-lg-9">
-                    <form action="https://eco-compute.us18.list-manage.com/subscribe" method="GET">
-                        <input type="hidden" value="7eb6781b02678aa80dc546030" name="u">
-                        <input type="hidden" value="e4a346eaa3" name="id">
-                        <div class="form-row">
-                            <div class="col-lg-8">
-                                <div class="form-group">
-                                    <input class="form-control" type="text" name="EMAIL" placeholder="email address">
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="form-group">
-                                    <button type="submit" id="contact-submit" class="btn btn-hero btn-rounded form-control" value="get-updates">{{ .button | markdownify }}</button>
-                                </div>
-                            </div>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .items }}
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="format-item h-100">
+                    <i class="{{ .icon }}"></i>
+                    <h4 class="mt-3 mb-2">{{ .title | markdownify }}</h4>
+                    <div class="rich-text">{{ .content | markdownify }}</div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /format -->
+
+<!-- review -->
+{{ with $data.homepage.review }}
+{{ if .enable }}
+<section class="section" id="review">
+    <div class="container">
+        <div class="row section-heading">
+            <div class="col-lg-12">
+                <span class="stroke-text">{{ .title_outline }}</span>
+                <div class="ml-90">
+                    <h2 class="text-lg mt-3 title">{{ .title | markdownify }}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <ol class="process-list">
+                    {{ range .steps }}
+                    <li>
+                        <span class="process-step">{{ .step }}</span>
+                        <div class="process-body">
+                            <h4 class="mb-2">{{ .title | markdownify }}</h4>
+                            <div class="rich-text">{{ .content | markdownify }}</div>
                         </div>
-                    </form>
-                </div>
+                    </li>
+                    {{ end }}
+                </ol>
+                {{ if .button.enable }}
+                {{ with .button }}
+                <a href="{{ .link }}" class="btn btn-secondary btn-rounded mt-4">{{ .label }}</a>
+                {{ end }}
+                {{ end }}
             </div>
         </div>
     </div>
 </section>
 {{ end }}
 {{ end }}
-<!-- /newsletter -->
+<!-- /review -->
 
-
-<!-- event  -->
-{{ if $data.homepage.event.enable }}
-{{ partial "event.html" . }}
+<!-- organisers -->
+{{ with $data.homepage.organisers }}
+{{ if .enable }}
+<section class="section bg-light" id="organisers">
+    <div class="container">
+        <div class="row section-heading">
+            <div class="col-lg-12">
+                <span class="stroke-text">{{ .title_outline }}</span>
+                <div class="ml-90">
+                    <h2 class="text-lg mt-3 title">{{ .title | markdownify }}</h2>
+                    <div class="rich-text">{{ .subtitle | markdownify }}</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .people }}
+            <div class="col-lg-4 col-sm-6">
+                <div class="speaker-block mb-5">
+                    <div class="img-block">
+                        <a href="{{ .link }}" rel="noopener">
+                            <img src="{{ replaceRE "(?i)\\.webp$" "-900.webp" .image | relURL }}" srcset="{{ replaceRE "(?i)\\.webp$" "-900.webp" .image | relURL }} 2x, {{ replaceRE "(?i)\\.webp$" "-450.webp" .image | relURL }} 1x" alt="{{ .name }}" class="img-fluid" loading="lazy">
+                        </a>
+                    </div>
+                    <div class="speaker-info">
+                        <h4 class="mb-0 mt-3"><a href="{{ .link }}" rel="noopener">{{ .name }}</a></h4>
+                        <p>{{ .role }} | {{ .affiliation }}</p>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
 {{ end }}
-<!-- /event -->
+{{ end }}
+<!-- /organisers -->
+
+<!-- open questions -->
+{{ with $data.homepage.open_questions }}
+{{ if .enable }}
+<section class="section" id="open-questions">
+    <div class="container">
+        <div class="row section-heading">
+            <div class="col-lg-8">
+                <h2 class="text-md title">{{ .title | markdownify }}</h2>
+                <div class="rich-text">{{ .subtitle | markdownify }}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                {{ range .items }}
+                <div class="open-question">
+                    <h4 class="mb-2">{{ .question | markdownify }}</h4>
+                    <div class="rich-text">{{ .content | markdownify }}</div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /open questions -->
 
 <!-- call to action -->
-{{ if $data.homepage.cta.enable }}
 {{ with $data.homepage.cta }}
-<section class="section cta-wrap">
+{{ if .enable }}
+<section class="section cta-wrap bg-light">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-lg-7">
+            <div class="col-lg-12">
                 <div class="cta-content">
-                    <span class="lead">{{ .subtitle | markdownify }}</span>
                     <h2 class="mt-3 mb-4 text-md title">{{ .title | markdownify }}</h2>
+                    <div class="rich-text">{{ .content | markdownify }}</div>
                     {{ if .button.enable }}
                     {{ with .button }}
-                    <a href="{{ .link }}" class="btn btn-secondary btn-rounded">{{ .label }}</a>
+                    <a href="{{ .link }}" class="btn btn-hero btn-rounded my-4">{{ .label }}</a>
                     {{ end }}
                     {{ end }}
                 </div>
-            </div>
-            <div class="col-lg-5 mt-5 mt-lg-0 d-none d-lg-block">
-                <img src="{{ .image | absURL }}" alt="" class="img-fluid" loading="lazy">
             </div>
         </div>
     </div>
@@ -153,78 +318,19 @@
 {{ end }}
 <!-- /call to action -->
 
-<!-- feature -->
-{{ if $data.homepage.feature.enable }}
-{{ with $data.homepage.feature }}
-<section id="section-feature">
-    <div class="container">
-        <div class="row section-heading">
-            <div class="heading">
-                <span class="stroke-text">{{ .title | markdownify}}</span>
-                <div class="pl-90">
-                    <h2 class="mt-2">{{ .subtitle | markdownify }}</h2>
-                    <p>{{ .content | markdownify }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
+<!-- heritage -->
+{{ with $data.homepage.heritage }}
+{{ if .enable }}
+<section class="section" id="heritage">
     <div class="container">
         <div class="row">
-            {{ range .feature_item }}
-            <div class="col-lg-4 col-md-6">
-                <div class="feature-box {{ .bg_color }}">
-                    <i class="{{ .icon }}"></i>
-                    <h4 class="mt-3 mb-3">{{ .name | markdownify }}</h4>
-                    <div class="divider"></div>
-                    <p>{{ .content | markdownify }}</p>
-                </div>
-            </div>
-            {{ end }}
-        </div>
-    </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- /feature -->
-
-<!-- feature -->
-{{ if $data.homepage.testimonials.enable }}
-{{ with $data.homepage.testimonials }}
-<section id="section-testimonials">
-    <div class="container">
-        <div class="row section-heading">
-            <div class="heading">
-                <div class="pl-90">
-                    <h2 class="mt-2">{{ .subtitle | markdownify }}</h2>
-                    <p>{{ .content | markdownify }}</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="container">
-        <div class="row">
-
-            {{ $iterator_index := 1 }}
-
-            <div class="innerdiv">
-                {{ range .testimonials }}
-                <div class="div{{ $iterator_index }} eachdiv">
-                    <div class="userdetails">
-                        <div class="imgbox">
-                            <img src="{{ .image }}" alt="">
-                        </div>
-                        <div class="detbox">
-                            <p class="name {{ .style }}">{{ .name }}</p>
-                            <p class="designation {{ .style }}">{{ .designation }}</p>
-                        </div>
-                    </div>
-                    <div class="review {{ .style }}">
-                        <h4>{{ .review }}</h4>
-                    </div>
-                </div>
-                {{ $iterator_index = add $iterator_index 1 }}
+            <div class="col-lg-12">
+                <h2 class="text-md mb-4 title">{{ .title | markdownify }}</h2>
+                <div class="rich-text">{{ .content | markdownify }}</div>
+                {{ if .button.enable }}
+                {{ with .button }}
+                <a href="{{ .link }}" class="btn btn-gray btn-rounded mt-3">{{ .label }}</a>
+                {{ end }}
                 {{ end }}
             </div>
         </div>
@@ -232,176 +338,6 @@
 </section>
 {{ end }}
 {{ end }}
-<!-- /feature -->
-
-<!-- schedule -->
-{{ if $data.homepage.schedule.enable }}
-
-{{/* Activate this when you want to use the pretalx schedule widget */}}
-{{/* partial "schedule-pretalx.html" . */}}
-
-{{/* Activate this when you want to use the bundled schedule. ATM pretalx is used */}}
-{{ partial "schedule.html" .  }}
-
-{{ else }}
-{{ end }}
-<!-- /schedule -->
-
-<!-- workshops -->
-{{ partial "workshops.html" . }}
-<!-- /workshops -->
-
-<!-- pricing -->
-{{ if $data.homepage.pricing.enable }}
-{{ partial "pricing.html" . }}
-{{ end }}
-<!-- /pricing  -->
-
-<!-- speaker -->
-{{ if $data.homepage.cfs.enable }}
-{{ partial "cfs.html" . }}
-{{ end }}
-<!-- /speaker -->
-
-<br><br>
-<!-- speaker -->
-{{ if $data.homepage.speaker.enable }}
-{{ $speaker_year := .Page.Params.speaker_year }}
-{{ $path_prefix := printf "speaker/%s" $speaker_year }}
-<section id="section-speakers" class="section-speaker">
-    <div class="container">
-        {{ with $data.homepage.speaker }}
-        <div class="row section-heading">
-            <div class="col-lg-12">
-                <div class="heading">
-                    <span class="stroke-text">{{ .title_outline }}</span>
-                    <div class="pl-90">
-                        <h2>{{ .title | markdownify }}</h2>
-                        <p>{{ .content | markdownify }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {{ end }}
-        <div class="row">
-            {{ range (sort (where .Site.RegularPages "Type" "speaker") "Title") }}
-            {{ if (strings.HasPrefix .File.Path $path_prefix) }}
-            <div class="col-lg-4 col-sm-6">
-                <div class="speaker-block mb-5">
-                    <div class="img-block">
-                        <img src="{{ replaceRE "(?i)\\.webp$" "-900.webp" .Params.Image | relURL }}" srcset="{{ replaceRE "(?i)\\.webp$" "-900.webp" .Params.Image | relURL }} 2x, {{ replaceRE "(?i)\\.webp$" "-450.webp" .Params.Image | relURL }} 1x" alt="{{ .Title }}" class="img-fluid" loading="lazy">
-                        <ul class="list-inline speaker-social">
-                            {{ range .Params.Social }}
-                            <li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-                            {{ end }}
-                        </ul>
-                    </div>
-                    <div class="speaker-info">
-                        <h4 class="mb-0 mt-3"><a href="{{ .Permalink }}">{{ .Title }}</a></h4>
-                        <p>{{ .Params.Designation }} | {{ .Params.Company }}</p>
-                    </div>
-                </div>
-            </div>
-            {{ end }}
-            {{ end }}
-        </div>
-    </div>
-</section>
-{{ end }}
-<!-- /speaker -->
-
-<!-- sponsor -->
-{{ if $data.homepage.sponsor.enable }}
-{{ partial "sponsor.html" . }}
-{{ end }}
-<!-- /sponsor -->
-
-<!-- venue -->
-{{ if $data.homepage.venue.enable }}
-{{ with $data.homepage.venue }}
-<section class="cta-2 section" id="venue">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="cta-img">
-                    <img src="{{ .image | absURL }}" srcset="{{ .image_2x | absURL }} 2x, {{ .image | absURL }} 1x" alt="Berlin" class="img-fluid" loading="lazy">
-                    <div class="contact-info box-shadow">
-                        <h5 class="text-uppercase letter-spacing mb-4">{{ .title | markdownify }}</h5>
-                        <h6 class="text-color mb-3">{{ .date }}</h6>
-                        <p class="lead">{{ .location | markdownify }}</p>
-                        <p>{{ .location_address | markdownify }}</p>
-                        <div onclick="toggleDetails()" style="cursor: pointer; user-select: none; display: flex; align-items: center;">
-                            <span id="caret" style="margin-right: 5px;">▶</span>
-                            bUm is an barrier-free / accessible location <small>(click for details)</small>
-                        </div>
-
-                        <div id="details" style="display: none; margin-top: 10px;">
-                            <p>All rooms and the terrace are wheelchair accessible. </p>
-                            <p>There is an elevator to all floors and a wheelchair-accessible toilet.</p>
-                            <p>The stage in the auditorium is also equipped with a lift<br>(please register in advance if you wish to use it).</p>
-                        </div>
-                        <br>
-                        <a href="{{ .maps_location_link}}" rel="noopener"><img src="{{ .maps_location_image | absURL }}" srcset="{{ .maps_location_image_2x | absURL }} 2x, {{ .maps_location_image | absURL }} 1x" alt="Location ecoCompute" class="img-fluid" loading="lazy" width="420"></a>
-
-                        <script>
-                            function toggleDetails() {
-                                const details = document.getElementById('details');
-                                const caret = document.getElementById('caret');
-                                if (details.style.display === 'none') {
-                                    details.style.display = 'block';
-                                    caret.textContent = '▼';
-                                } else {
-                                    details.style.display = 'none';
-                                    caret.textContent = '▶';
-                                }
-                            }
-                        </script>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-{{ end }}
-{{ end }}
-<!-- venue -->
-
-<!-- blog -->
-{{ if $data.homepage.blog.enable }}
-<section class="latest-blog section-bottom">
-    {{ with $data.homepage.blog }}
-    <div class="container">
-        <div class="row section-heading">
-            <div class="col-lg-6">
-                <div class="heading">
-                    <span class="stroke-text">{{ .title_outline }}</span>
-                    <div class="pl-90">
-                        <h2>{{ .title | markdownify }}</h2>
-                        <p>{{ .content | markdownify }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{ end }}
-    <div class="container">
-        <div class="row">
-            {{ range first 3 (where .Site.RegularPages "Type" "post" )}}
-            <div class="col-lg-4 col-md-6">
-                <div class="blog-item card border-0 mb-5 mb-lg-0">
-                    <img src="{{ .Params.Image | absURL }}" alt="{{ .Title | markdownify }}" class="img-fluid" loading="lazy">
-                    <div class="p-4">
-                        <h4 class="mt-2 mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
-                        <p>{{ .Summary }}</p>
-                        <a href="{{ .Permalink }}" class="read-more text-color h6">Read More</a>
-                    </div>
-                </div>
-            </div>
-            {{ end }}
-        </div>
-    </div>
-</section>
-{{ end }}
-<!-- /blog -->
+<!-- /heritage -->
 
 {{ end }}

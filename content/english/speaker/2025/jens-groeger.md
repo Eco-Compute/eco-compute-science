@@ -8,7 +8,7 @@ image : "images/teams/jens-groeger.webp"
 company: "Öko-Institut"
 designation : "Research Coordinator"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Jens Gröger is research coordinator for sustainable digital infrastructures at the Berlin office of the Öko-Institut.

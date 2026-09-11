@@ -8,7 +8,7 @@ image : "images/teams/holger-smolinski.webp"
 company: "Bosch"
 designation : "Senior Technical Expert"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Holger Smolinski is a Senior Technical Expert at Bosch working on the corporate software framework.

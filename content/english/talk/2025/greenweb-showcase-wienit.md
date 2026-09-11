@@ -12,7 +12,7 @@ talk_date: "13.11.2025 14:20"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/01_SoHa/09_Michalitsch-Green-Web-Showcase.pdf"
-outdated: false
+outdated: true
 ---
 
 Als IT-Partner der Wiener Stadtwerke-Gruppe entwickeln wir digitale Lösungen, die ökologische Nachhaltigkeit, technische Excellenz und User Experience vereinen.

@@ -12,7 +12,7 @@ talk_date: "13.11.2025 14:50"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/01_SoHa/10_Kozlov_Onepedal.pdf"
-outdated: false
+outdated: true
 ---
 
 Classical carbon-aware computing approaches usually rely on shifting computational workloads in time (scheduling) and space (between datacenters) to follow the availability of renewable energy. This makes them difficult to use with jobs that  e.g., run for multiple days or depend on large amount of input data. 

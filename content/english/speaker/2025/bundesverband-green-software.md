@@ -8,7 +8,7 @@ image: "images/teams/bvgs.webp"
 company: "Bundesverband Green Software"
 designation : "Board"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Eine Zukunft, in der Software sparsam mit Umweltressourcen umgeht - Die IKT-Branche ist derzeit für rund 4% der globalen CO2-Emissionen verantwortlich

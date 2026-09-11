@@ -8,7 +8,7 @@ image: "images/teams/julian-bothe.webp"
 company: "AlgorithmWatch"
 designation : "AI & sustainability"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Julian Bothe is responsible for AI and sustainability at the non-profit organization AlgorithmWatch. At the intersection of digital and energy policy, the aim is to limit the resource consumption and climate damage caused by the current AI boom. 

@@ -1,7 +1,7 @@
 ---
 title: "FAQ"
-date: 2019-09-10T13:51:25+06:00
+date: 2026-09-10T09:00:00+02:00
 draft: false
-description: "FAQ for the ecoCompute Conference"
+description: "Frequently asked questions about ecoCompute Science 2027"
 bg_image : "images/bg/cta-bg.webp"
 ---

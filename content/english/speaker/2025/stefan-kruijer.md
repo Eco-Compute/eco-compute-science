@@ -8,7 +8,7 @@ image: "images/teams/stefan-kruijer.webp"
 company: "SustyDigi"
 designation : "Software Developer"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Stefan Kruijer has more than 25 years of experience in the ICT world, ranging from software development to strategic consulting. As a freelance software developer and IT consultant, he has been focusing on sustainable digitalization and resource-efficient software development (green IT) for around 7–8 years.

@@ -16,7 +16,7 @@ talk_date: "13.11.2025 10:55"
 type : "talk"
 duration: "50 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/01_SoHa/05_Kopp_Green_Frontend.pdf"
-outdated: false
+outdated: true
 ---
 
 End-user devices account for over 50% of energy consumption in the ICT sector, including the manufacturing phase. Client-side software plays a significant role in this. But how can the environmental impact of a web application be reliably measured?

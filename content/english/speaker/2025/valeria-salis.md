@@ -8,7 +8,7 @@ image: "images/teams/valeria-salis.webp"
 company: "Freelance"
 designation : "Tech Sustainability Consultant"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Software Developer with a hybrid background and way too many interests, I’ve been passionate about technology since I can remember. I enrolled in Music Computer Science at the University, and during those years, I discovered web development, which I fell in love with. A particular sensibility led me to become passionate about the environmental impact of tech.

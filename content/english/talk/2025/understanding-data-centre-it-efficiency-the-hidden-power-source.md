@@ -12,7 +12,7 @@ talk_date: "13.11.2025 16:15"
 type : "talk"
 duration: "50 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/02_DIM/12_Kenny_Rich_Understanding_Data_Center_Efficiency.pdf"
-outdated: false
+outdated: true
 ---
 
 The digital infrastructure industry is facing massive growth in power demand to support expanding traditional IT and new AI training and inference infrastructures. While the industry is focused on building new power capacity, power demand reduction through the deployment and proper utilisation of highly efficient IT infrastructure is largely ignored.

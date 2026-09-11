@@ -12,7 +12,7 @@ talk_date: "13.11.2025 15:45"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/01_Thursday/01_SoHa/11_Hoffmann_Didi_ProcPower.pdf"
-outdated: false
+outdated: true
 ---
 
 Energy efficiency is no longer a niche concern—it is a first-class systems metric alongside performance and scalability. Yet, developers and operators still lack lightweight, fine-grained tools to observe how individual processes and containers consume energy. In this talk, we present procpower a Linux kernel module that exposes per-PID runtime, I/O, and energy-related statistics directly via /proc and debugfs. By integrating Intel RAPL counters with kernel task accounting, the module enables high-frequency sampling of CPU, memory, disk, and network usage at less than 0.3 % overhead on modern hosts. These metrics power an extensible linear energy model whose weights can be retrained to reflect local hardware characteristics or external carbon-intensity signals.

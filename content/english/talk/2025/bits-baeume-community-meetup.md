@@ -6,12 +6,12 @@ bg_image : "images/bg/cta-bg.webp"
 speaker_name: "Bits & Bäume"
 speaker_company: "Bits & Bäume"
 speaker_image : "images/clients/bits-und-baeume.webp"
-speaker_link: "speaker/2025/bits-und-baeume/"
+speaker_link: "https://bits-und-baeume.org/"
 talk_room: "Community Track"
 talk_date: "13.11.2025 14:50"
 type : "talk"
 duration: "25 Minutes"
-outdated: false
+outdated: true
 ---
 
 Die Bits & Bäume Community kommt zusammen und stellt sich allen Interessierten vor. Ihr habt die Gelegenheit bei Kaffee und guten Keksen in gemütlicher Athmosphäre zu Netzwerken und auch in einer Blitzlichrunde euer Projekt kurz vorzustellen.

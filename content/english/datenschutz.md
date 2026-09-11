@@ -1,6 +1,6 @@
 ---
 title: "Datenschutz"
-date: 2019-09-10T13:51:25+06:00
+date: 2026-09-10T09:00:00+02:00
 draft: false
 description: "Datenschutz"
 bg_image : "images/bg/cta-bg.webp"
@@ -13,10 +13,10 @@ bg_image : "images/bg/cta-bg.webp"
 <h6 id="wer-ist-verantwortlich-für-die-datenerfassung-auf-dieser-website">WER IST VERANTWORTLICH FÜR DIE DATENERFASSUNG AUF DIESER WEBSITE?</h6>
 <p>Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen Kontaktdaten können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.</p>
 <h6 id="wie-erfassen-wir-ihre-daten">WIE ERFASSEN WIR IHRE DATEN?</h6>
-<p>Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben oder bei der Bestellung des Tickets angeben oder wenn Sie über denn Call for Speakers einen Vorschlag einreichen.</p>
+<p>Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben, die Sie bei der Anmeldung zu einer Session angeben oder die Sie beim Einreichen eines Beitrags übermitteln.</p>
 <p>Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.</p>
 <h6 id="wofür-nutzen-wir-ihre-daten">WOFÜR NUTZEN WIR IHRE DATEN?</h6>
-<p>Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden. Daten aus dem Ticketsystem werden dazu verwendet um Ihnen eine Eintrittskarte für die Konferenz auszustellen und die Zahlung abzuwickeln. Informationen aus dem Call for Speakers System werden dafür verwendet um mit Ihnen in Kontakt zu treten bei Rückfragen zu dem Vortrags-Vorschlag.</p>
+<p>Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet werden. Daten aus dem Einreichungs- und Begutachtungsprozess werden dafür verwendet, Ihren Beitrag zu begutachten und mit Ihnen bei Rückfragen in Kontakt zu treten. Daten aus der Session-Anmeldung werden verwendet, um Ihnen den Zugang zur jeweiligen Session zu ermöglichen.</p>
 <h6 id="welche-rechte-haben-sie-bezüglich-ihrer-daten">WELCHE RECHTE HABEN SIE BEZÜGLICH IHRER DATEN?</h6>
 <p>Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen Aufsichtsbehörde zu.</p>
 <p>Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an uns wenden.</p>
@@ -97,23 +97,15 @@ bg_image : "images/bg/cta-bg.webp"
 <p>Das Tracking Script setzt keine Cookies und speichert keine personenbezogenen Daten.</p>
 <p>Hier finden Sie finden die [Datenschutzerklärung](https://plausible.io/privacy) und die [Data-Policy](https://plausible.io/data-policy) des Anbieters.</p>
 
-<h3 id="6-ticketing">6. TICKETING</h3>
-<h5 id="pretix">Pretix.eu</h5>
-<p>Wir verwenden den in der EU ansässigen Drittanbieter Pretix.eu um Ihre Daten für die Ticketbestellung aufzunehmen und mit Ihnen bei Rückfragen zum Ticket Kontakt aufzunehmen.</p>
-<p>Hierbei werden personenbezogene Daten erhoben inkl. der E-Mail Adresse.</p>
-<p>Hier finden Sie finden die [Datenschutzerklärung](https://pretix.eu/about/de/privacy) des Anbieters.</p>
+<h3 id="6-einreichung">6. EINREICHUNG UND BEGUTACHTUNG</h3>
+<p>Das Einreichungssystem für ecoCompute Science steht noch nicht fest. Sobald es feststeht, wird diese Datenschutzerklärung um den konkreten Anbieter, die dort erhobenen Daten und die Rechtsgrundlage ergänzt, bevor der Call for Papers öffnet.</p>
+<p>Bis dahin erreichen uns Einreichungsanfragen ausschließlich per E-Mail. Es gelten die Angaben unter Kontaktformular und E-Mail.</p>
+<p>Im Rahmen der Begutachtung werden Ihr Name, Ihre E-Mail-Adresse und Ihr eingereichter Beitrag inklusive Artefakt an die Mitglieder des Programm- und Artefakt-Komitees weitergegeben. Das Begutachtungsergebnis und der Artefakt-Status werden gemeinsam mit dem Beitrag veröffentlicht.</p>
 
-<h3 id="7-payment">7. ZAHLUNGSABWICKLUNG</h3>
-<h5 id="mollie">Mollie.eu</h5>
-<p>Wir verwenden den in der EU ansässigen Drittanbieter Mollie um Ihre Daten für Zahlung der Ticketbestellung zu verarbeiten.</p>
-<p>Hierbei werden personenbezogene Daten erhoben inkl. der Kreditkarten oder Bankdaten.</p>
-<p>Hier finden Sie finden die [Datenschutzerklärung](https://www.mollie.com/legal/privacy) des Anbieters.</p>
-
-<h3 id="8-payment">8. CALL FOR SPEAKERS</h3>
-<h5 id="pretalx">Pretalx</h5>
-<p>Wir verwenden eine eigene gehostete Lösung auf cfp.eco-compute.io um ihren Vorschlag für einen Vortrag bei der ecoCompute Konferenz aufzunehmen und zu bewerten.</p>
-<p>Hierbei werden personenbezogene Daten erhoben wie Name und E-Mail Adresse.</p>
-<p>Das Hosting findet ebenfalls auf Hetzner statt und es gilt die Datenschutzerklärung und Information zu dem Anbieter, siehe oben.</p>
+<h3 id="7-veranstaltung">7. DURCHFÜHRUNG DER ONLINE-VERANSTALTUNG</h3>
+<p>ecoCompute Science findet ausschließlich online statt. Die eingesetzte Videokonferenz-Plattform steht noch nicht fest und wird hier ergänzt, sobald sie feststeht.</p>
+<p>Die Sessions werden nicht standardmäßig aufgezeichnet. Es besteht keine Kamerapflicht.</p>
+<p>Von den Diskussions-Sessions werden Notizen erstellt. Diese Notizen werden mit Unterstützung eines Sprachmodells (LLM) erzeugt und den Autorinnen und Autoren des jeweiligen Beitrags zur Verfügung gestellt. Der eingesetzte Anbieter wird hier ergänzt, sobald er feststeht.</p>
 
 
 <p>Tool das bei der Erstellung mitgeholfen hat: https://www.e-recht24.de</a></p>

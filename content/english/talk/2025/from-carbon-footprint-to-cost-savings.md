@@ -9,7 +9,7 @@ talk_room: "Data Centers / Infrastructure / Management (DIM)"
 talk_date: "14.11.2025 09:00"
 type : "talk"
 duration: "50 Minutes"
-outdated: false
+outdated: true
 ---
 
 All the investments in building highly accurate Artificial Intelligence (AI) systems have led to a dramatic growth in data volume, model size, and infrastructure capacity. Training costs, measured in computing resources, have skyrocketed, rising by orders of magnitude in just a few years, while inference has become the dominant contributor to AI’s energy footprint, accounting for up to 90% of total Machine Learning costs. To illustrate, a single Large Language Model (LLM) query can consume around ten times more energy than a traditional web search and translate into hundreds of thousands of euros per year in hardware expenditure.

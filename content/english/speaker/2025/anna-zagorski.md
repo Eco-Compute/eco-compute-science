@@ -8,7 +8,7 @@ image: "images/teams/anna-zagorski.webp"
 company: "Umweltbundesamt"
 designation : "Research Associate for Green IT"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Anna Zagorski is a Research Associate for Green IT at the German Environment Agency (UBA / Umweltbundesamt).

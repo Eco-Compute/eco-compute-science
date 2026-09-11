@@ -12,7 +12,7 @@ talk_date: "14.11.2025 10:25"
 type : "talk"
 duration: "25 Minutes"
 slide_link: "/files/slides_2025/02_Friday/02_DIM/03_Schwerk_XAI_ecocompute.pdf"
-outdated: false
+outdated: true
 ---
 
 Bias and opacity in AI systems threaten fairness, trust, and accountability across domains—particularly in healthcare, where data quality, diversity, and representativeness are critical, and flawed predictions can have detrimental real-world consequences. Explainable AI (XAI) goes beyond transparency: it acts as a catalyst for bias detection, fairness assessment, quality assurance, and continuous model improvement. This presentation explores how imbalanced or incomplete data can lead to inequitable outcomes and how XAI methods can uncover, quantify, and mitigate such effects to enable fairer, more inclusive model development.

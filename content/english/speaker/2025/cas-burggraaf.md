@@ -8,7 +8,7 @@ image: "images/teams/cas-burggraaf.webp"
 company: "Green PT"
 designation : "CTO"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 TBD

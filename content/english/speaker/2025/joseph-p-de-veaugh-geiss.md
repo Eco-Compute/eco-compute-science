@@ -8,7 +8,7 @@ image : "images/teams/joseph-p-de-veaugh-geiss.webp"
 company: "KDE Eco"
 designation : "Community Manager"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 Joseph P. De Veaugh-Geiss (he/him) is project manager of the UBA/BMUKN-funded project "Opt Green" the community manager for KDE Eco. The goal of KDE Eco is to strengthen sustainability goals as part of the development and adoption of Free Software.

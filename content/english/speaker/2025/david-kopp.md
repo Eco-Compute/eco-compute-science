@@ -8,7 +8,7 @@ image : "images/teams/david-kopp.webp"
 company: "envite consulting"
 designation : "Green IT Consultant"
 type : "speaker"
-outdated: false
+outdated: true
 ---
 
 As a Green IT Consultant, I strive to design efficient software systems holistically - from conception to development and operation. My main focus is on optimizing cloud environments, DevOps environments and Java-based applications. Minimalism shapes me a lot, which helps me to lead an environmentally friendly lifestyle and provides the basis for implementing and operating systems in the most cost-efficient and ecologically sustainable way possible.
