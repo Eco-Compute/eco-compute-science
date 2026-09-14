@@ -162,3 +162,7 @@ footer_content = "A peer-reviewed venue for resource-aware computing, in which t
 
 # copyright
 copyright = "Copyright &copy; 2026 Green Coding Solutions"
+
+# image credit, required by the Magnific licence the hero photo is used under
+# https://www.magnific.com/ai/docs/licenses-attribution
+image_credit = "Hero image: <a href='https://www.magnific.com/'>Designed by Magnific</a>"
