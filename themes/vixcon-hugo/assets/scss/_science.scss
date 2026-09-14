@@ -140,24 +140,8 @@
   }
 }
 
-.newsletter-form {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 12px;
-
-  /* The field takes the space the button does not; both sit on one line in the
-     column and wrap only on the narrowest screens. */
-  .form-control {
-    height: 51px;
-    flex: 1 1 180px;
-    min-width: 0;
-    border-color: $border-color;
-  }
-
-  .btn {
-    flex: 0 0 auto;
-  }
+.newsletter-form .btn {
+  box-shadow: none;
 }
 
 .newsletter-note {
@@ -171,7 +155,7 @@
 }
 
 /* The card's columns stack at Bootstrap's lg breakpoint (991px), below which the
-   form needs air above the copy it no longer sits beside. */
+   button needs air above the copy it no longer sits beside. */
 @include desktop {
   .newsletter-form {
     margin-top: 24px;

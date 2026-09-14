@@ -24,9 +24,9 @@ banner:
 # Mailchimp announcement list. This is the same list the ecoCompute conference
 # used, so existing subscribers are already on it.
 #
-# The form hands the address to Mailchimp's own hosted signup page, which is
-# where the subscriber confirms (double opt-in). `u` and `id` identify the
-# account and the list; both are public values that appear in the form markup.
+# The button opens Mailchimp's own hosted signup page (form_action) in a new
+# tab, which is where the subscriber enters the address and confirms (double
+# opt-in).
 #
 # Mailchimp is named in the privacy policy under "Newsletter". If the provider
 # changes, that section has to change with it.
@@ -34,10 +34,9 @@ newsletter:
   enable : true
   title : "Announcement list"
   content : "The submission dates and the dates of the event have not yet been fixed. Subscribers to the announcement list are notified when the Call for Papers opens and when the dates are set. The list is used for those announcements and for nothing else."
-  form_action : "https://eco-compute.us18.list-manage.com/subscribe"
-  mailchimp_u : "7eb6781b02678aa80dc546030"
-  mailchimp_id : "e4a346eaa3"
-  placeholder : "Your email address"
+  form_action : "https://mailchi.mp/eco-compute/ecocompute-science"
+  # mailchimp_u : "7eb6781b02678aa80dc546030"
+  # mailchimp_id : "e4a346eaa3"
   button : "Subscribe"
   note : "Administered through Mailchimp. Subscription is confirmed by double opt-in and can be cancelled at any time. See the [privacy policy](/datenschutz)."
 

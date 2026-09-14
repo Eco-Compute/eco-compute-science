@@ -142,10 +142,6 @@ mailchimp_form_name = ""
 enable = false
 
 
-############################# social icon ############################
-[[params.social]]
-icon = "tf-ion-social-linkedin"
-link = "https://www.linkedin.com/showcase/eco-compute-io/"
 
 
 ################################### English language #####################################

@@ -73,13 +73,9 @@
                             <div class="rich-text">{{ .content | markdownify }}</div>
                         </div>
                         <div class="col-lg-5">
-                            <form class="newsletter-form" action="{{ .form_action }}" method="GET" target="_blank" rel="noopener">
-                                <input type="hidden" name="u" value="{{ .mailchimp_u }}">
-                                <input type="hidden" name="id" value="{{ .mailchimp_id }}">
-                                <label class="sr-only" for="newsletter-email">{{ .placeholder }}</label>
-                                <input class="form-control" type="email" id="newsletter-email" name="EMAIL" placeholder="{{ .placeholder }}" required autocomplete="email">
-                                <button type="submit" class="btn btn-hero btn-rounded">{{ .button }}</button>
-                            </form>
+                            <div class="newsletter-form">
+                                <a href="{{ .form_action }}" class="btn btn-hero btn-rounded" target="_blank" rel="noopener">{{ .button }}</a>
+                            </div>
                             {{ with .note }}
                             <div class="newsletter-note">{{ . | markdownify }}</div>
                             {{ end }}
