@@ -64,7 +64,7 @@ different:
       content : |
         Every submission includes a complete, runnable artifact. An archive file or a container image is sufficient; no hosting platform is required.
         <br><br>
-        Each artifact must be accompanied by a precise, step-by-step guide that enables a reviewer to regenerate the reported results without consulting the authors.
+        Each artifact must be accompanied by a precise, step-by-step guide that enables a reviewer to verify the reported results without consulting the authors. Every number in the write-up has a source.
 
     - name : "2. Two-page write-up"
       icon : "tf-ion-android-document"

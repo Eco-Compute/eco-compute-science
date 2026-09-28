@@ -39,23 +39,32 @@ At most two pages, under five headings, in the following order:
 Bullet points are acceptable throughout. Presentational quality is not a criterion for
 acceptance. The write-up is a guide to the artifact, not the evidence itself.
 
+Every number in the write-up needs a source: an output of the artifact, the data included
+with it, a cited publication, or a stated assumption. The sources are listed in the
+artifact's guide.
+
 ### The artifact
 
-A complete, runnable artifact that enables a reviewer to regenerate the reported results, or
-otherwise verify the claims, without contacting the authors. An archive file or a container
-image is sufficient. No hosting platform is required.
+A complete, runnable artifact that enables a reviewer to verify the claims without contacting
+the authors. It need not be a script that regenerates every number. A tool, a dashboard, a
+notebook, or a dataset together with the code that produced it are all acceptable, provided
+the authors argue how the artifact supports the points made in the write-up. Data that
+cannot be published may be anonymised, provided the properties on which the claim depends
+are preserved. An archive file or a container image is sufficient. No hosting platform is
+required.
 
 The [Artifacts](/artifacts) page sets out in detail what counts as an artifact, what the
-step-by-step guide must contain, and how specialised hardware and measurement variance are
-handled. Authors are asked to read it before submitting.
+step-by-step guide must contain, how every number is traced to its source, and how
+specialised hardware, confidential data and measurement variance are handled. Authors are
+asked to read it before submitting.
 
 ## Tracks
 
 ### Track 1: Artifact track
 
-The main track, which requires full reproducibility: a reviewer is able to regenerate the
-reported results from the artifact. Unless stated otherwise, the material on this site
-describes this track.
+The main track, which requires full reproducibility of the claim: a reviewer is able to
+verify it with the artifact and the data included with it, anonymised where necessary.
+Unless stated otherwise, the material on this site describes this track.
 
 ### Track 2: Industry and impact track
 
@@ -64,6 +73,11 @@ describes this track.
 Industry work frequently rests on data that cannot leave the organisation, and constructing
 representative sample data is often not feasible either. The organisers do not wish to
 exclude such work, nor to present it as reproduced when it has not been.
+
+Where the data can be anonymised while preserving the properties on which the claim depends,
+the work belongs in the artifact track, as set out under
+[Data that cannot be published](/artifacts#data-that-cannot-be-published). This track is
+intended for the cases in which that is not possible.
 
 The intended form is a lower requirement for reproducibility, a higher requirement for
 applicability, and a mandatory **impact artifact**. The impact artifact is whatever renders
@@ -85,7 +99,8 @@ Concrete cases will shape this track more effectively than speculation.
 - **Methodology and accounting work.** Proposals for accounting for oversubscription or
   effective utilisation are in scope. The artifact is then the method applied to sample
   configurations, which a reviewer can re-execute and verify.
-- **Tools and measurement stacks**, together with evidence that they perform as described.
+- **Tools, dashboards and measurement stacks**, together with evidence that they perform as
+  described.
 
 ## Review
 

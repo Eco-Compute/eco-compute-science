@@ -46,6 +46,12 @@ image is sufficient; no hosting platform is required. Each artifact must be acco
 precise, step-by-step guide that enables a reviewer to regenerate the reported results, or
 otherwise verify the claims, without consulting the authors.
 
+The artifact need not be a script that regenerates every number. A dashboard or a tool that
+the reviewer can use is equally acceptable, provided the authors argue how it supports the
+points made in the write-up. Every number in the write-up has a source. Data that cannot be
+published may be anonymised, provided the properties on which the claim depends are
+preserved.
+
 Where the work requires specialised hardware, the authors must be able to provide reviewers
 with access to those systems.
 

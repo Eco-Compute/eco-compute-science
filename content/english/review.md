@@ -28,14 +28,18 @@ judgement and should not be treated as one.
 ### 3. Artifact evaluation
 
 A dedicated artifact evaluation committee executes the submissions. The committee assesses
-whether the claim, as formulated by the authors, holds when the artifact is executed by
-somebody else:
+whether the claim, as formulated by the authors, holds when the artifact is executed or used
+by somebody else:
 
 - Does the guide work from beginning to end on a machine other than the authors'?
-- Do the values reported in the write-up follow from the artifact?
+- Does the artifact support the points the write-up makes, in the way the authors argue it
+  does?
+- Does every number in the write-up have a source, and do the values attributed to the
+  artifact follow from it?
 - Does the property stated to be stable, whether an ordering, a direction or an effect size,
   hold within the stated tolerance?
 - Is the reported variance consistent with what the reviewer observes?
+- Where data was anonymised, does it preserve the properties on which the claim depends?
 
 ### 4. Publication of the outcome
 
@@ -117,10 +121,12 @@ paths and licence headers all disclose identity. A decision is required between 
 single-blind review and adopting a fully open process.
 
 **Confidential industry data.**
-Where a reviewer cannot inspect the data, reproducibility in the conventional sense is
-unattainable, and synthetic sample data is frequently not representative enough to be of
-value. The planned industry and impact track is the current answer. See the
-[Call for Papers](/call-for-papers).
+Data that can be anonymised without losing the properties on which a claim depends is
+accepted in the artifact track (see [Artifacts](/artifacts#data-that-cannot-be-published)).
+The open question concerns the remainder. Where a reviewer cannot inspect the data in any
+form, reproducibility in the conventional sense is unattainable, and synthetic sample data
+is frequently not representative enough to be of value. The planned industry and impact
+track is the current answer. See the [Call for Papers](/call-for-papers).
 
 **Non-attendance.**
 Registration free of charge produces high rates of non-attendance, which is untenable for

@@ -17,7 +17,10 @@ faq:
       content : "Yes. The write-up is a guide to the artifact, not the evidence itself. Bullet points are acceptable throughout and presentational quality is not a criterion for acceptance. The full paper follows later, at stage two, after the event."
 
     - title : "Must the artifact be hosted on a particular platform?"
-      content : "No. An archive file or a container image is sufficient. What is required is a precise, step-by-step guide that enables a reviewer to regenerate the reported results without consulting the authors."
+      content : "No. An archive file or a container image is sufficient. What is required is a precise, step-by-step guide that enables a reviewer to verify the reported results without consulting the authors."
+
+    - title : "Does the artifact have to be a script that regenerates every number?"
+      content : "No. A tool, a dashboard, a notebook, a spreadsheet, or a dataset together with the code that produced it are all acceptable. What matters is that the artifact supports the points the write-up makes, and that the guide argues how. Every number in the write-up still needs a source: an output of the artifact, the data included with it, a cited publication, or a stated assumption. See <u>[Artifacts](/artifacts)</u>."
 
     - title : "The work requires specialised hardware. Can it still be submitted?"
       content : "Yes, provided reviewers can be given access to those systems for the duration of the review period. Hardware requirements should be declared at submission so that reviewers able to work with them can be assigned."
@@ -34,8 +37,8 @@ faq:
     - title : "Are replication studies accepted?"
       content : "Yes. An unsuccessful attempt to reproduce a published result is a full submission here, not secondary material."
 
-    - title : "Can work based on industry data that cannot leave the company be submitted?"
-      content : "Possibly, through the planned industry and impact track: a lower requirement for reproducibility, a higher requirement for applicability, and a mandatory impact artifact. That track is still being developed, and concrete cases will shape it more effectively than speculation. Authors with such work are invited to <u>[contact the organisers](/contact)</u>."
+    - title : "Can work based on data that cannot be published be submitted?"
+      content : "Yes, if the data can be anonymised while preserving the properties on which the claim depends. Scaling every value by the same undisclosed factor, for example, preserves orderings and relative effect sizes. The guide states what was changed and which properties are preserved; see <u>[Artifacts](/artifacts#data-that-cannot-be-published)</u>. Where no such anonymisation is possible, as with some industry data that cannot leave the company, the planned industry and impact track is intended: a lower requirement for reproducibility, a higher requirement for applicability, and a mandatory impact artifact. That track is still being developed, and concrete cases will shape it more effectively than speculation. Authors with such work are invited to <u>[contact the organisers](/contact)</u>."
 
     - title : "Are there presentations?"
       content : "No. The event consists entirely of discussion, following the session format used at ICT4S. Each accepted submission is allocated three sessions, the author participates in all three, and all participants have read the submissions one week in advance."
