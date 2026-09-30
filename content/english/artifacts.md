@@ -20,7 +20,8 @@ published, or produces results that are not bit-reproducible.
 ## What constitutes an artifact
 
 An artifact is whatever enables a reviewer to check a claim by running or using it rather
-than by reading about it. It need not be a software tool. All of the following qualify:
+than by reading about it. It need not be a software tool. Any one of the following qualifies
+on its own:
 
 - **A tool or library**, together with the benchmarks and the harness that produced the
   reported results.
