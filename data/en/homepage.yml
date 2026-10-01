@@ -181,6 +181,11 @@ organisers:
       link : "https://ribalba.notion.site/"
       image : "images/teams/didi-hoffmann.webp"
 
+    # No role or profile link yet. The template skips both when they are missing.
+    - name : "Mira Weber"
+      affiliation : "HTW Berlin"
+      image : "images/teams/mira-weber.webp"
+
 
 ############################# get involved #########################
 cta:
