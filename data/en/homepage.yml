@@ -178,13 +178,19 @@ organisers:
     - name : "Didi Hoffmann"
       role : "Artifacts and infrastructure"
       affiliation : "Green Coding Solutions"
-      link : "https://ribalba.notion.site/"
+      link : "https://ribalba.de/"
       image : "images/teams/didi-hoffmann.webp"
 
     # No role or profile link yet. The template skips both when they are missing.
     - name : "Mira Weber"
       affiliation : "HTW Berlin"
       image : "images/teams/mira-weber.webp"
+
+    # No role yet. Photo is the HTW Berlin press portrait (HTW Berlin/Cornelia Fieguth).
+    - name : "Prof. Dr. Michael Witt"
+      affiliation : "HTW Berlin"
+      link : "https://www.htw-berlin.de/hochschule/personen/person/?eid=4763"
+      image : "images/teams/michael-witt.webp"
 
 
 ############################# get involved #########################
