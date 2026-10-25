@@ -162,6 +162,8 @@ organisers:
   subtitle : "ecoCompute Science is organised by:"
   # `image` points at the base file in static/images/teams/. The template asks for
   # the -450 and -900 variants of it, the same convention the speaker pages use.
+  # The card markup is shared with the committee below, in
+  # themes/vixcon-hugo/layouts/partials/organiser-card.html
   people:
     - name : "Prof. Dr. Anna-Lena Lamprecht"
       role : "Publication track"
@@ -181,16 +183,22 @@ organisers:
       link : "https://ribalba.de/"
       image : "images/teams/didi-hoffmann.webp"
 
-    # No role or profile link yet. The template skips both when they are missing.
-    - name : "Mira Weber"
-      affiliation : "HTW Berlin"
-      image : "images/teams/mira-weber.webp"
+  # Rendered below the organisers with smaller cards (four per row), and reachable
+  # as /#committee. Same fields as the organisers. `role` and `link` are optional.
+  committee:
+    title : "Programme committee"
+    subtitle : "The programme committee reviews the submissions and shepherds the full papers. Further members are being invited."
+    people:
+      # No profile link yet. The template skips it when it is missing.
+      - name : "Mira Weber"
+        affiliation : "HTW Berlin"
+        image : "images/teams/mira-weber.webp"
 
-    # No role yet. Photo is the HTW Berlin press portrait (HTW Berlin/Cornelia Fieguth).
-    - name : "Prof. Dr. Michael Witt"
-      affiliation : "HTW Berlin"
-      link : "https://www.htw-berlin.de/hochschule/personen/person/?eid=4763"
-      image : "images/teams/michael-witt.webp"
+      # Photo is the HTW Berlin press portrait (HTW Berlin/Cornelia Fieguth).
+      - name : "Prof. Dr. Michael Witt"
+        affiliation : "HTW Berlin"
+        link : "https://www.htw-berlin.de/hochschule/personen/person/?eid=4763"
+        image : "images/teams/michael-witt.webp"
 
 
 ############################# get involved #########################

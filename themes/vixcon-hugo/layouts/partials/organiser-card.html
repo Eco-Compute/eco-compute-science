@@ -1,0 +1,18 @@
+{{/* One person card in the organisers section of the landing page.
+     Takes a dict with "person" (an entry from data/en/homepage.yml) and "col"
+     (the Bootstrap column classes, so that the committee can use smaller cards). */}}
+{{ with .person }}
+<div class="{{ $.col }}">
+    <div class="speaker-block mb-5">
+        <div class="img-block">
+            {{ if .link }}<a href="{{ .link }}" rel="noopener">{{ end }}
+                <img src="{{ replaceRE "(?i)\\.webp$" "-900.webp" .image | relURL }}" srcset="{{ replaceRE "(?i)\\.webp$" "-900.webp" .image | relURL }} 2x, {{ replaceRE "(?i)\\.webp$" "-450.webp" .image | relURL }} 1x" alt="{{ .name }}" class="img-fluid" loading="lazy">
+            {{ if .link }}</a>{{ end }}
+        </div>
+        <div class="speaker-info">
+            <h4 class="mb-0 mt-3">{{ if .link }}<a href="{{ .link }}" rel="noopener">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}</h4>
+            <p>{{ with .role }}{{ . }} | {{ end }}{{ .affiliation }}</p>
+        </div>
+    </div>
+</div>
+{{ end }}
