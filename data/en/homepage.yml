@@ -207,6 +207,12 @@ organisers:
         link : "https://informatik.rub.de/hoenig/"
         image : "images/teams/timo-hoenig.webp"
 
+      # Same studio portrait as his 2025 speaker page, which he sent again with his
+      # acceptance (mail of 2026-10-25). No public profile page found for the link.
+      - name : "Prof. Dr. Henning Klaffke"
+        affiliation : "Berufliche Hochschule Hamburg"
+        image : "images/teams/henning-klaffke.webp"
+
 
 ############################# get involved #########################
 cta:
