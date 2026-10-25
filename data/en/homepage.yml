@@ -200,6 +200,13 @@ organisers:
         link : "https://www.htw-berlin.de/hochschule/personen/person/?eid=4763"
         image : "images/teams/michael-witt.webp"
 
+      # Photo is the 2023 portrait from his RUB faculty page, used with his
+      # permission (mail of 2026-10-25), cropped to a square.
+      - name : "Prof. Dr.-Ing. Timo Hönig"
+        affiliation : "Ruhr-Universität Bochum"
+        link : "https://informatik.rub.de/hoenig/"
+        image : "images/teams/timo-hoenig.webp"
+
 
 ############################# get involved #########################
 cta:
