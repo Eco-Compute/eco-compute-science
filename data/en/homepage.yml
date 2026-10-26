@@ -213,6 +213,14 @@ organisers:
         affiliation : "Berufliche Hochschule Hamburg"
         image : "images/teams/henning-klaffke.webp"
 
+      # Accepted by mail on 2026-10-26 but sent no photo. This is the square
+      # portrait from his VU research profile (same shoot as the one on his own
+      # homepage). Swap it if he sends a different one.
+      - name : "Dr. Ivano Malavolta"
+        affiliation : "Vrije Universiteit Amsterdam"
+        link : "https://www.ivanomalavolta.com/"
+        image : "images/teams/ivano-malavolta.webp"
+
 
 ############################# get involved #########################
 cta:
