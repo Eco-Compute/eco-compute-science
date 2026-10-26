@@ -226,6 +226,12 @@ organisers:
         link : "https://www.ivanomalavolta.com/"
         image : "images/teams/ivano-malavolta.webp"
 
+      # Photo is the square portrait he sent with his acceptance (mail of 2026-10-26).
+      - name : "Dr. Romain Jacob"
+        affiliation : "ETH Zurich"
+        link : "https://www.romainjacob.net/"
+        image : "images/teams/romain-jacob.webp"
+
 
 ############################# get involved #########################
 cta:
