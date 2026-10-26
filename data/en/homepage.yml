@@ -208,15 +208,20 @@ organisers:
         image : "images/teams/timo-hoenig.webp"
 
       # Same studio portrait as his 2025 speaker page, which he sent again with his
-      # acceptance (mail of 2026-10-25). No public profile page found for the link.
+      # acceptance (mail of 2026-10-25). BHH has no public profile page for him,
+      # so the link is his LinkedIn profile.
       - name : "Prof. Dr. Henning Klaffke"
         affiliation : "Berufliche Hochschule Hamburg"
+        link : "https://www.linkedin.com/in/prof-dr-henning-klaffke"
         image : "images/teams/henning-klaffke.webp"
 
       # Accepted by mail on 2026-10-26 but sent no photo. This is the square
       # portrait from his VU research profile (same shoot as the one on his own
       # homepage). Swap it if he sends a different one.
+      # "Dr." and not "Prof.": in the Netherlands "Prof." is for full professors
+      # (hoogleraar), and the VU lists him as "dr." with the rank Associate Professor.
       - name : "Dr. Ivano Malavolta"
+        role : "Associate Professor"
         affiliation : "Vrije Universiteit Amsterdam"
         link : "https://www.ivanomalavolta.com/"
         image : "images/teams/ivano-malavolta.webp"

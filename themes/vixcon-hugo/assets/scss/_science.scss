@@ -250,6 +250,23 @@
   }
 }
 
+/* organisers and committee ----------------------------------------------- */
+
+/* The cards reuse the theme's .speaker-block. Its .img-block:before is an
+   invisible overlay on the photo that tints it on hover, and it sits on top of
+   the profile link, so a click on the photo went nowhere. Here the overlay lets
+   clicks through to the link. Scoped to this section, because the archived
+   speaker list keeps the theme's original card and will link to speaker pages. */
+#organisers .img-block {
+  &::before {
+    pointer-events: none;
+  }
+
+  a {
+    display: block;
+  }
+}
+
 /* open questions --------------------------------------------------------- */
 
 .open-question {
