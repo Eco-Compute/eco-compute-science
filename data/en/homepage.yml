@@ -240,6 +240,14 @@ organisers:
         link : "https://www.inesctec.pt/en/people/joao-alexandre-saraiva"
         image : "images/teams/joao-saraiva.webp"
 
+      # Agreed on Signal on 2026-10-27. The photo is the portrait from his
+      # freelancermap profile, which is only 225 px and upscaled here. He is
+      # sending his own, so swap it when that arrives.
+      - name : "Dr. Nico Görnitz"
+        affiliation : "Independent ML engineer"
+        link : "https://github.com/nicococo"
+        image : "images/teams/nico-goernitz.webp"
+
 
 ############################# get involved #########################
 cta:
