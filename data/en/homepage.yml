@@ -248,6 +248,28 @@ organisers:
         link : "https://github.com/nicococo"
         image : "images/teams/nico-goernitz.webp"
 
+      # Accepted by mail on 2026-10-28 and sent this photo (Bild: Miriam Kist),
+      # cropped to a square.
+      - name : "Prof. Dr. Marie Bergmann"
+        affiliation : "Hochschule Bonn-Rhein-Sieg"
+        link : "https://www.h-brs.de/en/inf/prof-dr-marie-bergmann"
+        image : "images/teams/marie-bergmann.webp"
+
+      # Accepted by mail on 2026-10-28 and sent this photo, cropped to a square.
+      - name : "Dr. Andreas Schmidt"
+        affiliation : "Saarland University"
+        link : "https://depend.cs.uni-saarland.de/~schmidt/"
+        image : "images/teams/andreas-schmidt.webp"
+
+      # Added on the user's request on 2026-10-28. The photo is the portrait from
+      # the GI contact page (© Mike Auerbach), only 320x200 there, so the square
+      # crop is 200 px and upscaled. Swap it for a larger one when available.
+      - name : "Nikolas Becker"
+        role : "Head of Policy & Science"
+        affiliation : "Gesellschaft für Informatik"
+        link : "https://gi.de/kontakt"
+        image : "images/teams/nikolas-becker.webp"
+
 
 ############################# get involved #########################
 cta:
