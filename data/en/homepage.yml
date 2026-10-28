@@ -292,19 +292,21 @@ heritage:
     link : "/previous-years"
 
 ######################### organising institutions #########################
-# Footer logo strip. Off until we have a logo for every organising institution,
-# including the University of Potsdam. The organisers section above names all three.
+# Footer logo strip, rendered on every page by
+# themes/vixcon-hugo/layouts/partials/footer.html. The GI joined as a partner in
+# October 2026. `background` fills the tile behind the logo, so it matches the
+# logo's own background colour.
 partners:
-  enable : false
+  enable : true
   partner_group:
-    - title : "Organised by"
+    - title : "Partners"
       partner:
         - name: "Green Coding Solutions GmbH"
           logo : "images/clients/gcb.webp"
           link : "https://www.green-coding.io"
-          background: "#2b3e50"
+          background: "#2f3f4c"
 
-        - name: "HTW Berlin"
-          logo : "images/clients/HTW.webp"
-          link : "https://www.htw-berlin.de/"
+        - name: "Gesellschaft für Informatik"
+          logo : "images/clients/gi.webp"
+          link : "https://gi.de"
           background: "#fff"

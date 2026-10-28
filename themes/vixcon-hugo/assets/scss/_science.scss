@@ -267,6 +267,16 @@
   }
 }
 
+/* partners --------------------------------------------------------------- */
+
+/* The footer's partner logos use the theme's .client-item tiles, which float
+   left. Under the centred "Partners" heading they are centred instead. */
+.footer .client-item {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* open questions --------------------------------------------------------- */
 
 .open-question {
