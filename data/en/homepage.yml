@@ -177,11 +177,13 @@ organisers:
       link : "https://www.htw-berlin.de/hochschule/personen/person/?eid=11866"
       image : "images/teams/verena-majuntke.webp"
 
-    - name : "Didi Hoffmann"
+    # The official 2026 portrait. The older didi-hoffmann*.webp files stay
+    # because the archived speaker pages use them.
+    - name : "Geerd-Dietger (Didi) Hoffmann"
       role : "Artifacts and infrastructure"
       affiliation : "Green Coding Solutions"
       link : "https://ribalba.de/"
-      image : "images/teams/didi-hoffmann.webp"
+      image : "images/teams/geerd-dietger-hoffmann.webp"
 
   # Rendered below the organisers with smaller cards (four per row), and reachable
   # as /#committee. Same fields as the organisers. `role` and `link` are optional.
