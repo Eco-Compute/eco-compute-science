@@ -19,9 +19,9 @@ published, or produces results that are not bit-reproducible.
 
 ## What constitutes an artifact
 
-An artifact is whatever enables a reviewer to check a claim by running or using it rather
-than by reading about it. It need not be a software tool. Any one of the following qualifies
-on its own:
+Every submission needs an artifact. An artifact is something tangible that enables a reviewer
+to check a claim by running, using or inspecting it, rather than by reading a description of
+it. It need not be a software tool. Any one of the following qualifies on its own:
 
 - **A tool or library**, together with the benchmarks and the harness that produced the
   reported results.
@@ -35,6 +35,10 @@ on its own:
   names, for instance, or that a scheduler shifts load in the way claimed. It may be
   submitted as a container image that the reviewer starts, or hosted by the authors with
   access for the whole review period.
+- **The design documents of a system**, such as its architecture, specification or models,
+  where the contribution is the design. The reviewer checks that the design supports the
+  claim, for example that a stated reduction in resource use follows from the documented
+  design and its stated assumptions.
 - **A calculation**: for accounting and methodology work, the artifact is the method applied
   to concrete sample configurations, in a form that can be re-executed and verified. A
   notebook or a spreadsheet is an entirely adequate artifact. Where a new method of
@@ -192,8 +196,10 @@ responsibility. Reviewers assess only whether it preserves what the claim needs.
 **Work that cannot be made available to reviewers in any form is out of scope.** Where
 neither the code, nor the data in any anonymised form, nor the systems can be shown to
 anyone, there is nothing for this venue to review. Industry work whose data cannot be
-anonymised without losing the properties the claim depends on is the difficult case, and it
-is the purpose of the planned [industry and impact track](/call-for-papers).
+anonymised without losing the properties the claim depends on is the difficult case. It can
+still be submitted if something else tangible can be shown, for example the design of the
+system, the calculation behind the claimed effect, or the method applied to a public
+configuration. The claim is then limited to what that artifact supports.
 
 ## The kick-the-tires phase
 

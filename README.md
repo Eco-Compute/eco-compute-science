@@ -44,7 +44,6 @@ These are deliberately marked as open on the site rather than faked:
 
 - Submission dates, and the submission system itself (`content/english/call-for-papers.md`)
 - The journal hosting stage two publication (`data/en/homepage.yml`, `status:` block)
-- The second, industry and impact track
 - Further programme committee members (`organisers.committee` in `data/en/homepage.yml`),
   and the artifact evaluation committee
 - Named Code of Conduct contacts (`content/english/code-of-conduct.md`)

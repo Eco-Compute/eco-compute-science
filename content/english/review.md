@@ -122,11 +122,12 @@ single-blind review and adopting a fully open process.
 
 **Confidential industry data.**
 Data that can be anonymised without losing the properties on which a claim depends is
-accepted in the artifact track (see [Artifacts](/artifacts#data-that-cannot-be-published)).
-The open question concerns the remainder. Where a reviewer cannot inspect the data in any
-form, reproducibility in the conventional sense is unattainable, and synthetic sample data
-is frequently not representative enough to be of value. The planned industry and impact
-track is the current answer. See the [Call for Papers](/call-for-papers).
+accepted (see [Artifacts](/artifacts#data-that-cannot-be-published)). The open question
+concerns the remainder. Where a reviewer cannot inspect the data in any form, reproducibility
+in the conventional sense is unattainable, and synthetic sample data is frequently not
+representative enough to be of value. The current answer is that such work submits another
+tangible artifact, such as the design of the system or the method applied to a public
+configuration, and that its claim is limited to what that artifact supports.
 
 **Non-attendance.**
 Registration free of charge produces high rates of non-attendance, which is untenable for

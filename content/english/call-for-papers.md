@@ -2,15 +2,15 @@
 title: "Call for Papers"
 date: 2026-09-10T09:00:00+02:00
 draft: false
-description: "Call for Papers for ecoCompute Science 2027: two pages and a runnable artifact"
+description: "Call for Papers for ecoCompute Science 2027: two pages and a tangible artifact"
 bg_image : "images/bg/cta-bg.webp"
 ---
 
 <div class="ui warning message">
   <h2 class="header">This Call for Papers is not yet complete</h2>
   <p>The scope, the submission format and the review process set out below are settled. The
-  submission dates, the submission system and the second track are still being finalised and
-  will be announced on this page. Authors who are already working on relevant work are
+  submission dates and the submission system are still being finalised and will be announced
+  on this page. Authors who are already working on relevant work are
   invited to
   <a href="/contact" style="font-weight: bold; text-decoration: underline;">contact the organisers</a>
   rather than wait for the announcement.</p>
@@ -19,8 +19,8 @@ bg_image : "images/bg/cta-bg.webp"
 **ecoCompute Science 2027** invites submissions on resource-aware and resource-reducing
 computing. The event is held online in the European time zone in summer 2027.
 
-A submission consists of **two pages and a runnable artifact**. The reviewers execute the
-artifact.
+A submission consists of **two pages and a tangible artifact**, such as a running system or
+the design documents of a system. The reviewers work with the artifact itself.
 
 ## Submission requirements
 
@@ -45,10 +45,12 @@ artifact's guide.
 
 ### The artifact
 
-A complete, runnable artifact that enables a reviewer to verify the claims without contacting
-the authors. It need not be a script that regenerates every number. A tool, a dashboard, a
-notebook, or a dataset together with the code that produced it are all acceptable, provided
-the authors argue how the artifact supports the points made in the write-up. Data that
+A complete artifact that enables a reviewer to verify the claims without contacting the
+authors. It has to be something tangible that a reviewer can run, use or inspect. It need not
+be a script that regenerates every number. A tool, a running system, a dashboard, a notebook,
+a dataset together with the code that produced it, or the design documents of a system are
+all acceptable, provided the authors argue how the artifact supports the points made in the
+write-up. Data that
 cannot be published may be anonymised, provided the properties on which the claim depends
 are preserved. An archive file or a container image is sufficient. No hosting platform is
 required.
@@ -58,36 +60,17 @@ step-by-step guide must contain, how every number is traced to its source, and h
 specialised hardware, confidential data and measurement variance are handled. Authors are
 asked to read it before submitting.
 
-## Tracks
+## One track, an artifact for every submission
 
-### Track 1: Artifact track
+There is a single track, and every submission includes an artifact. A claim that rests on
+nothing a reviewer can run, use or inspect is out of scope.
 
-The main track, which requires full reproducibility of the claim: a reviewer is able to
-verify it with the artifact and the data included with it, anonymised where necessary.
-Unless stated otherwise, the material on this site describes this track.
-
-### Track 2: Industry and impact track
-
-*Under development. Details will follow on this page.*
-
-Industry work frequently rests on data that cannot leave the organisation, and constructing
-representative sample data is often not feasible either. The organisers do not wish to
-exclude such work, nor to present it as reproduced when it has not been.
-
-Where the data can be anonymised while preserving the properties on which the claim depends,
-the work belongs in the artifact track, as set out under
-[Data that cannot be published](/artifacts#data-that-cannot-be-published). This track is
-intended for the cases in which that is not possible.
-
-The intended form is a lower requirement for reproducibility, a higher requirement for
-applicability, and a mandatory **impact artifact**. The impact artifact is whatever renders
-the claimed effect verifiable in principle: the calculation sheet, the measured savings, or
-the methodology applied to a public configuration. Papers in this track are labelled as such,
-and their artifact status is published alongside them so that the two tracks are not
-conflated.
-
-Authors with industry work to submit are invited to [contact the organisers](/contact).
-Concrete cases will shape this track more effectively than speculation.
+Industry work is welcome on the same terms. Where data cannot leave the organisation, it may
+be anonymised as set out under
+[Data that cannot be published](/artifacts#data-that-cannot-be-published). Where that is not
+possible either, the artifact can be something else that is tangible, for example the design
+of the system, the calculation behind the claimed effect, or the method applied to a public
+configuration. The claim is then limited to what that artifact supports.
 
 ## Submissions we particularly encourage
 
