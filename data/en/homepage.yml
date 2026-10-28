@@ -11,7 +11,7 @@ banner:
   title : "<span class='bold'>eco</span><span class='slim'>Compute</span> <span class='science'>Science</span>"
   date_time : "Summer 2027"
   location : "Online"
-  lead : "A peer-reviewed venue for resource-aware computing in which **reviewers execute the submitted artifact**."
+  lead : "A peer-reviewed venue for resource-aware computing in which **every submission includes a tangible artifact that reviewers run, use or inspect**."
   buttons:
     - label : "Call for Papers"
       link : "/call-for-papers"
@@ -47,7 +47,7 @@ problem:
   title : "The length of a paper is no longer evidence that the work was done"
   content : "With the general availability of large language models, the human cost of producing text has fallen to near zero while the enviromental cost is rising exponentially. The cost of producing results that another researcher can reproduce has not.
     <br><br>
-    The ecoCompute conference has demonstrated that a culture of empirical demonstration is workable in practice. What is missing is a peer-reviewed venue that holds research to the same standard: one in which the reviewers execute the artifact.
+    The ecoCompute conference has demonstrated that a culture of empirical demonstration is workable in practice. What is missing is a peer-reviewed venue that holds research to the same standard: one in which every submission includes a tangible artifact that reviewers run, use or inspect.
     <br><br>
     The scope is **resource-aware and resource-reducing computing**: energy, carbon, hardware lifetime, memory, bandwidth, and the methods used to measure and account for them."
 
@@ -62,7 +62,7 @@ different:
       icon : "tf-ion-cube"
       bg_color : "coal"
       content : |
-        Every submission includes a complete, runnable artifact. An archive file or a container image is sufficient; no hosting platform is required.
+        Every submission includes a tangible artifact that reviewers run, use or inspect, such as a running system or the design documents of a system. An archive file or a container image is sufficient. No hosting platform is required.
         <br><br>
         Each artifact must be accompanied by a precise, step-by-step guide that enables a reviewer to verify the reported results without consulting the authors. Every number in the write-up has a source.
 
@@ -132,7 +132,7 @@ review:
   steps:
     - step : "01"
       title : "Submission"
-      content : "Two pages and a complete, runnable artifact."
+      content : "Two pages and a tangible artifact that reviewers run, use or inspect."
 
     - step : "02"
       title : "Kick-the-tires phase"
@@ -140,7 +140,7 @@ review:
 
     - step : "03"
       title : "Artifact evaluation"
-      content : "A dedicated artifact evaluation committee executes the submissions. The review outcome and the artifact status are published together with the paper."
+      content : "A dedicated artifact evaluation committee runs, uses or inspects the artifact of every submission. The review outcome and the artifact status are published together with the paper."
 
     - step : "04"
       title : "Stage one: presentation"

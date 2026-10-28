@@ -9,8 +9,8 @@ bg_image : "images/bg/cta-bg.webp"
 **ecoCompute Science** is a peer-reviewed venue for resource-aware and resource-reducing
 computing. It is held online in **summer 2027**.
 
-In brief: every submission includes a runnable artifact, the write-up is limited to two
-pages, the reviewers execute the artifact, and the event itself consists entirely of
+In brief: every submission includes a tangible artifact that reviewers run, use or inspect, the write-up is
+limited to two pages, and the event itself consists entirely of
 discussion.
 
 ## Motivation
@@ -20,8 +20,8 @@ evidence that the work was done. Results that another researcher can reproduce a
 
 The ecoCompute conference has demonstrated that a culture of empirical demonstration is
 workable in practice. What is missing is a peer-reviewed venue that holds research to the
-same standard: one in which the reviewers execute the artifact rather than assess the prose
-that describes it.
+same standard: one in which every submission includes a tangible artifact that reviewers run, use or inspect,
+instead of only reading the prose that describes it.
 
 ## Scope
 
@@ -41,8 +41,9 @@ Work that cannot be made available to reviewers in any form is out of scope. The
 
 ### 1. Artifact first
 
-Every submission includes a complete, runnable artifact. An archive file or a container
-image is sufficient; no hosting platform is required. Each artifact must be accompanied by a
+Every submission includes a tangible artifact that reviewers run, use or inspect, such as a
+running system or the design documents of a system. An archive file or a container image is
+sufficient. No hosting platform is required. Each artifact must be accompanied by a
 precise, step-by-step guide that enables a reviewer to regenerate the reported results, or
 otherwise verify the claims, without consulting the authors.
 

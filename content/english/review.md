@@ -6,14 +6,14 @@ description: "How review works at ecoCompute Science, and how two-stage publicat
 bg_image : "images/bg/cta-bg.webp"
 ---
 
-Review at ecoCompute Science is carried out by reviewers who execute the artifact. The rest
-of the process follows from that.
+At ecoCompute Science every submission includes a tangible artifact that reviewers run, use or inspect. The
+rest of the process follows from that.
 
 ## The review process
 
 ### 1. Submission
 
-Two pages and a complete, runnable artifact. See the
+Two pages and a tangible artifact that reviewers run, use or inspect. See the
 [Call for Papers](/call-for-papers) and [Artifacts](/artifacts).
 
 ### 2. Kick-the-tires phase
@@ -27,9 +27,9 @@ judgement and should not be treated as one.
 
 ### 3. Artifact evaluation
 
-A dedicated artifact evaluation committee executes the submissions. The committee assesses
-whether the claim, as formulated by the authors, holds when the artifact is executed or used
-by somebody else:
+A dedicated artifact evaluation committee runs, uses or inspects the artifact of every
+submission. The committee assesses whether the claim, as formulated by the authors, holds
+when somebody else works with the artifact:
 
 - Does the guide work from beginning to end on a machine other than the authors'?
 - Does the artifact support the points the write-up makes, in the way the authors argue it
@@ -96,10 +96,10 @@ intentional.
 Two committees are being assembled:
 
 - A **programme committee**, responsible for scope, acceptance and shepherding.
-- An **artifact evaluation committee**, responsible for executing the artifacts.
+- An **artifact evaluation committee**, responsible for running, using or inspecting the artifacts.
 
-Prospective reviewers are invited to [contact the organisers](/contact), stating what they
-are able to execute and what hardware they have access to. Reviewers are named in the published outcome
+Prospective reviewers are invited to [contact the organisers](/contact), stating which kinds
+of artifacts they are able to run, use or inspect and what hardware they have access to. Reviewers are named in the published outcome
 unless they request otherwise.
 
 ## Open questions on review

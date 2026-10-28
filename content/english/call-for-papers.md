@@ -87,7 +87,8 @@ configuration. The claim is then limited to what that artifact supports.
 
 ## Review
 
-A dedicated artifact evaluation committee executes the submissions. The opening days of the
+A dedicated artifact evaluation committee runs, uses or inspects the artifact of every
+submission. The opening days of the
 review period constitute a kick-the-tires phase: reviewers report any issue that prevents
 them from starting, and authors are given a short window in which to correct it. Artifacts
 should not fail on setup problems.
