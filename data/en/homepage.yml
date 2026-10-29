@@ -177,8 +177,6 @@ organisers:
       link : "https://www.htw-berlin.de/hochschule/personen/person/?eid=11866"
       image : "images/teams/verena-majuntke.webp"
 
-    # The official 2026 portrait. The older didi-hoffmann*.webp files stay
-    # because the archived speaker pages use them.
     - name : "Geerd-Dietger (Didi) Hoffmann"
       role : "Artifacts and infrastructure"
       affiliation : "Green Coding Solutions"
@@ -191,86 +189,67 @@ organisers:
     title : "Programme committee"
     subtitle : "The programme committee reviews the submissions and shepherds the full papers. Further members are being invited."
     people:
-      # No profile link yet. The template skips it when it is missing.
       - name : "Mira Weber"
         affiliation : "HTW Berlin"
         image : "images/teams/mira-weber.webp"
 
-      # Photo is the HTW Berlin press portrait (HTW Berlin/Cornelia Fieguth).
       - name : "Prof. Dr. Michael Witt"
         affiliation : "HTW Berlin"
         link : "https://www.htw-berlin.de/hochschule/personen/person/?eid=4763"
         image : "images/teams/michael-witt.webp"
 
-      # Photo is the 2023 portrait from his RUB faculty page, used with his
-      # permission (mail of 2026-10-25), cropped to a square.
       - name : "Prof. Dr.-Ing. Timo Hönig"
         affiliation : "Ruhr-Universität Bochum"
         link : "https://informatik.rub.de/hoenig/"
         image : "images/teams/timo-hoenig.webp"
 
-      # Same studio portrait as his 2025 speaker page, which he sent again with his
-      # acceptance (mail of 2026-10-25). BHH has no public profile page for him,
-      # so the link is his LinkedIn profile.
       - name : "Prof. Dr. Henning Klaffke"
         affiliation : "Berufliche Hochschule Hamburg"
         link : "https://www.linkedin.com/in/prof-dr-henning-klaffke"
         image : "images/teams/henning-klaffke.webp"
 
-      # Accepted by mail on 2026-10-26 but sent no photo. This is the square
-      # portrait from his VU research profile (same shoot as the one on his own
-      # homepage). Swap it if he sends a different one.
-      # "Dr." and not "Prof.": in the Netherlands "Prof." is for full professors
-      # (hoogleraar), and the VU lists him as "dr." with the rank Associate Professor.
       - name : "Dr. Ivano Malavolta"
         role : "Associate Professor"
         affiliation : "Vrije Universiteit Amsterdam"
         link : "https://www.ivanomalavolta.com/"
         image : "images/teams/ivano-malavolta.webp"
 
-      # Photo is the square portrait he sent with his acceptance (mail of 2026-10-26).
       - name : "Dr. Romain Jacob"
         affiliation : "ETH Zurich"
         link : "https://www.romainjacob.net/"
         image : "images/teams/romain-jacob.webp"
 
-      # Photo is the one he sent with his acceptance (mail of 2026-10-27). Same
-      # title rule as Ivano: "Dr." with the rank in the role line.
       - name : "Dr. João Saraiva"
         role : "Associate Professor"
         affiliation : "Universidade do Minho"
         link : "https://www.inesctec.pt/en/people/joao-alexandre-saraiva"
         image : "images/teams/joao-saraiva.webp"
 
-      # Agreed on Signal on 2026-10-27. The photo is the portrait from his
-      # freelancermap profile, which is only 225 px and upscaled here. He is
-      # sending his own, so swap it when that arrives.
       - name : "Dr. Nico Görnitz"
         affiliation : "Independent ML engineer"
         link : "https://github.com/nicococo"
         image : "images/teams/nico-goernitz.webp"
 
-      # Accepted by mail on 2026-10-28 and sent this photo (Bild: Miriam Kist),
-      # cropped to a square.
       - name : "Prof. Dr. Marie Bergmann"
         affiliation : "Hochschule Bonn-Rhein-Sieg"
         link : "https://www.h-brs.de/en/inf/prof-dr-marie-bergmann"
         image : "images/teams/marie-bergmann.webp"
 
-      # Accepted by mail on 2026-10-28 and sent this photo, cropped to a square.
       - name : "Dr. Andreas Schmidt"
         affiliation : "Saarland University"
         link : "https://depend.cs.uni-saarland.de/~schmidt/"
         image : "images/teams/andreas-schmidt.webp"
 
-      # Added on the user's request on 2026-10-28. The photo is the portrait from
-      # the GI contact page (© Mike Auerbach), only 320x200 there, so the square
-      # crop is 200 px and upscaled. Swap it for a larger one when available.
       - name : "Nikolas Becker"
         role : "Head of Policy & Science"
         affiliation : "Gesellschaft für Informatik"
         link : "https://gi.de/kontakt"
         image : "images/teams/nikolas-becker.webp"
+
+      - name : "Linda Becker"
+        affiliation : "Hochschule Bochum"
+        link : "https://www.hochschule-bochum.de/labor-nachhaltigkeit-technik/team/"
+        image : "images/teams/linda-becker.webp"
 
 
 ############################# get involved #########################
