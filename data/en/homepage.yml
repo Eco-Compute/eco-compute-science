@@ -256,6 +256,12 @@ organisers:
         link : "https://profiles.sussex.ac.uk/p460555-joseph-walton"
         image : "images/teams/joseph-walton.webp"
 
+      - name : "Dr. Luís Cruz"
+        role : "Assistant Professor"
+        affiliation : "Delft University of Technology"
+        link : "https://luiscruz.github.io/"
+        image : "images/teams/luis-cruz.webp"
+
 
 ############################# get involved #########################
 cta:
