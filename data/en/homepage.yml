@@ -251,6 +251,11 @@ organisers:
         link : "https://www.hochschule-bochum.de/labor-nachhaltigkeit-technik/team/"
         image : "images/teams/linda-becker.webp"
 
+      - name : "Dr. Jo Walton"
+        affiliation : "University of Sussex"
+        link : "https://profiles.sussex.ac.uk/p460555-joseph-walton"
+        image : "images/teams/joseph-walton.webp"
+
 
 ############################# get involved #########################
 cta:
