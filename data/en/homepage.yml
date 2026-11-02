@@ -262,6 +262,17 @@ organisers:
         link : "https://luiscruz.github.io/"
         image : "images/teams/luis-cruz.webp"
 
+      - name : "Dr. Lauritz Thamsen"
+        role : "Lecturer"
+        affiliation : "University of Glasgow"
+        link : "https://lauritzthamsen.org/"
+        image : "images/teams/lauritz-thamsen.webp"
+
+      - name : "Prof. Dr. Norbert Seyff"
+        affiliation : "Fachhochschule Nordwestschweiz"
+        link : "https://conf.researchr.org/profile/norbertseyff1"
+        image : "images/teams/norbert-seyff.webp"
+
 
 ############################# get involved #########################
 cta:
