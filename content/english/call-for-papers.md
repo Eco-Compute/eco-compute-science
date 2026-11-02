@@ -16,8 +16,13 @@ bg_image : "images/bg/cta-bg.webp"
   rather than wait for the announcement.</p>
 </div>
 
-**ecoCompute Science 2027** invites submissions on resource-aware and resource-reducing
-computing. The event is held online in the European time zone in summer 2027.
+**ecoCompute Science 2027** invites submissions on resource- and impact-aware computing. The
+event is held online in the European time zone in summer 2027.
+
+This is **not a research-only call**. Submissions from companies, public bodies, open source
+projects and independent practitioners are as welcome as those from universities. If you have
+built or measured a tool, a product or a system that makes resource use or impact visible, or
+reduces it, you can show it here.
 
 A submission consists of **two pages and a tangible artifact**, such as a running system or
 the design documents of a system. The reviewers work with the artifact itself.
@@ -65,7 +70,9 @@ asked to read it before submitting.
 There is a single track, and every submission includes an artifact. A claim that rests on
 nothing a reviewer can run, use or inspect is out of scope.
 
-Industry work is welcome on the same terms. Where data cannot leave the organisation, it may
+Work from companies goes through the same track and the same review. A product or an internal
+tool is a good artifact when reviewers can use it and check what the write-up says about it.
+Where data cannot leave the organisation, it may
 be anonymised as set out under
 [Data that cannot be published](/artifacts#data-that-cannot-be-published). Where that is not
 possible either, the artifact can be something else that is tangible, for example the design
@@ -82,8 +89,10 @@ configuration. The claim is then limited to what that artifact supports.
 - **Methodology and accounting work.** Proposals for accounting for oversubscription or
   effective utilisation are in scope. The artifact is then the method applied to sample
   configurations, which a reviewer can re-execute and verify.
-- **Tools, dashboards and measurement stacks**, together with evidence that they perform as
-  described.
+- **Tools, products, dashboards and measurement stacks**, together with evidence that they
+  perform as described.
+- **Experience from practice.** What happened when an organisation measured, changed or
+  replaced a system, including the parts that did not work.
 
 ## Review
 

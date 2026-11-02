@@ -88,7 +88,7 @@ language are invited to indicate this and will be paired with a shepherd who can
 rather than penalise them.
 
 At stage one the write-up is deliberately short and bullet points are acceptable, so writing
-proficiency presents a considerably lower barrier than at a conventional venue. This is
+proficiency presents a considerably lower barrier than at a typical academic conference. This is
 intentional.
 
 ## Committees

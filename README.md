@@ -1,7 +1,7 @@
 # ecoCompute Science
 
-Website for **ecoCompute Science**, a peer-reviewed, artifact-first venue for resource aware
-computing. Summer 2027, online.
+Website for **ecoCompute Science**, a peer-reviewed, artifact-first conference for resource- and
+impact-aware computing, open to research and industry alike. Summer 2027, online.
 
 The site also hosts the archive of the former **ecoCompute conference** (Munich 2024, Berlin
 2025) under `/previous-years`.

@@ -2,12 +2,12 @@
 title: "About ecoCompute Science"
 date: 2026-09-10T09:00:00+02:00
 draft: false
-description: "Why ecoCompute Science exists, what is in scope, and how it differs from a conventional conference"
+description: "Why ecoCompute Science exists, who it is for, what is in scope, and how it differs from a conventional conference"
 bg_image : "images/bg/cta-bg.webp"
 ---
 
-**ecoCompute Science** is a peer-reviewed venue for resource-aware and resource-reducing
-computing. It is held online in **summer 2027**.
+**ecoCompute Science** is a peer-reviewed conference for resource- and impact-aware computing,
+open to research and industry alike. It is held online in **summer 2027**.
 
 In brief: every submission includes a tangible artifact that reviewers run, use or inspect, the write-up is
 limited to two pages, and the event itself consists entirely of
@@ -16,28 +16,44 @@ discussion.
 ## Motivation
 
 With the general availability of large language models, the length of a paper is no longer
-evidence that the work was done. Results that another researcher can reproduce are.
+evidence that the work was done. Results that someone else can reproduce are.
 
-The ecoCompute conference has demonstrated that a culture of empirical demonstration is
-workable in practice. What is missing is a peer-reviewed venue that holds research to the
-same standard: one in which every submission includes a tangible artifact that reviewers run, use or inspect,
-instead of only reading the prose that describes it.
+The ecoCompute conference has shown that a "show me the numbers" culture works in practice.
+ecoCompute Science gives that culture a home with peer review. Every submission includes a
+tangible artifact that reviewers run, use or inspect, instead of only reading the text that
+describes it.
+
+## Who it is for
+
+ecoCompute Science is not a research-only event. It is open to everyone who has built or
+measured something and can show it, whether at a university, a company, a public body or an
+open source project.
+
+Companies are explicitly invited to show their tools, products and production systems. A
+dashboard that reviewers can log into, a container with your measurement stack, or the design
+documents of a system you run are all valid artifacts. What counts is that reviewers can see
+for themselves that it does what the write-up says. Where data cannot leave the company, the
+[Artifacts](/artifacts#data-that-cannot-be-published) page explains how to anonymise it and
+what else you can submit.
 
 ## Scope
 
-Resource-aware and resource-reducing computing. The scope includes, but is not limited to:
+Resource- and impact-aware computing. That covers the resources computing uses and the impact
+it has on the environment. The scope includes, but is not limited to:
 
 - Energy and carbon measurement of software and hardware
 - Efficiency work: compilers, runtimes, schedulers, architectures, data centre operations
 - Carbon accounting and attribution methodologies
 - Hardware lifetime, embodied emissions, repair and reuse
 - Memory, storage and bandwidth reduction
+- The wider environmental impact of computing, such as water use and electronic waste
+- Tools, products and dashboards that make resource use and impact visible
 - Measurement methods themselves, including their uncertainty
 
 Work that cannot be made available to reviewers in any form is out of scope. The
 [Artifacts](/artifacts) page sets out what availability to reviewers means in practice.
 
-## Three departures from the conventional format
+## Three things we do differently
 
 ### 1. Artifact first
 
@@ -85,11 +101,13 @@ The event consists entirely of discussion, following the session format used at
 - **Negative results.** A measurement that did not show the expected effect, an optimisation
   that did not yield a benefit, or an effect that disappeared once noise was controlled for.
 - **Replication studies.** An unsuccessful attempt to reproduce a published result is a full
-  submission here, not secondary material. An artifact-centred venue is its appropriate
-  home.
+  submission here, not secondary material. An artifact-first event is the right place for it.
 - **Methodology and accounting work**, where the artifact is the method applied to sample
   configurations rather than a piece of software.
-- **Tools and measurement stacks**, together with evidence that they perform as described.
+- **Tools, products and measurement stacks**, together with evidence that they perform as
+  described.
+- **Experience from practice.** What happened when an organisation measured, changed or
+  replaced a system, including the parts that did not work.
 
 ## Conduct of the event
 
@@ -102,8 +120,8 @@ The event consists entirely of discussion, following the session format used at
 - Session notes, produced with LLM assistance, are returned to the author and serve as input
   to the full paper.
 
-The event is a stage between the artifact and the publication, not a showcase for completed
-work.
+A finished product is as welcome as work in progress. Either way, the sessions are there to
+discuss what you built and how to make it better.
 
 ## Publication
 
@@ -117,6 +135,6 @@ See [Review and Publication](/review) for details.
 ## Relationship to the ecoCompute conference
 
 ecoCompute Science originates in the [ecoCompute conference](/previous-years), held in Munich
-in 2024 and in Berlin in 2025. Owing to the organisational overhead of a large in-person
-event, no in-person ecoCompute will be held in 2027. The talks, speakers and schedules of
-both conferences remain available online.
+in 2024 and in Berlin in 2025. A large in-person event takes a lot of organising, so there
+will be no in-person ecoCompute in 2027. The talks, speakers and schedules of both
+conferences remain available online.

@@ -29,7 +29,7 @@ it. It need not be a software tool. Any one of the following qualifies on its ow
   and analysis pipeline.
 - **An experiment**: the code under test, the runner, the raw results, and the analysis that
   derives the figures in the write-up from those results.
-- **A running system, such as a dashboard or a service**, where the point of the work is
+- **A running system, such as a dashboard, a service or a commercial product**, where the point of the work is
   what the software shows or does. The reviewer uses it and checks that it behaves as the
   write-up describes: that a dashboard attributes energy to the components the write-up
   names, for instance, or that a scheduler shifts load in the way claimed. It may be
@@ -195,9 +195,9 @@ responsibility. Reviewers assess only whether it preserves what the claim needs.
 
 **Work that cannot be made available to reviewers in any form is out of scope.** Where
 neither the code, nor the data in any anonymised form, nor the systems can be shown to
-anyone, there is nothing for this venue to review. Industry work whose data cannot be
-anonymised without losing the properties the claim depends on is the difficult case. It can
-still be submitted if something else tangible can be shown, for example the design of the
+anyone, there is nothing for reviewers to look at. The hard case is industry work whose data
+cannot be anonymised without losing the properties the claim depends on. Such work is still
+welcome if something else tangible can be shown, for example the design of the
 system, the calculation behind the claimed effect, or the method applied to a public
 configuration. The claim is then limited to what that artifact supports.
 

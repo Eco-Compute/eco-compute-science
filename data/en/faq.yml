@@ -5,7 +5,13 @@ faq:
   content : "Questions that are asked frequently about ecoCompute Science, together with a number of points that are worth clarifying in advance."
   faq_item:
     - title : "Is ecoCompute Science the same as the ecoCompute conference?"
-      content : "No. ecoCompute Science is a new peer-reviewed, artifact-first venue held online. The ecoCompute conference was a large in-person engineering conference, held in Munich in 2024 and in Berlin in 2025. Owing to the organisational overhead of an in-person event of that size, no in-person ecoCompute will be held in 2027. The earlier material remains available in the <u>[archive](/previous-years)</u>."
+      content : "No. ecoCompute Science is a new peer-reviewed, artifact-first conference held online. The ecoCompute conference was a large in-person engineering conference, held in Munich in 2024 and in Berlin in 2025. An in-person event of that size takes a lot of organising, so there will be no in-person ecoCompute in 2027. The earlier material remains available in the <u>[archive](/previous-years)</u>."
+
+    - title : "Is ecoCompute Science only for researchers?"
+      content : "No. It is not a research-only event. Submissions from companies, public bodies, open source projects and independent practitioners are as welcome as those from universities. They go through the same track and the same review. What every submission needs is a tangible artifact that reviewers can run, use or inspect."
+
+    - title : "Can a company show its own product or tool?"
+      content : "Yes. A product, an internal tool, a dashboard or a production system is a good artifact, as long as reviewers can use it and check what the write-up says about it. A hosted system is fine if reviewers have access for the whole review period. For data that cannot leave the company, see the question on data that cannot be published below."
 
     - title : "When and where is it held?"
       content : "Summer 2027, online, in the European time zone. There is no venue. Exact dates will be announced on this site."
@@ -32,7 +38,7 @@ faq:
       content : "That is the purpose of the kick-the-tires phase. The opening days of the review period are reserved for setup: reviewers report any issue that prevents them from starting, and authors are given a short window in which to correct it. Artifacts should not fail on setup problems."
 
     - title : "Are negative results accepted?"
-      content : "Yes, and more of them would be welcome: the optimisation that did not yield a benefit, the effect that disappeared once noise was controlled for, the tool that did not measure what it claimed to measure. An artifact-centred venue is the appropriate home for such results."
+      content : "Yes, and more of them would be welcome: the optimisation that did not yield a benefit, the effect that disappeared once noise was controlled for, the tool that did not measure what it claimed to measure. An artifact-first event is the right place for such results."
 
     - title : "Are replication studies accepted?"
       content : "Yes. An unsuccessful attempt to reproduce a published result is a full submission here, not secondary material."
@@ -47,7 +53,7 @@ faq:
       content : "Yes. The submissions are circulated one week beforehand and having read them is a condition of participation. Groups are limited in size so that every participant is able to contribute, which requires that everyone arrives prepared."
 
     - title : "Where is the work published?"
-      content : "In two stages. Stage one is the two-page write-up together with the artifact, reviewed and presented at the event. Stage two is a full paper written afterwards and shepherded by a committee member, which receives a DOI. The journal hosting stage two is being finalised."
+      content : "In two stages. Stage one is the two-page write-up together with the artifact, reviewed and presented at the event. Stage two is a full paper written afterwards and shepherded by a committee member, which receives a DOI. Stage two is published in <u>[ECEASST](https://eceasst.org/index.php/eceasst/about)</u>, the Electronic Communications of the EASST. It is a diamond open access journal hosted by Berlin Universities Publishing, properly indexed, with no fee for authors or readers."
 
     - title : "Is review single-blind, double-blind or open?"
       content : "Undecided. Artifacts are difficult to anonymise reliably, so a decision is required between accepting single-blind review and adopting a fully open process. Comments on this question are welcome."

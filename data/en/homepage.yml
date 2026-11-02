@@ -11,7 +11,7 @@ banner:
   title : "<span class='bold'>eco</span><span class='slim'>Compute</span> <span class='science'>Science</span>"
   date_time : "Summer 2027"
   location : "Online"
-  lead : "A peer-reviewed venue for resource-aware computing in which **every submission includes a tangible artifact that reviewers run, use or inspect**."
+  lead : "A peer-reviewed conference for resource- and impact-aware computing, open to research and industry alike. **Every submission includes a tangible artifact that reviewers run, use or inspect**."
   buttons:
     - label : "Call for Papers"
       link : "/call-for-papers"
@@ -45,17 +45,19 @@ problem:
   enable : true
   title_outline : "MOTIVATION"
   title : "The length of a paper is no longer evidence that the work was done"
-  content : "With the general availability of large language models, the human cost of producing text has fallen to near zero while the enviromental cost is rising exponentially. The cost of producing results that another researcher can reproduce has not.
+  content : "With the general availability of large language models, the human cost of producing text has fallen to near zero while the environmental cost is rising exponentially. The cost of producing results that someone else can reproduce has not.
     <br><br>
-    The ecoCompute conference has demonstrated that a culture of empirical demonstration is workable in practice. What is missing is a peer-reviewed venue that holds research to the same standard: one in which every submission includes a tangible artifact that reviewers run, use or inspect.
+    The ecoCompute conference has shown that a \"show me the numbers\" culture works in practice. ecoCompute Science gives that culture a home with peer review. Every submission includes a tangible artifact that reviewers run, use or inspect.
     <br><br>
-    The scope is **resource-aware and resource-reducing computing**: energy, carbon, hardware lifetime, memory, bandwidth, and the methods used to measure and account for them."
+    It is **not a research-only event**. Companies, public bodies, open source projects and independent practitioners are as welcome as universities. Show us your tool, your product or your production system, as long as reviewers can use it and see that it does what you say it does.
+    <br><br>
+    The scope is **resource- and impact-aware computing**. That covers the resources computing uses, such as energy, hardware, memory and bandwidth, and the impact it has, such as carbon emissions, water use and electronic waste. It also covers the methods used to measure and account for both."
 
 ######################### what is different #########################
 different:
   enable : true
-  title : "Three departures from the conventional format"
-  subtitle : "The venue is organised around the artifact rather than around the write-up."
+  title : "Three things we do differently"
+  subtitle : "Everything is built around the artifact, not around the text."
   items:
 
     - name : "1. Artifact first"
@@ -64,15 +66,15 @@ different:
       content : |
         Every submission includes a tangible artifact that reviewers run, use or inspect, such as a running system or the design documents of a system. An archive file or a container image is sufficient. No hosting platform is required.
         <br><br>
-        Each artifact must be accompanied by a precise, step-by-step guide that enables a reviewer to verify the reported results without consulting the authors. Every number in the write-up has a source.
+        Each artifact comes with a precise, step-by-step guide so that a reviewer can check the reported results without asking the authors. Every number in the write-up has a source.
 
     - name : "2. Two-page write-up"
       icon : "tf-ion-android-document"
       bg_color : "karmin"
       content : |
-        The write-up is a guide to the artifact, not the evidence itself. It is limited to two pages and states the claim, the method, the results, the relation to prior work, and the questions the authors wish to discuss.
+        The write-up is a guide to the artifact, not the evidence itself. It has at most two pages and states the claim, the method, the results, how it relates to existing work, and the questions the authors want to discuss.
         <br><br>
-        Bullet points are acceptable throughout. Presentational quality is not a criterion for acceptance.
+        Bullet points are fine throughout. Polished prose is not a criterion for acceptance.
 
     - name : "3. No presentations"
       icon : "tf-ion-chatbubbles"
@@ -102,7 +104,7 @@ format:
   items:
     - icon : "tf-ion-android-globe"
       title : "Online"
-      content : "The event is held entirely online. There is no venue, and no travel or accommodation is required."
+      content : "The event is held entirely online. Nobody has to travel or book accommodation."
 
     - icon : "tf-ion-android-people"
       title : "Three sessions per submission"
@@ -121,8 +123,8 @@ format:
       content : "Notes from each session are produced with LLM assistance, sent to the author, and serve as input to the full paper."
 
     - icon : "tf-ion-arrow-graph-up-right"
-      title : "A stage in the process, not a showcase"
-      content : "The event is positioned between the artifact and the publication. Its purpose is to improve the work rather than to present completed results."
+      title : "Show your work, get feedback"
+      content : "A finished product is as welcome as work in progress. Either way, the sessions are there to discuss what you built and how to make it better."
 
 ######################### review & publication #########################
 review:
@@ -277,8 +279,8 @@ organisers:
 ############################# get involved #########################
 cta:
   enable : true
-  title : "Contributing to this venue"
-  content : "ecoCompute Science is seeking authors, reviewers, and colleagues willing to identify where this format breaks down. Enquiries are welcome."
+  title : "Get involved"
+  content : "We are looking for authors from research and industry, for reviewers, and for people who tell us where this format breaks down. Get in touch."
   button:
     enable : true
     label : "Contact us"
@@ -288,7 +290,7 @@ cta:
 heritage:
   enable : true
   title : "ecoCompute, the conference"
-  content : "ecoCompute Science originates in the ecoCompute conference, held in Munich in 2024 and in Berlin in 2025. Owing to the organisational overhead of a large in-person event, no in-person ecoCompute will be held in 2027. The talks, speakers and schedules of both conferences remain available online."
+  content : "ecoCompute Science originates in the ecoCompute conference, held in Munich in 2024 and in Berlin in 2025. A large in-person event takes a lot of organising, so there will be no in-person ecoCompute in 2027. The talks, speakers and schedules of both conferences remain available online."
   button:
     enable : true
     label : "View the archive"
