@@ -280,6 +280,12 @@ organisers:
         link : "https://www.phpc.cam.ac.uk/staff/dr-christina-bremer"
         image : "images/teams/christina-bremer.webp"
 
+      - name : "Dr. Birgit Penzenstadler"
+        role : "Associate Professor"
+        affiliation : "University of Limerick"
+        link : "https://pure.ul.ie/en/persons/birgit-penzenstadler/"
+        image : "images/teams/birgit-penzenstadler.webp"
+
 
 ############################# get involved #########################
 cta:
