@@ -19,4 +19,18 @@
     minute: 0
   });
 
+  // Cards in a [data-shuffle] container (the programme committee) appear in
+  // a random order on every page load, so the data file's order does not
+  // decide who comes first. Fisher-Yates shuffle, then re-append in that order.
+  $('[data-shuffle]').each(function () {
+    var cards = $(this).children().get();
+    for (var i = cards.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = cards[i];
+      cards[i] = cards[j];
+      cards[j] = tmp;
+    }
+    $(this).append(cards);
+  });
+
 })(jQuery);

@@ -187,6 +187,8 @@ organisers:
 
   # Rendered below the organisers with smaller cards (four per row), and reachable
   # as /#committee. Same fields as the organisers. `role` and `link` are optional.
+  # The cards are shuffled on every page load (assets/js/script.js in the theme),
+  # so the order of this list only shows without JavaScript.
   committee:
     title : "Programme committee"
     subtitle : "The programme committee reviews the submissions and shepherds the full papers. Further members are being invited."
@@ -285,6 +287,17 @@ organisers:
         affiliation : "University of Limerick"
         link : "https://pure.ul.ie/en/persons/birgit-penzenstadler/"
         image : "images/teams/birgit-penzenstadler.webp"
+
+      - name : "Prof. Dr. Stefan Naumann"
+        affiliation : "Hochschule Trier, Umwelt-Campus Birkenfeld"
+        link : "https://www.umwelt-campus.de/snaumann/"
+        image : "images/teams/stefan-naumann.webp"
+
+      - name : "Dr. Loïc Lannelongue"
+        role : "Assistant Research Professor"
+        affiliation : "University of Cambridge"
+        link : "https://www.phpc.cam.ac.uk/staff/dr-loic-lannelongue"
+        image : "images/teams/loic-lannelongue.webp"
 
 
 ############################# get involved #########################
