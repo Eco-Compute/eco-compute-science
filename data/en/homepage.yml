@@ -305,6 +305,12 @@ organisers:
         link : "https://perso.telecom-paris.fr/diacones/"
         image : "images/teams/ada-diaconescu.webp"
 
+      - name : "Anita Schüttler"
+        role : "Head of IT Sustainability"
+        affiliation : "neuland - Büro für Informatik"
+        link : "https://www.neuland-bfi.de"
+        image : "images/teams/anita-schuettler-2026.webp"
+
 
 ############################# get involved #########################
 cta:
