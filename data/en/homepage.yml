@@ -299,6 +299,12 @@ organisers:
         link : "https://www.phpc.cam.ac.uk/staff/dr-loic-lannelongue"
         image : "images/teams/loic-lannelongue.webp"
 
+      - name : "Dr. Ada Diaconescu"
+        role : "Associate Professor"
+        affiliation : "Télécom Paris"
+        link : "https://perso.telecom-paris.fr/diacones/"
+        image : "images/teams/ada-diaconescu.webp"
+
 
 ############################# get involved #########################
 cta:
