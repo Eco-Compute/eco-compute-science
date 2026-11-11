@@ -311,6 +311,12 @@ organisers:
         link : "https://www.neuland-bfi.de"
         image : "images/teams/anita-schuettler-2026.webp"
 
+      - name : "Scott Chamberlin"
+        role : "Co-Founder & CTO"
+        affiliation : "Neuralwatt"
+        link : "https://neuralwatt.com"
+        image : "images/teams/scott-chamberlin.webp"
+
 
 ############################# get involved #########################
 cta:
