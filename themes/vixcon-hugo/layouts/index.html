@@ -286,6 +286,7 @@
                 <div class="ml-90">
                     <h3 class="mt-3 title">{{ .title | markdownify }}</h3>
                     <div class="rich-text">{{ .subtitle | markdownify }}</div>
+                    {{ with .balance }}{{ partial "committee-balance.html" . }}{{ end }}
                 </div>
             </div>
         </div>

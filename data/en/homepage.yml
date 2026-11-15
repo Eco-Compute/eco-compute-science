@@ -192,6 +192,39 @@ organisers:
   committee:
     title : "Programme committee"
     subtitle : "The programme committee reviews the submissions and shepherds the full papers. Further members are being invited."
+    # A link under the subtitle that opens a popup with the reasoning behind the
+    # share of women on the committee. The markup is in
+    # themes/vixcon-hugo/layouts/partials/committee-balance.html. Delete this
+    # block to remove the link.
+    balance:
+      link_text : "Why we aim don't aim for 50/50 on the committee"
+      title : "Why not 50% women"
+      content : |
+        Women make up about 16 to 25% of computer science, depending on the country and the career stage. In Germany 16% of computer science professors are women [1]. In the US women earn 23% of the bachelor's degrees in computer science [2]. In the EU about one in five ICT specialists is a woman [3].
+
+        We aim for a committee that reflects the field and leans to the high side. In practice that means about 30% women.
+
+        **Why not 50/50?** Women in academia already do more committee and service work than men [4]. They are also asked more often to take on tasks that do little for their careers, and they agree more often [5]. On the programme committees of computer systems conferences, women already hold more seats per person than men [6]. In a field with 25% women, a 50/50 committee asks each woman three times as often as each man. That time is missing from her own research and gives her male colleagues an advantage.
+
+        Equal numbers on a committee do not help female candidates by themselves either. In Italy and Spain, adding women to evaluation committees did not raise the success of female candidates [7]. In France a mandatory 40% quota on hiring committees even lowered the chances of women being hired [8].
+
+        **Why not fewer?** When a group has less than about 15% women, they tend to be seen as representatives of their gender and not as individuals [9]. Women are also underrepresented among reviewers compared with their share of authors. In the journals of the American Geophysical Union women were 27% of first authors but only 20% of reviewers, mostly because men suggested fewer women as reviewers [10]. Aiming above the field average works against both effects.
+
+        The German Research Foundation (DFG) follows the same idea with its cascade model. The target share of women at each career level is the share at the level below it [11].
+
+        **Sources**
+
+        1. Destatis, Statistik des Hochschulpersonals 2024, via [Innovative Frauen im Fokus](https://www.innovative-frauen-im-fokus.de/infopool/daten-und-fakten/frauen-in-mint/frauenanteil-an-professuren-in-mint/).
+        2. CRA, [Taulbee Survey 2024](https://datavisualization.cra.org/TaulbeeSurvey/CRA_Taulbee_Survey_Report_2024.html).
+        3. Eurostat, [ICT specialists in employment](https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20240524-2).
+        4. Guarino and Borden, [Faculty service loads and gender](https://doi.org/10.1007/s11162-017-9454-2), Research in Higher Education, 2017.
+        5. Babcock, Recalde, Vesterlund and Weingart, [Gender differences in accepting and receiving requests for tasks with low promotability](https://doi.org/10.1257/aer.20141734), American Economic Review, 2017.
+        6. Frachtenberg and Kaner, [Underrepresentation of women in computer systems research](https://doi.org/10.1371/journal.pone.0266439), PLOS ONE, 2022.
+        7. Bagues, Sylos-Labini and Zinovyeva, [Does the gender composition of scientific committees matter?](https://doi.org/10.1257/aer.20151211), American Economic Review, 2017.
+        8. Deschamps, [Gender quotas in hiring committees](https://econpapers.repec.org/RePEc:inm:ormnsc:v:70:y:2024:i:11:p:7486-7505), Management Science, 2024.
+        9. Kanter, Men and Women of the Corporation, Basic Books, 1977.
+        10. Lerback and Hanson, [Journals invite too few women to referee](https://doi.org/10.1038/541455a), Nature, 2017.
+        11. DFG, Research-Oriented Standards on Gender Equality, 2008.
     people:
       - name : "Mira Weber"
         affiliation : "HTW Berlin"

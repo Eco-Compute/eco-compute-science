@@ -267,6 +267,67 @@
   }
 }
 
+/* The note under the committee subtitle. It is a <button> because it opens the
+   Bootstrap modal in partials/committee-balance.html, styled as a text link. */
+.committee-balance-link {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin-top: 14px;
+  color: $primary-color;
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: color .2s ease-in-out;
+
+  i {
+    margin-right: 8px;
+    font-size: 18px;
+    vertical-align: -2px;
+  }
+
+  &:hover {
+    color: $black;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid $primary-color;
+    outline-offset: 4px;
+  }
+}
+
+#committee-balance {
+  .modal-title {
+    text-transform: none;
+  }
+
+  .modal-body {
+    padding: 24px 30px;
+
+    ol {
+      padding-left: 20px;
+      font-size: 14px;
+      line-height: 1.6;
+
+      li {
+        margin-bottom: 6px;
+      }
+    }
+
+    a {
+      color: $primary-color;
+
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}
+
 /* partners --------------------------------------------------------------- */
 
 /* The footer's partner logos use the theme's .client-item tiles, which float
