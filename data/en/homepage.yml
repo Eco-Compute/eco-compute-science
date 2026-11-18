@@ -350,6 +350,12 @@ organisers:
         link : "https://neuralwatt.com"
         image : "images/teams/scott-chamberlin.webp"
 
+      - name : "Fiodar Kazhamiaka"
+        role : "Senior Researcher"
+        affiliation : "Microsoft"
+        link : "https://www.microsoft.com/en-us/research/people/fkazhamiaka/"
+        image : "images/teams/fiodar-kazhamiaka.webp"
+
 
 ############################# get involved #########################
 cta:
